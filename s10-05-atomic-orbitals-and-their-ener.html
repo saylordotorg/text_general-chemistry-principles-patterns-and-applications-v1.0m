@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link href="shared/bookhub.css" rel="stylesheet" type="text/css">
+  <title>Atomic Orbitals and Their Energies</title>
+</head>
+<body>
+
+  
+  <div id=navbar-top class="navbar">
+    <div class="navbar-part left">
+      
+        <a href="s10-04-the-relationship-between-energ.html"><img src="shared/images/batch-left.png"></a> <a href="s10-04-the-relationship-between-energ.html">Previous Section</a>
+      
+    </div>
+    <div class="navbar-part middle">
+      <a href="index.html"><img src="shared/images/batch-up.png"></a> <a href="index.html">Table of Contents</a>
+    </div>
+    <div class="navbar-part right">
+      
+        <a href="s10-06-building-up-the-periodic-table.html">Next Section</a> <a href="s10-06-building-up-the-periodic-table.html"><img src="shared/images/batch-right.png"></a>
+      
+    </div>
+  </div>
+
+  <div id="book-content">
+    <div class="section" id="averill_1.0-ch06_s05" condition="start-of-chunk" version="5.0" lang="en">
+    <h2 class="title editable block">
+<span class="title-prefix">6.5</span> Atomic Orbitals and Their Energies</h2>
+    <div class="learning_objectives editable block" id="averill_1.0-ch06_s05_n01">
+        <h3 class="title">Learning Objective</h3>
+        <ol class="orderedlist" id="averill_1.0-ch06_s05_l01">
+            <li>To apply the results of quantum mechanics to chemistry.</li>
+        </ol>
+    </div>
+    <p class="para editable block" id="averill_1.0-ch06_s05_p01">The paradox described by Heisenberg’s uncertainty principle and the wavelike nature of subatomic particles such as the electron made it impossible to use the equations of classical physics to describe the motion of electrons in atoms. Scientists needed a new approach that took the wave behavior of the electron into account. In 1926, an Austrian physicist, Erwin Schrödinger (1887–1961; Nobel Prize in Physics, 1933), developed <em class="emphasis">wave mechanics</em>, a mathematical technique that describes the relationship between the motion of a particle that exhibits wavelike properties (such as an electron) and its allowed energies. In doing so, Schrödinger developed the theory of <span class="margin_term"><a class="glossterm">quantum mechanics</a><span class="glossdef">A theory developed by Erwin Schrödinger that describes the energies and spatial distributions of electrons in atoms and molecules.</span></span>, which is used today to describe the energies and spatial distributions of electrons in atoms and molecules.</p>
+    <div class="callout editable block" id="averill_1.0-ch06_s05_n02">
+        <h3 class="title">Erwin Schrödinger (1887–1961)</h3>
+        <p class="para" id="averill_1.0-ch06_s05_p02">Schrödinger’s unconventional approach to atomic theory was typical of his unconventional approach to life. He was notorious for his intense dislike of memorizing data and learning from books. When Hitler came to power in Germany, Schrödinger escaped to Italy. He then worked at Princeton University in the United States but eventually moved to the Institute for Advanced Studies in Dublin, Ireland, where he remained until his retirement in 1955.</p>
+    </div>
+    <p class="para editable block" id="averill_1.0-ch06_s05_p03">Although quantum mechanics uses sophisticated mathematics, you do not need to understand the mathematical details to follow our discussion of its general conclusions. We focus on the properties of the <em class="emphasis">wave functions</em> that are the solutions of Schrödinger’s equations.</p>
+    <div class="section" id="averill_1.0-ch06_s05_s01">
+        <h2 class="title editable block">Wave Functions</h2>
+        <p class="para editable block" id="averill_1.0-ch06_s05_s01_p01">A <span class="margin_term"><a class="glossterm">wave function (Ψ)</a><span class="glossdef">A mathematical function that relates the location of an electron at a given point in space to the amplitude of its wave, which corresponds to its energy.</span></span><span class="footnote" id="averill_1.0-fn06_004">Ψ is the uppercase Greek psi.</span> is a mathematical function that relates the location of an electron at a given point in space (identified by <em class="emphasis">x</em>, <em class="emphasis">y</em>, and <em class="emphasis">z</em> coordinates) to the amplitude of its wave, which corresponds to its energy. Thus each wave function is associated with a particular energy <em class="emphasis">E</em>. The properties of wave functions derived from quantum mechanics are summarized here:</p>
+        <ul class="itemizedlist editable block" id="averill_1.0-ch06_s05_s01_l01">
+            <li>
+<strong class="emphasis bold">A wave function uses three variables to describe the position of an electron.</strong> A fourth variable is usually required to fully describe the location of objects in motion. Three specify the position in space (as with the Cartesian coordinates <em class="emphasis">x</em>, <em class="emphasis">y</em>, and <em class="emphasis">z</em>), and one specifies the time at which the object is at the specified location. For example, if you wanted to intercept an enemy submarine, you would need to know its latitude, longitude, and depth, as well as the time at which it was going to be at this position (<a class="xref" href="#averill_1.0-ch06_s05_s01_f01">Figure 6.20 "The Four Variables (Latitude, Longitude, Depth, and Time) Required to Precisely Locate an Object"</a>). For electrons, we can ignore the time dependence because we will be using standing waves, which by definition do not change with time, to describe the position of an electron.</li>
+        </ul>
+        <div class="figure large medium-height editable block" id="averill_1.0-ch06_s05_s01_f01">
+            <p class="title"><span class="title-prefix">Figure 6.20</span> The Four Variables (Latitude, Longitude, Depth, and Time) Required to Precisely Locate an Object</p>
+            <img src="section_10/8da9d0ff88cb09f1cd9e4eefdf11fa9c.jpg">
+            <p class="para">If you are the captain of a ship trying to intercept an enemy submarine, you need to deliver your depth charge to the right location at the right time.</p>
+        </div>
+        <ul class="itemizedlist block" id="averill_1.0-ch06_s05_s01_l02">
+            <li>
+<strong class="emphasis bold">The magnitude of the wave function at a particular point in space is proportional to the amplitude of the wave at that point.</strong> Many wave functions are complex functions, which is a mathematical term indicating that they contain <span class="inlineequation"><math xml:id="averill_1.0-ch06_m043" display="inline"><semantics><msqrt><mrow><mo>−</mo><mn>1</mn></mrow></msqrt></semantics></math></span>, represented as <em class="emphasis">i</em>. Hence the amplitude of the wave has no real physical significance. In contrast, the sign of the wave function (either positive or negative) corresponds to the phase of the wave, which will be important in our discussion of chemical bonding in <a class="xref" href="averill_1.0-ch09#averill_1.0-ch09">Chapter 9 "Molecular Geometry and Covalent Bonding Models"</a>. The sign of the wave function should <em class="emphasis">not</em> be confused with a positive or negative electrical charge.</li>
+            <li>
+<strong class="emphasis bold">The square of the wave function at a given point is proportional to the probability of finding an electron at that point, which leads to a distribution of probabilities in space.</strong> The square of the wave function (Ψ<sup class="superscript">2</sup>) is always a real quantity [recall that <span class="inlineequation"><math xml:id="averill_1.0-ch06_m044" display="inline"><semantics><mrow><msup><mrow><mo stretchy="false">(</mo><msqrt><mo>−</mo><mn>1</mn></msqrt><mo stretchy="false">)</mo></mrow><mn>2</mn></msup><mo>=</mo><mo>−</mo><mn>1</mn></mrow></semantics></math></span>] that is proportional to the probability of finding an electron at a given point.<span class="footnote" id="averill_1.0-fn06_005">More accurately, the probability is given by the product of the wave function Ψ and its complex conjugate Ψ*, in which all terms that contain <em class="emphasis">i</em> are replaced by −<em class="emphasis">i</em>.</span> We use probabilities because, according to Heisenberg’s uncertainty principle, we cannot precisely specify the position of an electron. The probability of finding an electron at any point in space depends on several factors, including the distance from the nucleus and, in many cases, the atomic equivalent of latitude and longitude. As one way of graphically representing the probability distribution, the probability of finding an electron is indicated by the density of colored dots, as shown for the ground state of the hydrogen atom in <a class="xref" href="#averill_1.0-ch06_s05_s01_f02">Figure 6.21 "Probability of Finding the Electron in the Ground State of the Hydrogen Atom at Different Points in Space"</a>.</li>
+        </ul>
+        <div class="figure large medium-height editable block" id="averill_1.0-ch06_s05_s01_f02">
+            <p class="title"><span class="title-prefix">Figure 6.21</span> Probability of Finding the Electron in the Ground State of the Hydrogen Atom at Different Points in Space</p>
+            <img src="section_10/359c8df2d49e88c22e2d424545b0e215.jpg">
+            <p class="para">(a) The density of the dots shows electron probability. (b) In this plot of Ψ<sup class="superscript">2</sup> versus <em class="emphasis">r</em> for the ground state of the hydrogen atom, the electron probability density is greatest at <em class="emphasis">r</em> = 0 (the nucleus) and falls off with increasing <em class="emphasis">r</em>. Because the line never actually reaches the horizontal axis, the probability of finding the electron at very large values of <em class="emphasis">r</em> is very small but <em class="emphasis">not</em> zero.</p>
+        </div>
+        <ul class="itemizedlist editable block" id="averill_1.0-ch06_s05_s01_l03">
+            <li>
+<strong class="emphasis bold">Describing the electron distribution as a standing wave leads to sets of <em class="emphasis bolditalic">quantum numbers</em> that are characteristic of each wave function.</strong> From the patterns of one- and two-dimensional standing waves shown in <a class="xref" href="averill_1.0-ch06_s04#averill_1.0-ch06_s04_s02_f01">Figure 6.18 "Standing Waves on a Vibrating String"</a> and <a class="xref" href="averill_1.0-ch06_s04#averill_1.0-ch06_s04_s02_f02">Figure 6.19 "Standing Circular Wave and Destructive Interference"</a>, you might expect (correctly) that the patterns of three-dimensional standing waves would be complex. Fortunately, however, in the 18th century, a French mathematician, Adrien Legendre (1752–1783), developed a set of equations to describe the motion of tidal waves on the surface of a flooded planet. Schrödinger incorporated Legendre’s equations into his wave functions. The requirement that the waves must be in phase with one another to avoid cancellation and produce a standing wave results in a limited number of solutions (wave functions), each of which is specified by a set of numbers called <span class="margin_term"><a class="glossterm">quantum numbers</a><span class="glossdef">A unique set of numbers that specifies a wave function (a solution to the Schrödinger equation), which provides important information about the energy and spatial distribution of an electron.</span></span>.</li>
+            <li>
+<strong class="emphasis bold">Each wave function is associated with a particular energy.</strong> As in Bohr’s model, the energy of an electron in an atom is quantized; it can have only certain allowed values. The major difference between Bohr’s model and Schrödinger’s approach is that Bohr had to impose the idea of quantization arbitrarily, whereas in Schrödinger’s approach, quantization is a natural consequence of describing an electron as a standing wave.</li>
+        </ul>
+    </div>
+    <div class="section" id="averill_1.0-ch06_s05_s02">
+        <h2 class="title editable block">Quantum Numbers</h2>
+        <p class="para editable block" id="averill_1.0-ch06_s05_s02_p01">Schrödinger’s approach uses three quantum numbers (<em class="emphasis">n</em>, <em class="emphasis">l</em>, and <em class="emphasis">m</em><sub class="subscript"><em class="emphasis">l</em></sub>) to specify any wave function. The quantum numbers provide information about the spatial distribution of an electron. Although <em class="emphasis">n</em> can be any positive integer, only certain values of <em class="emphasis">l</em> and <em class="emphasis">m</em><sub class="subscript"><em class="emphasis">l</em></sub> are allowed for a given value of <em class="emphasis">n</em>.</p>
+        <div class="section" id="averill_1.0-ch06_s05_s02_s01">
+            <h2 class="title editable block">The Principal Quantum Number</h2>
+            <p class="para editable block" id="averill_1.0-ch06_s05_s02_s01_p01">The <span class="margin_term"><a class="glossterm">principal quantum number (<em class="emphasis">n</em>)</a><span class="glossdef">One of three quantum numbers that tells the average relative distance of an electron from the nucleus.</span></span> tells the average relative distance of an electron from the nucleus:</p>
+            <div class="equation block" id="averill_1.0-ch06_s05_s02_s01_eq01">
+
+                        <p class="title editable"><span class="title-prefix">Equation 6.21</span> </p>
+                        <span class="mathphrase"><em class="emphasis">n</em> = 1, 2, 3, 4,…</span>
+                    </div>
+            <p class="para block" id="averill_1.0-ch06_s05_s02_s01_p02">As <em class="emphasis">n</em> increases for a given atom, so does the average distance of an electron from the nucleus. A negatively charged electron that is, on average, closer to the positively charged nucleus is attracted to the nucleus more strongly than an electron that is farther out in space. This means that electrons with higher values of <em class="emphasis">n</em> are easier to remove from an atom. All wave functions that have the same value of <em class="emphasis">n</em> are said to constitute a <span class="margin_term"><a class="glossterm">principal shell</a><span class="glossdef">All the wave functions that have the same value of <span class="inlineequation"><math xml:id="averill_1.0-ch06_m045" display="inline"><semantics><mi>n</mi></semantics></math></span> because those electrons have similar average distances from the nucleus.</span></span> because those electrons have similar average distances from the nucleus. As you will see, the principal quantum number <em class="emphasis">n</em> corresponds to the <em class="emphasis">n</em> used by Bohr to describe electron orbits and by Rydberg to describe atomic energy levels.</p>
+        </div>
+        <div class="section" id="averill_1.0-ch06_s05_s02_s02">
+            <h2 class="title editable block">The Azimuthal Quantum Number</h2>
+            <p class="para editable block" id="averill_1.0-ch06_s05_s02_s02_p01">The second quantum number is often called the <span class="margin_term"><a class="glossterm">azimuthal quantum number (<em class="emphasis">l</em>)</a><span class="glossdef">One of three quantum numbers that discribes the shape of the region of space occupied by an electron.</span></span>. The value of <em class="emphasis">l</em> describes the <em class="emphasis">shape</em> of the region of space occupied by the electron. The allowed values of <em class="emphasis">l</em> depend on the value of <em class="emphasis">n</em> and can range from 0 to <em class="emphasis">n</em> − 1:</p>
+            <div class="equation block" id="averill_1.0-ch06_s05_s02_s02_eq01">
+
+                        <p class="title editable"><span class="title-prefix">Equation 6.22</span> </p>
+                        <span class="mathphrase"><em class="emphasis">l</em> = 0, 1, 2,…, <em class="emphasis">n</em> − 1</span>
+                    </div>
+            <p class="para block" id="averill_1.0-ch06_s05_s02_s02_p02">For example, if <em class="emphasis">n</em> = 1, <em class="emphasis">l</em> can be only 0; if <em class="emphasis">n</em> = 2, <em class="emphasis">l</em> can be 0 or 1; and so forth. For a given atom, all wave functions that have the same values of both <em class="emphasis">n</em> and <em class="emphasis">l</em> form a <span class="margin_term"><a class="glossterm">subshell</a><span class="glossdef">A group of wave functions that have the same values of <span class="inlineequation"><math xml:id="averill_1.0-ch06_m046" display="inline"><semantics><mi>n</mi></semantics></math></span> and <span class="inlineequation"><math xml:id="averill_1.0-ch06_m047" display="inline"><semantics><mrow><mi>l</mi><mo>.</mo></mrow></semantics></math></span></span></span>. The regions of space occupied by electrons in the same subshell usually have the same shape, but they are oriented differently in space.</p>
+        </div>
+        <div class="section" id="averill_1.0-ch06_s05_s02_s03">
+            <h2 class="title editable block">The Magnetic Quantum Number</h2>
+            <p class="para editable block" id="averill_1.0-ch06_s05_s02_s03_p01">The third quantum number is the <span class="margin_term"><a class="glossterm">magnetic quantum number (<em class="emphasis">m</em><sub class="subscript"><em class="emphasis">l</em></sub>)</a><span class="glossdef">One of three quantum numbers that describes the orientation of the region of space occupied by an electron with respect to an applied magnetic field.</span></span>. The value of <em class="emphasis">m</em><sub class="subscript"><em class="emphasis">l</em></sub> describes the <em class="emphasis">orientation</em> of the region in space occupied by an electron with respect to an applied magnetic field. The allowed values of <em class="emphasis">m</em><sub class="subscript"><em class="emphasis">l</em></sub> depend on the value of <em class="emphasis">l</em>: <em class="emphasis">m</em><sub class="subscript"><em class="emphasis">l</em></sub> can range from −<em class="emphasis">l</em> to <em class="emphasis">l</em> in integral steps:</p>
+            <div class="equation block" id="averill_1.0-ch06_s05_s02_s03_eq01">
+
+                        <p class="title editable"><span class="title-prefix">Equation 6.23</span> </p>
+                        <span class="mathphrase"><em class="emphasis">m</em><sub class="subscript"><em class="emphasis">l</em></sub> = −<em class="emphasis">l</em>, −<em class="emphasis">l</em> + 1,…, 0,…, <em class="emphasis">l</em> − 1, <em class="emphasis">l</em></span>
+                    </div>
+            <p class="para editable block" id="averill_1.0-ch06_s05_s02_s03_p02">For example, if <em class="emphasis">l</em> = 0, <em class="emphasis">m</em><sub class="subscript"><em class="emphasis">l</em></sub> can be only 0; if <em class="emphasis">l</em> = 1, <em class="emphasis">m</em><sub class="subscript"><em class="emphasis">l</em></sub> can be −1, 0, or +1; and if <em class="emphasis">l</em> = 2, <em class="emphasis">m</em><sub class="subscript"><em class="emphasis">l</em></sub> can be −2, −1, 0, +1, or +2.</p>
+            <p class="para block" id="averill_1.0-ch06_s05_s02_s03_p03">Each wave function with an allowed combination of <em class="emphasis">n</em>, <em class="emphasis">l</em>, and <em class="emphasis">m</em><sub class="subscript"><em class="emphasis">l</em></sub> values describes an <span class="margin_term"><a class="glossterm">atomic orbital</a><span class="glossdef">A wave function with an allowed combination of <span class="inlineequation"><math xml:id="averill_1.0-ch06_m048" display="inline"><semantics><mi>n</mi></semantics></math></span>, <span class="inlineequation"><math xml:id="averill_1.0-ch06_m049" display="inline"><semantics><mrow><mi>l</mi><mo>.</mo></mrow></semantics></math></span>, and <span class="inlineequation"><math xml:id="averill_1.0-ch06_m050" display="inline"><semantics><mrow><msub><mi>m</mi><mi>l</mi></msub></mrow></semantics></math></span> quantum numbers.</span></span>, a particular spatial distribution for an electron. For a given set of quantum numbers, each principal shell has a fixed number of subshells, and each subshell has a fixed number of orbitals.</p>
+            <div class="exercises block" id="averill_1.0-ch06_s05_s02_s03_n01">
+                <h3 class="title">Example 6</h3>
+                <p class="para" id="averill_1.0-ch06_s05_s02_s03_p04">How many subshells and orbitals are contained within the principal shell with <em class="emphasis">n</em> = 4?</p>
+                <p class="para" id="averill_1.0-ch06_s05_s02_s03_p05"><strong class="emphasis bold">Given: </strong>value of <em class="emphasis">n</em></p>
+                <p class="para" id="averill_1.0-ch06_s05_s02_s03_p06"><strong class="emphasis bold">Asked for: </strong>number of subshells and orbitals in the principal shell</p>
+                <p class="para" id="averill_1.0-ch06_s05_s02_s03_p07">
+                            <strong class="emphasis bold">Strategy:</strong>
+                        </p>
+                <p class="para" id="averill_1.0-ch06_s05_s02_s03_p08"><strong class="emphasis bold">A</strong> Given <em class="emphasis">n</em> = 4, calculate the allowed values of <em class="emphasis">l</em>. From these allowed values, count the number of subshells.</p>
+                <p class="para" id="averill_1.0-ch06_s05_s02_s03_p09"><strong class="emphasis bold">B</strong> For each allowed value of <em class="emphasis">l</em>, calculate the allowed values of <em class="emphasis">m</em><sub class="subscript"><em class="emphasis">l</em></sub>. The sum of the number of orbitals in each subshell is the number of orbitals in the principal shell.</p>
+                <p class="para" id="averill_1.0-ch06_s05_s02_s03_p10">
+                            <strong class="emphasis bold">Solution:</strong>
+                        </p>
+                <p class="para" id="averill_1.0-ch06_s05_s02_s03_p11"><strong class="emphasis bold">A</strong> We know that <em class="emphasis">l</em> can have all integral values from 0 to <em class="emphasis">n</em> − 1. If <em class="emphasis">n</em> = 4, then <em class="emphasis">l</em> can equal 0, 1, 2, or 3. Because the shell has four values of <em class="emphasis">l</em>, it has four subshells, each of which will contain a different number of orbitals, depending on the allowed values of <em class="emphasis">m</em><sub class="subscript"><em class="emphasis">l</em></sub>.</p>
+                <p class="para" id="averill_1.0-ch06_s05_s02_s03_p12"><strong class="emphasis bold">B</strong> For <em class="emphasis">l</em> = 0, <em class="emphasis">m</em><sub class="subscript"><em class="emphasis">l</em></sub> can be only 0, and thus the <em class="emphasis">l</em> = 0 subshell has only one orbital. For <em class="emphasis">l</em> = 1, <em class="emphasis">m</em><sub class="subscript"><em class="emphasis">l</em></sub> can be 0 or ±1; thus the <em class="emphasis">l</em> = 1 subshell has three orbitals. For <em class="emphasis">l</em> = 2, <em class="emphasis">m</em><sub class="subscript"><em class="emphasis">l</em></sub> can be 0, ±1, or ±2, so there are five orbitals in the <em class="emphasis">l</em> = 2 subshell. The last allowed value of <em class="emphasis">l</em> is <em class="emphasis">l</em> = 3, for which <em class="emphasis">m</em><sub class="subscript"><em class="emphasis">l</em></sub> can be 0, ±1, ±2, or ±3, resulting in seven orbitals in the <em class="emphasis">l</em> = 3 subshell. The total number of orbitals in the <em class="emphasis">n</em> = 4 principal shell is the sum of the number of orbitals in each subshell and is equal to <em class="emphasis">n</em><sup class="superscript">2</sup>:</p>
+                <span class="informalequation">
+
+                            <math xml:id="averill_1.0-ch06_m051" display="block">
+                                <semantics>
+                                    <mrow>
+                                        <munder>
+                                            <mn>1</mn>
+                                            <mrow>
+                                                <mo stretchy="false">(</mo>
+                                                <mi>l</mi>
+                                                <mo>=</mo>
+                                                <mn>0</mn>
+                                                <mo stretchy="false">)</mo>
+                                            </mrow>
+                                        </munder>
+                                        <mo>+</mo>
+                                        <munder>
+                                            <mn>3</mn>
+                                            <mrow>
+                                                <mo stretchy="false">(</mo>
+                                                <mi>l</mi>
+                                                <mo>=</mo>
+                                                <mn>1</mn>
+                                                <mo stretchy="false">)</mo>
+                                            </mrow>
+                                        </munder>
+                                        <mo>+</mo>
+                                        <munder>
+                                            <mn>5</mn>
+                                            <mrow>
+                                                <mo stretchy="false">(</mo>
+                                                <mi>l</mi>
+                                                <mo>=</mo>
+                                                <mn>2</mn>
+                                                <mo stretchy="false">)</mo>
+                                            </mrow>
+                                        </munder>
+                                        <mo>+</mo>
+                                        <munder>
+                                            <mn>7</mn>
+                                            <mrow>
+                                                <mo stretchy="false">(</mo>
+                                                <mi>l</mi>
+                                                <mo>=</mo>
+                                                <mn>3</mn>
+                                                <mo stretchy="false">)</mo>
+                                            </mrow>
+                                        </munder>
+                                        <mo>=</mo>
+                                        <mn>16</mn>
+                                        <mtext> orbitals </mtext>
+                                        <mo>=</mo>
+                                        <msup>
+                                            <mrow>
+                                                <mo stretchy="false">(</mo>
+                                                <mn>4</mn>
+                                                <mtext> principal shells</mtext>
+                                                <mo stretchy="false">)</mo>
+                                            </mrow>
+                                            <mn>2</mn>
+                                        </msup>
+                                    </mrow>
+                                </semantics>
+                            </math>
+</span>
+                <p class="simpara">Exercise</p>
+                <p class="para" id="averill_1.0-ch06_s05_s02_s03_p13">How many subshells and orbitals are in the principal shell with <em class="emphasis">n</em> = 3?</p>
+                <p class="para" id="averill_1.0-ch06_s05_s02_s03_p14"><strong class="emphasis bold">Answer: </strong>three subshells; nine orbitals</p>
+            </div>
+            <p class="para editable block" id="averill_1.0-ch06_s05_s02_s03_p15">Rather than specifying all the values of <em class="emphasis">n</em> and <em class="emphasis">l</em> every time we refer to a subshell or an orbital, chemists use an abbreviated system with lowercase letters to denote the value of <em class="emphasis">l</em> for a particular subshell or orbital:</p>
+            <div class="informaltable block" frame="none">
+                <table cellpadding="0" cellspacing="0">
+                    <tbody>
+                        <tr>
+                            <td>
+<em class="emphasis">l</em> =</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                        <strong class="emphasis bold">Designation</strong>
+                                    </td>
+                            <td>
+                                        <em class="emphasis bolditalic">s</em>
+                                    </td>
+                            <td>
+                                        <em class="emphasis bolditalic">p</em>
+                                    </td>
+                            <td>
+                                        <em class="emphasis bolditalic">d</em>
+                                    </td>
+                            <td>
+                                        <em class="emphasis bolditalic">f</em>
+                                    </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="para editable block" id="averill_1.0-ch06_s05_s02_s03_p16">The principal quantum number is named first, followed by the letter <em class="emphasis">s</em>, <em class="emphasis">p</em>, <em class="emphasis">d</em>, or <em class="emphasis">f</em> as appropriate. These orbital designations are derived from corresponding spectroscopic characteristics: <em class="emphasis">s</em>harp, <em class="emphasis">p</em>rinciple, <em class="emphasis">d</em>iffuse, and <em class="emphasis">f</em>undamental. A 1<em class="emphasis">s</em> orbital has <em class="emphasis">n</em> = 1 and <em class="emphasis">l</em> = 0; a 2<em class="emphasis">p</em> subshell has <em class="emphasis">n</em> = 2 and <em class="emphasis">l</em> = 1 (and has three 2<em class="emphasis">p</em> orbitals, corresponding to <em class="emphasis">m</em><sub class="subscript"><em class="emphasis">l</em></sub> = −1, 0, and +1); a 3<em class="emphasis">d</em> subshell has <em class="emphasis">n</em> = 3 and <em class="emphasis">l</em> = 2 (and has five 3<em class="emphasis">d</em> orbitals, corresponding to <em class="emphasis">m</em><sub class="subscript"><em class="emphasis">l</em></sub> = −2, −1, 0, +1, and +2); and so forth.</p>
+            <p class="para editable block" id="averill_1.0-ch06_s05_s02_s03_p17">We can summarize the relationships between the quantum numbers and the number of subshells and orbitals as follows (<a class="xref" href="#averill_1.0-ch06_s05_s02_s03_t01">Table 6.3 "Values of "</a>):</p>
+            <ul class="itemizedlist editable block" id="averill_1.0-ch06_s05_s02_s03_l01">
+                <li>Each principal shell has <em class="emphasis">n</em> subshells. For <em class="emphasis">n</em> = 1, only a single subshell is possible (1<em class="emphasis">s</em>); for <em class="emphasis">n</em> = 2, there are two subshells (2<em class="emphasis">s</em> and 2<em class="emphasis">p</em>); for <em class="emphasis">n</em> = 3, there are three subshells (3<em class="emphasis">s</em>, 3<em class="emphasis">p</em>, and 3<em class="emphasis">d</em>); and so forth. Every shell has an <em class="emphasis">ns</em> subshell, any shell with <em class="emphasis">n</em> ≥ 2 also has an <em class="emphasis">np</em> subshell, and any shell with <em class="emphasis">n</em> ≥ 3 also has an <em class="emphasis">nd</em> subshell. Because a 2<em class="emphasis">d</em> subshell would require both <em class="emphasis">n</em> = 2 and <em class="emphasis">l</em> = 2, which is not an allowed value of <em class="emphasis">l</em> for <em class="emphasis">n</em> = 2, a 2<em class="emphasis">d</em> subshell does not exist.</li>
+                <li>Each subshell has 2<em class="emphasis">l</em> + 1 orbitals. This means that all <em class="emphasis">ns</em> subshells contain a single <em class="emphasis">s</em> orbital, all <em class="emphasis">np</em> subshells contain three <em class="emphasis">p</em> orbitals, all <em class="emphasis">nd</em> subshells contain five <em class="emphasis">d</em> orbitals, and all <em class="emphasis">nf</em> subshells contain seven <em class="emphasis">f</em> orbitals.</li>
+            </ul>
+            <div class="callout editable block" id="averill_1.0-ch06_s05_s02_s03_n02">
+                <h3 class="title">Note the Pattern</h3>
+                <p class="para" id="averill_1.0-ch06_s05_s02_s03_p18">Each principal shell has <em class="emphasis">n</em> subshells, and each subshell has 2<em class="emphasis">l</em> + 1 orbitals.</p>
+            </div>
+            <div class="table block" id="averill_1.0-ch06_s05_s02_s03_t01" frame="all">
+                <p class="title"><span class="title-prefix">Table 6.3</span> Values of <em class="emphasis bolditalic">n</em>, <em class="emphasis bolditalic">l</em>, and <em class="emphasis bolditalic">m<sub class="subscript">l</sub></em> through <em class="emphasis bolditalic">n</em> = 4</p>
+                <table cellpadding="0" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th align="center">
+                                        <em class="emphasis">n</em>
+                                    </th>
+                            <th align="center">
+                                        <em class="emphasis">l</em>
+                                    </th>
+                            <th align="center">Subshell Designation</th>
+                            <th align="center">                     <em class="emphasis">m</em><sub class="subscript"><em class="emphasis">l</em></sub>
+</th>
+                            <th align="center">Number of Orbitals in Subshell</th>
+                            <th align="center">Number of Orbitals in Shell</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td align="right">1</td>
+                            <td align="right">0</td>
+                            <td align="right">1<em class="emphasis">s</em>
+</td>
+                            <td align="right">0</td>
+                            <td align="right">1</td>
+                            <td align="right">1</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2" align="right">2</td>
+                            <td align="right">0</td>
+                            <td align="right">2<em class="emphasis">s</em>
+</td>
+                            <td align="right">0</td>
+                            <td align="right">1</td>
+                            <td rowspan="2" align="right">4</td>
+                        </tr>
+                        <tr>
+                            <td align="right">1</td>
+                            <td align="right">2<em class="emphasis">p</em>
+</td>
+                            <td align="right">−1, 0, 1</td>
+                            <td align="right">3</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3" align="right">3</td>
+                            <td align="right">0</td>
+                            <td align="right">3<em class="emphasis">s</em>
+</td>
+                            <td align="right">0</td>
+                            <td align="right">1</td>
+                            <td rowspan="3" align="right">9</td>
+                        </tr>
+                        <tr>
+                            <td align="right">1</td>
+                            <td align="right">3<em class="emphasis">p</em>
+</td>
+                            <td align="right">−1, 0, 1</td>
+                            <td align="right">3</td>
+                        </tr>
+                        <tr>
+                            <td align="right">2</td>
+                            <td align="right">3<em class="emphasis">d</em>
+</td>
+                            <td align="right">−2, −1, 0, 1, 2</td>
+                            <td align="right">5</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="4" align="right">4</td>
+                            <td align="right">0</td>
+                            <td align="right">4<em class="emphasis">s</em>
+</td>
+                            <td align="right">0</td>
+                            <td align="right">1</td>
+                            <td rowspan="4" align="right">16</td>
+                        </tr>
+                        <tr>
+                            <td align="right">1</td>
+                            <td align="right">4<em class="emphasis">p</em>
+</td>
+                            <td align="right">−1, 0, 1</td>
+                            <td align="right">3</td>
+                        </tr>
+                        <tr>
+                            <td align="right">2</td>
+                            <td align="right">4<em class="emphasis">d</em>
+</td>
+                            <td align="right">−2, −1, 0, 1, 2</td>
+                            <td align="right">5</td>
+                        </tr>
+                        <tr>
+                            <td align="right">3</td>
+                            <td align="right">4<em class="emphasis">f</em>
+</td>
+                            <td align="right">−3, −2, −1, 0, 1, 2, 3</td>
+                            <td align="right">7</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="section" id="averill_1.0-ch06_s05_s03">
+        <h2 class="title editable block">Orbital Shapes</h2>
+        <p class="para editable block" id="averill_1.0-ch06_s05_s03_p01">An orbital is the quantum mechanical refinement of Bohr’s orbit. In contrast to his concept of a simple circular orbit with a fixed radius, orbitals are mathematically derived regions of space with different <em class="emphasis">probabilities</em> of having an electron.</p>
+        <p class="para editable block" id="averill_1.0-ch06_s05_s03_p02">One way of representing electron probability distributions was illustrated in <a class="xref" href="#averill_1.0-ch06_s05_s01_f02">Figure 6.21 "Probability of Finding the Electron in the Ground State of the Hydrogen Atom at Different Points in Space"</a> for the 1<em class="emphasis">s</em> orbital of hydrogen. Because Ψ<sup class="superscript">2</sup> gives the probability of finding an electron in a given volume of space (such as a cubic picometer), a plot of Ψ<sup class="superscript">2</sup> versus distance from the nucleus (<em class="emphasis">r</em>) is a plot of the <em class="emphasis">probability density</em>. The 1<em class="emphasis">s</em> orbital is spherically symmetrical, so the probability of finding a 1<em class="emphasis">s</em> electron at any given point depends <em class="emphasis">only</em> on its distance from the nucleus. The probability density is greatest at <em class="emphasis">r</em> = 0 (at the nucleus) and decreases steadily with increasing distance. At very large values of <em class="emphasis">r</em>, the electron probability density is very small but <em class="emphasis">not</em> zero.</p>
+        <p class="para editable block" id="averill_1.0-ch06_s05_s03_p03">In contrast, we can calculate the <em class="emphasis">radial probability</em> (the probability of finding a 1<em class="emphasis">s</em> electron at a distance <em class="emphasis">r</em> from the nucleus) by adding together the probabilities of an electron being at all points on a series of <em class="emphasis">x</em> spherical shells of radius <em class="emphasis">r</em><sub class="subscript">1</sub>, <em class="emphasis">r</em><sub class="subscript">2</sub>, <em class="emphasis">r</em><sub class="subscript">3</sub>,…, <em class="emphasis">r</em><sub class="subscript"><em class="emphasis">x</em></sub> <sub class="subscript">− 1</sub>, <em class="emphasis">r</em><sub class="subscript"><em class="emphasis">x</em></sub>. In effect, we are dividing the atom into very thin concentric shells, much like the layers of an onion (part (a) in <a class="xref" href="#averill_1.0-ch06_s05_s03_f01">Figure 6.22 "Most Probable Radius for the Electron in the Ground State of the Hydrogen Atom"</a>), and calculating the probability of finding an electron on each spherical shell. Recall that the electron probability density is greatest at <em class="emphasis">r</em> = 0 (part (b) in <a class="xref" href="#averill_1.0-ch06_s05_s03_f01">Figure 6.22 "Most Probable Radius for the Electron in the Ground State of the Hydrogen Atom"</a>), so the density of dots is greatest for the smallest spherical shells in part (a) in <a class="xref" href="#averill_1.0-ch06_s05_s03_f01">Figure 6.22 "Most Probable Radius for the Electron in the Ground State of the Hydrogen Atom"</a>. In contrast, the surface area of each spherical shell is equal to 4π<em class="emphasis">r</em><sup class="superscript">2</sup>, which increases very rapidly with increasing <em class="emphasis">r</em> (part (c) in <a class="xref" href="#averill_1.0-ch06_s05_s03_f01">Figure 6.22 "Most Probable Radius for the Electron in the Ground State of the Hydrogen Atom"</a>). Because the surface area of the spherical shells increases more rapidly with increasing <em class="emphasis">r</em> than the electron probability density decreases, the plot of radial probability has a maximum at a particular distance (part (d) in <a class="xref" href="#averill_1.0-ch06_s05_s03_f01">Figure 6.22 "Most Probable Radius for the Electron in the Ground State of the Hydrogen Atom"</a>). Most important, when <em class="emphasis">r</em> is very small, the surface area of a spherical shell is so small that the <em class="emphasis">total</em> probability of finding an electron close to the nucleus is very low; at the nucleus, the electron probability vanishes (part (d) in <a class="xref" href="#averill_1.0-ch06_s05_s03_f01">Figure 6.22 "Most Probable Radius for the Electron in the Ground State of the Hydrogen Atom"</a>).</p>
+        <div class="figure full large-height editable block" id="averill_1.0-ch06_s05_s03_f01">
+            <p class="title"><span class="title-prefix">Figure 6.22</span> Most Probable Radius for the Electron in the Ground State of the Hydrogen Atom</p>
+            <img src="section_10/cbe91c18cdd1c06a7d5e1e0b74970b3d.jpg">
+            <p class="para">(a) Imagine dividing the atom’s total volume into very thin concentric shells as shown in the onion drawing. (b) A plot of electron probability density Ψ<sup class="superscript">2</sup> versus <em class="emphasis">r</em> shows that the electron probability density is greatest at <em class="emphasis">r</em> = 0 and falls off smoothly with increasing <em class="emphasis">r</em>. The density of the dots is therefore greatest in the innermost shells of the onion. (c) The surface area of each shell, given by 4π<em class="emphasis">r</em><sup class="superscript">2</sup>, increases rapidly with increasing <em class="emphasis">r</em>. (d) If we count the number of dots in each spherical shell, we obtain the total probability of finding the electron at a given value of <em class="emphasis">r</em>. Because the surface area of each shell increases more rapidly with increasing <em class="emphasis">r</em> than the electron probability density decreases, a plot of electron probability versus <em class="emphasis">r</em> (the <em class="emphasis">radial probability</em>) shows a peak. This peak corresponds to the most probable radius for the electron, 52.9 pm, which is exactly the radius predicted by Bohr’s model of the hydrogen atom.</p>
+        </div>
+        <p class="para editable block" id="averill_1.0-ch06_s05_s03_p04">For the hydrogen atom, the peak in the radial probability plot occurs at <em class="emphasis">r</em> = 0.529 Å (52.9 pm), which is exactly the radius calculated by Bohr for the <em class="emphasis">n</em> = 1 orbit. Thus the <em class="emphasis">most probable radius</em> obtained from quantum mechanics is identical to the radius calculated by classical mechanics. In Bohr’s model, however, the electron was assumed to be at this distance 100% of the time, whereas in the Schrödinger model, it is at this distance only some of the time. The difference between the two models is attributable to the wavelike behavior of the electron and the Heisenberg uncertainty principle.</p>
+        <p class="para editable block" id="averill_1.0-ch06_s05_s03_p05"><a class="xref" href="#averill_1.0-ch06_s05_s03_f02">Figure 6.23 "Probability Densities for the 1"</a> compares the electron probability densities for the hydrogen 1<em class="emphasis">s</em>, 2<em class="emphasis">s</em>, and 3<em class="emphasis">s</em> orbitals. Note that all three are spherically symmetrical. For the 2<em class="emphasis">s</em> and 3<em class="emphasis">s</em> orbitals, however (and for all other <em class="emphasis">s</em> orbitals as well), the electron probability density does not fall off smoothly with increasing <em class="emphasis">r</em>. Instead, a series of minima and maxima are observed in the radial probability plots (part (c) in <a class="xref" href="#averill_1.0-ch06_s05_s03_f02">Figure 6.23 "Probability Densities for the 1"</a>). The minima correspond to spherical nodes (regions of zero electron probability), which alternate with spherical regions of nonzero electron probability.</p>
+        <div class="figure large editable block" id="averill_1.0-ch06_s05_s03_f02">
+            <p class="title"><span class="title-prefix">Figure 6.23</span> Probability Densities for the 1<em class="emphasis">s</em>, 2<em class="emphasis">s</em>, and 3<em class="emphasis">s</em> Orbitals of the Hydrogen Atom</p>
+            <img src="section_10/9b0ea297c83419c78eee347ed4c74dd2.jpg">
+            <p class="para">(a) The electron probability density in any plane that contains the nucleus is shown. Note the presence of circular regions, or nodes, where the probability density is zero. (b) Contour surfaces enclose 90% of the electron probability, which illustrates the different sizes of the 1<em class="emphasis">s</em>, 2<em class="emphasis">s</em>, and 3<em class="emphasis">s</em> orbitals. The cutaway drawings give partial views of the internal spherical nodes. The orange color corresponds to regions of space where the phase of the wave function is positive, and the blue color corresponds to regions of space where the phase of the wave function is negative. (c) In these plots of electron probability as a function of distance from the nucleus (<em class="emphasis">r</em>) in all directions (radial probability), the most probable radius increases as <em class="emphasis">n</em> increases, but the 2<em class="emphasis">s</em> and 3<em class="emphasis">s</em> orbitals have regions of significant electron probability at small values of <em class="emphasis">r</em>.</p>
+        </div>
+        <div class="section" id="averill_1.0-ch06_s05_s03_s01">
+            <h2 class="title editable block">
+<em class="emphasis">s</em> Orbitals</h2>
+            <p class="para editable block" id="averill_1.0-ch06_s05_s03_s01_p01">Three things happen to <em class="emphasis">s</em> orbitals as <em class="emphasis">n</em> increases (<a class="xref" href="#averill_1.0-ch06_s05_s03_f02">Figure 6.23 "Probability Densities for the 1"</a>):</p>
+            <ol class="orderedlist editable block" id="averill_1.0-ch06_s05_s03_s01_l01">
+                <li>They become larger, extending farther from the nucleus.</li>
+                <li>They contain more nodes. This is similar to a standing wave that has regions of significant amplitude separated by nodes, points with zero amplitude.</li>
+                <li>For a given atom, the <em class="emphasis">s</em> orbitals also become higher in energy as <em class="emphasis">n</em> increases because of their increased distance from the nucleus.</li>
+            </ol>
+            <p class="para editable block" id="averill_1.0-ch06_s05_s03_s01_p02">Orbitals are generally drawn as three-dimensional surfaces that enclose 90% of the <span class="margin_term"><a class="glossterm">electron density</a><span class="glossdef">Electron distributions that are represented as standing waves.</span></span>, as was shown for the hydrogen 1<em class="emphasis">s</em>, 2<em class="emphasis">s</em>, and 3<em class="emphasis">s</em> orbitals in part (b) in <a class="xref" href="#averill_1.0-ch06_s05_s03_f02">Figure 6.23 "Probability Densities for the 1"</a>. Although such drawings show the relative sizes of the orbitals, they do not normally show the spherical nodes in the 2<em class="emphasis">s</em> and 3<em class="emphasis">s</em> orbitals because the spherical nodes lie inside the 90% surface. Fortunately, the positions of the spherical nodes are not important for chemical bonding.</p>
+        </div>
+        <div class="section" id="averill_1.0-ch06_s05_s03_s02">
+            <h2 class="title editable block">
+<em class="emphasis">p</em> Orbitals</h2>
+            <p class="para editable block" id="averill_1.0-ch06_s05_s03_s02_p01">Only <em class="emphasis">s</em> orbitals are spherically symmetrical. As the value of <em class="emphasis">l</em> increases, the number of orbitals in a given subshell increases, and the shapes of the orbitals become more complex. Because the 2<em class="emphasis">p</em> subshell has <em class="emphasis">l</em> = 1, with three values of <em class="emphasis">m</em><sub class="subscript"><em class="emphasis">l</em></sub> (−1, 0, and +1), there are three 2<em class="emphasis">p</em> orbitals.</p>
+            <div class="figure small editable block" id="averill_1.0-ch06_s05_s03_s02_f01">
+                <p class="title"><span class="title-prefix">Figure 6.24</span> Electron Probability Distribution for a Hydrogen 2<em class="emphasis">p</em> Orbital</p>
+                <img src="section_10/00ac2017bb3905dbceccab9e61c9ffba.jpg">
+                <p class="para">The nodal plane of zero electron density separates the two lobes of the 2<em class="emphasis">p</em> orbital. As in <a class="xref" href="#averill_1.0-ch06_s05_s03_f02">Figure 6.23 "Probability Densities for the 1"</a>, the colors correspond to regions of space where the phase of the wave function is positive (orange) and negative (blue).</p>
+            </div>
+            <p class="para editable block" id="averill_1.0-ch06_s05_s03_s02_p02">The electron probability distribution for one of the hydrogen 2<em class="emphasis">p</em> orbitals is shown in <a class="xref" href="#averill_1.0-ch06_s05_s03_s02_f01">Figure 6.24 "Electron Probability Distribution for a Hydrogen 2"</a>. Because this orbital has two lobes of electron density arranged along the <em class="emphasis">z</em> axis, with an electron density of zero in the <em class="emphasis">xy</em> plane (i.e., the <em class="emphasis">xy</em> plane is a nodal plane), it is a 2<em class="emphasis">p</em><sub class="subscript"><em class="emphasis">z</em></sub> orbital. As shown in <a class="xref" href="#averill_1.0-ch06_s05_s03_s02_f02">Figure 6.25 "The Three Equivalent 2"</a>, the other two 2<em class="emphasis">p</em> orbitals have identical shapes, but they lie along the <em class="emphasis">x</em> axis (2<em class="emphasis">p</em><sub class="subscript"><em class="emphasis">x</em></sub>) and <em class="emphasis">y</em> axis (2<em class="emphasis">p</em><sub class="subscript"><em class="emphasis">y</em></sub>), respectively. Note that each <em class="emphasis">p</em> orbital has just one nodal plane. In each case, the phase of the wave function for each of the 2<em class="emphasis">p</em> orbitals is positive for the lobe that points along the positive axis and negative for the lobe that points along the negative axis. It is important to emphasize that these signs correspond to the <em class="emphasis">phase</em> of the wave that describes the electron motion, <em class="emphasis">not</em> to positive or negative charges.</p>
+            <div class="figure large editable block" id="averill_1.0-ch06_s05_s03_s02_f02">
+                <p class="title"><span class="title-prefix">Figure 6.25</span> The Three Equivalent 2<em class="emphasis">p</em> Orbitals of the Hydrogen Atom</p>
+                <img src="section_10/0c20bd61007a2b2733732eb1b1b27033.jpg">
+                <p class="para">The surfaces shown enclose 90% of the total electron probability for the 2<em class="emphasis">p</em><sub class="subscript"><em class="emphasis">x</em></sub>, 2<em class="emphasis">p</em><sub class="subscript"><em class="emphasis">y</em></sub>, and 2<em class="emphasis">p</em><sub class="subscript"><em class="emphasis">z</em></sub> orbitals. Each orbital is oriented along the axis indicated by the subscript and a nodal plane that is perpendicular to that axis bisects each 2<em class="emphasis">p</em> orbital. The phase of the wave function is positive (orange) in the region of space where <em class="emphasis">x</em>, <em class="emphasis">y</em>, or <em class="emphasis">z</em> is positive and negative (blue) where <em class="emphasis">x</em>, <em class="emphasis">y</em>, or <em class="emphasis">z</em> is negative.</p>
+            </div>
+            <p class="para editable block" id="averill_1.0-ch06_s05_s03_s02_p03">Just as with the <em class="emphasis">s</em> orbitals, the size and complexity of the <em class="emphasis">p</em> orbitals for any atom increase as the principal quantum number <em class="emphasis">n</em> increases. The shapes of the 90% probability surfaces of the 3<em class="emphasis">p</em>, 4<em class="emphasis">p</em>, and higher-energy <em class="emphasis">p</em> orbitals are, however, essentially the same as those shown in <a class="xref" href="#averill_1.0-ch06_s05_s03_s02_f02">Figure 6.25 "The Three Equivalent 2"</a>.</p>
+        </div>
+        <div class="section" id="averill_1.0-ch06_s05_s03_s03">
+            <h2 class="title editable block">
+<em class="emphasis">d</em> Orbitals</h2>
+            <p class="para editable block" id="averill_1.0-ch06_s05_s03_s03_p01">Subshells with <em class="emphasis">l</em> = 2 have five <em class="emphasis">d</em> orbitals; the first principal shell to have a <em class="emphasis">d</em> subshell corresponds to <em class="emphasis">n</em> = 3. The five <em class="emphasis">d</em> orbitals have <em class="emphasis">m</em><sub class="subscript"><em class="emphasis">l</em></sub> values of −2, −1, 0, +1, and +2.</p>
+            <div class="figure large block" id="averill_1.0-ch06_s05_s03_s03_f01">
+                <p class="title"><span class="title-prefix">Figure 6.26</span> The Five Equivalent 3<em class="emphasis">d</em> Orbitals of the Hydrogen Atom</p>
+                <img src="section_10/e74241a7f09f0952511cff1994da750c.jpg">
+                <p class="para">The surfaces shown enclose 90% of the total electron probability for the five hydrogen 3<em class="emphasis">d</em> orbitals. Four of the five 3<em class="emphasis">d</em> orbitals consist of four lobes arranged in a plane that is intersected by two perpendicular nodal planes. These four orbitals have the same shape but different orientations. The fifth 3<em class="emphasis">d</em> orbital, <span class="inlineequation"><math xml:id="averill_1.0-ch06_m052" display="inline"><semantics><mrow><mn>3</mn><msub><mi>d</mi><mrow><msup><mi>z</mi><mn>2</mn></msup></mrow></msub></mrow></semantics></math></span>, has a distinct shape even though it is mathematically equivalent to the others. The phase of the wave function for the different lobes is indicated by color: orange for positive and blue for negative.</p>
+            </div>
+            <p class="para block" id="averill_1.0-ch06_s05_s03_s03_p02">The hydrogen 3<em class="emphasis">d</em> orbitals, shown in <a class="xref" href="#averill_1.0-ch06_s05_s03_s03_f01">Figure 6.26 "The Five Equivalent 3"</a>, have more complex shapes than the 2<em class="emphasis">p</em> orbitals. All five 3<em class="emphasis">d</em> orbitals contain two nodal surfaces, as compared to one for each <em class="emphasis">p</em> orbital and zero for each <em class="emphasis">s</em> orbital. In three of the <em class="emphasis">d</em> orbitals, the lobes of electron density are oriented between the <em class="emphasis">x</em> and <em class="emphasis">y</em>, <em class="emphasis">x</em> and <em class="emphasis">z</em>, and <em class="emphasis">y</em> and <em class="emphasis">z</em> planes; these orbitals are referred to as the 3<em class="emphasis">d</em><sub class="subscript"><em class="emphasis">xy</em></sub>, 3<em class="emphasis">d</em><sub class="subscript"><em class="emphasis">xz</em></sub>, and 3<em class="emphasis">d</em><sub class="subscript"><em class="emphasis">yz</em></sub> orbitals, respectively. A fourth <em class="emphasis">d</em> orbital has lobes lying along the <em class="emphasis">x</em> and <em class="emphasis">y</em> axes; this is the <span class="inlineequation"><math xml:id="averill_1.0-ch06_m053" display="inline"><semantics><mrow><mn>3</mn><msub><mi>d</mi><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><msup><mi>y</mi><mn>2</mn></msup></mrow></msub></mrow></semantics></math></span> orbital. The fifth 3<em class="emphasis">d</em> orbital, called the <span class="inlineequation"><math xml:id="averill_1.0-ch06_m054" display="inline"><semantics><mrow><mn>3</mn><msub><mi>d</mi><mrow><msup><mi>z</mi><mn>2</mn></msup></mrow></msub></mrow></semantics></math></span> orbital, has a unique shape: it looks like a 2<em class="emphasis">p</em><sub class="subscript"><em class="emphasis">z</em></sub> orbital combined with an additional doughnut of electron probability lying in the <em class="emphasis">xy</em> plane. Despite its peculiar shape, the <span class="inlineequation"><math xml:id="averill_1.0-ch06_m055" display="inline"><semantics><mrow><mn>3</mn><msub><mi>d</mi><mrow><msup><mi>z</mi><mn>2</mn></msup></mrow></msub></mrow></semantics></math></span> orbital is mathematically equivalent to the other four and has the same energy. In contrast to <em class="emphasis">p</em> orbitals, the phase of the wave function for <em class="emphasis">d</em> orbitals is the same for opposite pairs of lobes. As shown in <a class="xref" href="#averill_1.0-ch06_s05_s03_s03_f01">Figure 6.26 "The Five Equivalent 3"</a>, the phase of the wave function is positive for the two lobes of the <span class="inlineequation"><math xml:id="averill_1.0-ch06_m056" display="inline"><semantics><mrow><msub><mi>d</mi><mrow><msup><mi>z</mi><mn>2</mn></msup></mrow></msub></mrow></semantics></math></span> orbital that lie along the <em class="emphasis">z</em> axis, whereas the phase of the wave function is negative for the doughnut of electron density in the <em class="emphasis">xy</em> plane. Like the <em class="emphasis">s</em> and <em class="emphasis">p</em> orbitals, as <em class="emphasis">n</em> increases, the size of the <em class="emphasis">d</em> orbitals increases, but the overall shapes remain similar to those depicted in <a class="xref" href="#averill_1.0-ch06_s05_s03_s03_f01">Figure 6.26 "The Five Equivalent 3"</a>.</p>
+        </div>
+        <div class="section" id="averill_1.0-ch06_s05_s03_s04">
+            <h2 class="title editable block">
+<em class="emphasis">f</em> Orbitals</h2>
+            <p class="para editable block" id="averill_1.0-ch06_s05_s03_s04_p01">Principal shells with <em class="emphasis">n</em> = 4 can have subshells with <em class="emphasis">l</em> = 3 and <em class="emphasis">m</em><sub class="subscript"><em class="emphasis">l</em></sub> values of −3, −2, −1, 0, +1, +2, and +3. These subshells consist of seven <em class="emphasis">f</em> orbitals. Each <em class="emphasis">f</em> orbital has three nodal surfaces, so their shapes are complex. Because <em class="emphasis">f</em> orbitals are not particularly important for our purposes, we do not discuss them further, and orbitals with higher values of <em class="emphasis">l</em> are not discussed at all.</p>
+        </div>
+    </div>
+    <div class="section" id="averill_1.0-ch06_s05_s04">
+        <h2 class="title editable block">Orbital Energies</h2>
+        <p class="para editable block" id="averill_1.0-ch06_s05_s04_p01">Although we have discussed the shapes of orbitals, we have said little about their comparative energies. We begin our discussion of <span class="margin_term"><a class="glossterm">orbital energies</a><span class="glossdef">A particular energy associated with a given set of quantum numbers.</span></span> by considering atoms or ions with only a single electron (such as H or He<sup class="superscript">+</sup>).</p>
+        <p class="para editable block" id="averill_1.0-ch06_s05_s04_p02">The relative energies of the atomic orbitals with <em class="emphasis">n</em> ≤ 4 for a hydrogen atom are plotted in <a class="xref" href="#averill_1.0-ch06_s05_s04_f01">Figure 6.27 "Orbital Energy Level Diagram for the Hydrogen Atom"</a>; note that the orbital energies depend on <em class="emphasis">only</em> the principal quantum number <em class="emphasis">n</em>. Consequently, the energies of the 2<em class="emphasis">s</em> and 2<em class="emphasis">p</em> orbitals of hydrogen are the same; the energies of the 3<em class="emphasis">s</em>, 3<em class="emphasis">p</em>, and 3<em class="emphasis">d</em> orbitals are the same; and so forth. The orbital energies obtained for hydrogen using quantum mechanics are exactly the same as the allowed energies calculated by Bohr. In contrast to Bohr’s model, however, which allowed only one orbit for each energy level, quantum mechanics predicts that there are <em class="emphasis">4</em> orbitals with different electron density distributions in the <em class="emphasis">n</em> = 2 principal shell (one 2<em class="emphasis">s</em> and three 2<em class="emphasis">p</em> orbitals), <em class="emphasis">9</em> in the <em class="emphasis">n</em> = 3 principal shell, and <em class="emphasis">16</em> in the <em class="emphasis">n</em> = 4 principal shell.<span class="footnote" id="averill_1.0-fn06_006">The different values of <em class="emphasis">l</em> and <em class="emphasis">m</em><sub class="subscript"><em class="emphasis">l</em></sub> for the individual orbitals within a given principal shell are not important for understanding the emission or absorption spectra of the hydrogen atom under most conditions, but they do explain the splittings of the main lines that are observed when hydrogen atoms are placed in a magnetic field.</span> As we have just seen, however, quantum mechanics also predicts that in the hydrogen atom, all orbitals with the same value of <em class="emphasis">n</em> (e.g., the three 2<em class="emphasis">p</em> orbitals) are <span class="margin_term"><a class="glossterm">degenerate</a><span class="glossdef">Having the same energy.</span></span>, meaning that they have the same energy. <a class="xref" href="#averill_1.0-ch06_s05_s04_f01">Figure 6.27 "Orbital Energy Level Diagram for the Hydrogen Atom"</a> shows that the energy levels become closer and closer together as the value of <em class="emphasis">n</em> increases, as expected because of the 1/<em class="emphasis">n</em><sup class="superscript">2</sup> dependence of orbital energies.</p>
+        <div class="figure medium editable block" id="averill_1.0-ch06_s05_s04_f01">
+            <p class="title"><span class="title-prefix">Figure 6.27</span> Orbital Energy Level Diagram for the Hydrogen Atom</p>
+            <img src="section_10/1003fc438e320e884f5a5c48ac173c5a.jpg">
+            <p class="para">Each box corresponds to one orbital. Note that the difference in energy between orbitals decreases rapidly with increasing values of <em class="emphasis">n</em>.</p>
+        </div>
+        <p class="para editable block" id="averill_1.0-ch06_s05_s04_p03">The energies of the orbitals in any species with only one electron can be calculated by a minor variation of Bohr’s equation (<a class="xref" href="averill_1.0-ch06_s03#averill_1.0-ch06_s03_s02_eq01" xrefstyle="select:label">Equation 6.9</a>), which can be extended to other single-electron species by incorporating the nuclear charge <em class="emphasis">Z</em> (the number of protons in the nucleus):</p>
+        <div class="equation block" id="averill_1.0-ch06_s05_s04_eq01">
+
+                    <p class="title editable"><span class="title-prefix">Equation 6.24</span> </p>
+
+                    <math xml:id="averill_1.0-ch06_m057" display="block">
+                        <semantics>
+                            <mrow>
+                                <mi>E</mi>
+                                <mo>=</mo>
+                                <mo>−</mo>
+                                <mfrac>
+                                    <mrow>
+                                        <msup>
+                                            <mi>Z</mi>
+                                            <mn>2</mn>
+                                        </msup>
+                                    </mrow>
+                                    <mrow>
+                                        <msup>
+                                            <mi>n</mi>
+                                            <mn>2</mn>
+                                        </msup>
+                                    </mrow>
+                                </mfrac>
+                                <mi>ℛ</mi>
+                                <mi>h</mi>
+                                <mi>c</mi>
+                            </mrow>
+                        </semantics>
+                    </math>
+</div>
+        <p class="para editable block" id="averill_1.0-ch06_s05_s04_p04">In general, both energy and radius decrease as the nuclear charge increases. Thus the most stable orbitals (those with the lowest energy) are those closest to the nucleus. For example, in the ground state of the hydrogen atom, the single electron is in the 1<em class="emphasis">s</em> orbital, whereas in the first excited state, the atom has absorbed energy and the electron has been promoted to one of the <em class="emphasis">n</em> = 2 orbitals. In ions with only a single electron, the energy of a given orbital depends on only <em class="emphasis">n</em>, and all subshells within a principal shell, such as the <em class="emphasis">p</em><sub class="subscript"><em class="emphasis">x</em></sub>, <em class="emphasis">p</em><sub class="subscript"><em class="emphasis">y</em></sub>, and <em class="emphasis">p</em><sub class="subscript"><em class="emphasis">z</em></sub> orbitals, are degenerate.</p>
+    </div>
+    <div class="section" id="averill_1.0-ch06_s05_s05">
+        <h2 class="title editable block">Effective Nuclear Charges</h2>
+        <p class="para editable block" id="averill_1.0-ch06_s05_s05_p01">For an atom or an ion with only a single electron, we can calculate the potential energy by considering only the electrostatic attraction between the positively charged nucleus and the negatively charged electron. When more than one electron is present, however, the total energy of the atom or the ion depends not only on attractive electron-nucleus interactions but also on repulsive electron-electron interactions. When there are two electrons, the repulsive interactions depend on the positions of <em class="emphasis">both</em> electrons at a given instant, but because we cannot specify the exact positions of the electrons, it is impossible to exactly calculate the repulsive interactions. Consequently, we must use approximate methods to deal with the effect of electron-electron repulsions on orbital energies.</p>
+        <p class="para editable block" id="averill_1.0-ch06_s05_s05_p02">If an electron is far from the nucleus (i.e., if the distance <em class="emphasis">r</em> between the nucleus and the electron is large), then at any given moment, most of the other electrons will be <em class="emphasis">between</em> that electron and the nucleus. Hence the electrons will cancel a portion of the positive charge of the nucleus and thereby decrease the attractive interaction between it and the electron farther away. As a result, the electron farther away experiences an <span class="margin_term"><a class="glossterm">effective nuclear charge (<em class="emphasis">Z</em><sub class="subscript">eff</sub>)</a><span class="glossdef">The nuclear charge an electron actually experiences because of shielding from other electrons closer to the nucleus.</span></span> that is <em class="emphasis">less</em> than the actual nuclear charge <em class="emphasis">Z</em>. This effect is called <span class="margin_term"><a class="glossterm">electron shielding</a><span class="glossdef">The effect by which electrons closer to the nucleus neutralize a portion of the positive charge of the nucleus and thereby decrease the attractive interaction between the nucleus and an electron father away.</span></span>. As the distance between an electron and the nucleus approaches infinity, <em class="emphasis">Z</em><sub class="subscript">eff</sub> approaches a value of 1 because all the other (<em class="emphasis">Z</em> − 1) electrons in the neutral atom are, on the average, between it and the nucleus. If, on the other hand, an electron is very close to the nucleus, then at any given moment most of the other electrons are farther from the nucleus and do not shield the nuclear charge. At <em class="emphasis">r</em> ≈ 0, the positive charge experienced by an electron is approximately the full nuclear charge, or <em class="emphasis">Z</em><sub class="subscript">eff</sub> ≈ <em class="emphasis">Z</em>. At intermediate values of <em class="emphasis">r</em>, the effective nuclear charge is somewhere between 1 and <em class="emphasis">Z</em>: 1 ≤ <em class="emphasis">Z</em><sub class="subscript">eff</sub> ≤ <em class="emphasis">Z</em>. Thus the actual <em class="emphasis">Z</em><sub class="subscript">eff</sub> experienced by an electron in a given orbital depends not only on the spatial distribution of the electron in that orbital but also on the distribution of all the other electrons present. This leads to large differences in <em class="emphasis">Z</em><sub class="subscript">eff</sub> for different elements, as shown in <a class="xref" href="#averill_1.0-ch06_s05_s05_f01">Figure 6.28 "Relationship between the Effective Nuclear Charge "</a> for the elements of the first three rows of the periodic table. Notice that only for hydrogen does <em class="emphasis">Z</em><sub class="subscript">eff</sub> = <em class="emphasis">Z</em>, and only for helium are <em class="emphasis">Z</em><sub class="subscript">eff</sub> and <em class="emphasis">Z</em> comparable in magnitude.</p>
+        <div class="figure large editable block" id="averill_1.0-ch06_s05_s05_f01">
+            <p class="title"><span class="title-prefix">Figure 6.28</span> Relationship between the Effective Nuclear Charge <em class="emphasis">Z</em><sub class="subscript">eff</sub> and the Atomic Number <em class="emphasis">Z</em> for the Outer Electrons of the Elements of the First Three Rows of the Periodic Table</p>
+            <img src="section_10/8a6a8f261135bcd65d54c8e0467f5f3b.jpg">
+            <p class="para">Except for hydrogen, <em class="emphasis">Z</em><sub class="subscript">eff</sub> is <em class="emphasis">always</em> less than <em class="emphasis">Z</em>, and <em class="emphasis">Z</em><sub class="subscript">eff</sub> increases from left to right as you go across a row.</p>
+        </div>
+        <p class="para editable block" id="averill_1.0-ch06_s05_s05_p03">The energies of the different orbitals for a typical multielectron atom are shown in <a class="xref" href="#averill_1.0-ch06_s05_s05_f02">Figure 6.29 "Orbital Energy Level Diagram for a Typical Multielectron Atom"</a>. Within a given principal shell of a multielectron atom, the orbital energies increase with increasing <em class="emphasis">l</em>. An <em class="emphasis">ns</em> orbital always lies below the corresponding <em class="emphasis">np</em> orbital, which in turn lies below the <em class="emphasis">nd</em> orbital. These energy differences are caused by the effects of shielding and <em class="emphasis">penetration</em>, the extent to which a given orbital lies inside other filled orbitals. As shown in <a class="xref" href="#averill_1.0-ch06_s05_s05_f03">Figure 6.30 "Orbital Penetration"</a>, for example, an electron in the 2<em class="emphasis">s</em> orbital penetrates inside a filled 1<em class="emphasis">s</em> orbital more than an electron in a 2<em class="emphasis">p</em> orbital does. Hence in an atom with a filled 1<em class="emphasis">s</em> orbital, the <em class="emphasis">Z</em><sub class="subscript">eff</sub> experienced by a 2<em class="emphasis">s</em> electron is greater than the <em class="emphasis">Z</em><sub class="subscript">eff</sub> experienced by a 2<em class="emphasis">p</em> electron. Consequently, the 2<em class="emphasis">s</em> electron is more tightly bound to the nucleus and has a lower energy, consistent with the order of energies shown in <a class="xref" href="#averill_1.0-ch06_s05_s05_f02">Figure 6.29 "Orbital Energy Level Diagram for a Typical Multielectron Atom"</a>.</p>
+        <div class="callout editable block" id="averill_1.0-ch06_s05_s05_n01">
+            <h3 class="title">Note the Pattern</h3>
+            <p class="para" id="averill_1.0-ch06_s05_s05_p04">Due to electron shielding, Z<sub class="subscript">eff</sub> increases more rapidly going across a row of the periodic table than going down a column.</p>
+        </div>
+        <div class="figure large medium-height editable block" id="averill_1.0-ch06_s05_s05_f02">
+            <p class="title"><span class="title-prefix">Figure 6.29</span> Orbital Energy Level Diagram for a Typical Multielectron Atom</p>
+            <img src="section_10/ac662f17f8c173fdb82c3bd7d35b81f2.jpg">
+            <p class="para">Because of the effects of shielding and the different radial distributions of orbitals with the same value of <em class="emphasis">n</em> but different values of <em class="emphasis">l</em>, the different subshells are not degenerate in a multielectron atom. (Compare this with <a class="xref" href="#averill_1.0-ch06_s05_s04_f01">Figure 6.27 "Orbital Energy Level Diagram for the Hydrogen Atom"</a>.) For a given value of <em class="emphasis">n</em>, the <em class="emphasis">ns</em> orbital is always lower in energy than the <em class="emphasis">np</em> orbitals, which are lower in energy than the <em class="emphasis">nd</em> orbitals, and so forth. As a result, some subshells with higher principal quantum numbers are actually lower in energy than subshells with a lower value of <em class="emphasis">n</em>; for example, the 4<em class="emphasis">s</em> orbital is lower in energy than the 3<em class="emphasis">d</em> orbitals for most atoms.</p>
+        </div>
+        <div class="figure large medium-height editable block" id="averill_1.0-ch06_s05_s05_f03">
+            <p class="title"><span class="title-prefix">Figure 6.30</span> Orbital Penetration</p>
+            <img src="section_10/4858a5e15319821597514881b601833b.jpg">
+            <p class="para">A comparison of the radial probability distribution of the 2<em class="emphasis">s</em> and 2<em class="emphasis">p</em> orbitals for various states of the hydrogen atom shows that the 2<em class="emphasis">s</em> orbital penetrates inside the 1<em class="emphasis">s</em> orbital more than the 2<em class="emphasis">p</em> orbital does. Consequently, when an electron is in the small inner lobe of the 2<em class="emphasis">s</em> orbital, it experiences a relatively large value of <em class="emphasis">Z</em><sub class="subscript">eff</sub>, which causes the energy of the 2<em class="emphasis">s</em> orbital to be lower than the energy of the 2<em class="emphasis">p</em> orbital.</p>
+        </div>
+        <p class="para editable block" id="averill_1.0-ch06_s05_s05_p05">Notice in <a class="xref" href="#averill_1.0-ch06_s05_s05_f02">Figure 6.29 "Orbital Energy Level Diagram for a Typical Multielectron Atom"</a> that the difference in energies between subshells can be so large that the energies of orbitals from different principal shells can become approximately equal. For example, the energy of the 3<em class="emphasis">d</em> orbitals in most atoms is actually <em class="emphasis">between</em> the energies of the 4<em class="emphasis">s</em> and the 4<em class="emphasis">p</em> orbitals.</p>
+        <div class="key_takeaways block" id="averill_1.0-ch06_s05_s05_n02">
+            <h3 class="title">Key Equation</h3>
+            <p class="para">
+                        <strong class="emphasis bold">energy of hydrogen-like orbitals</strong>
+                    </p>
+            <p class="para"><a class="xref" href="#averill_1.0-ch06_s05_s04_eq01" xrefstyle="select:label">Equation 6.24</a>: <span class="inlineequation"><math xml:id="averill_1.0-ch06_m058" display="inline"><semantics><mrow><mi>E</mi><mo>=</mo><mo>−</mo><mfrac><mrow><msup><mi>Z</mi><mn>2</mn></msup></mrow><mrow><msup><mi>n</mi><mn>2</mn></msup></mrow></mfrac><mi>ℛ</mi><mi>h</mi><mi>c</mi></mrow></semantics></math></span></p>
+        </div>
+        <div class="callout editable block" id="averill_1.0-ch06_s05_s05_n03">
+            <h3 class="title">Summary</h3>
+            <p class="para" id="averill_1.0-ch06_s05_s05_p06">Because of wave–particle duality, scientists must deal with the probability of an electron being at a particular point in space. To do so required the development of <strong class="emphasis bold">quantum mechanics</strong>, which uses <strong class="emphasis bold">wave functions (Ψ)</strong> to describe the mathematical relationship between the motion of electrons in atoms and molecules and their energies. Wave functions have five important properties: (1) the wave function uses three variables (Cartesian axes <em class="emphasis">x</em>, <em class="emphasis">y</em>, and <em class="emphasis">z</em>) to describe the position of an electron; (2) the magnitude of the wave function is proportional to the intensity of the wave; (3) the probability of finding an electron at a given point is proportional to the square of the wave function at that point, leading to a distribution of probabilities in space that is often portrayed as an <strong class="emphasis bold">electron density</strong> plot; (4) describing electron distributions as standing waves leads naturally to the existence of sets of <strong class="emphasis bold">quantum numbers</strong> characteristic of each wave function; and (5) each spatial distribution of the electron described by a wave function with a given set of quantum numbers has a particular energy.</p>
+            <p class="para" id="averill_1.0-ch06_s05_s05_p07">Quantum numbers provide important information about the energy and spatial distribution of an electron. The <strong class="emphasis bold">principal quantum number</strong> <em class="emphasis">n</em> can be any positive integer; as <em class="emphasis">n</em> increases for an atom, the average distance of the electron from the nucleus also increases. All wave functions with the same value of <em class="emphasis">n</em> constitute a <strong class="emphasis bold">principal shell</strong> in which the electrons have similar average distances from the nucleus. The <strong class="emphasis bold">azimuthal quantum number</strong> <em class="emphasis">l</em> can have integral values between 0 and <em class="emphasis">n</em> − 1; it describes the shape of the electron distribution. Wave functions that have the same values of both <em class="emphasis">n</em> and <em class="emphasis">l</em> constitute a <strong class="emphasis bold">subshell</strong>, corresponding to electron distributions that usually differ in orientation rather than in shape or average distance from the nucleus. The <strong class="emphasis bold">magnetic quantum number</strong> <em class="emphasis">m</em><sub class="subscript"><em class="emphasis">l</em></sub> can have 2<em class="emphasis">l</em> + 1 integral values, ranging from −<em class="emphasis">l</em> to +<em class="emphasis">l</em>, and describes the orientation of the electron distribution. Each wave function with a given set of values of <em class="emphasis">n</em>, <em class="emphasis">l</em>, and <em class="emphasis">m</em><sub class="subscript"><em class="emphasis">l</em></sub> describes a particular spatial distribution of an electron in an atom, an <strong class="emphasis bold">atomic orbital</strong>.</p>
+            <p class="para" id="averill_1.0-ch06_s05_s05_p08">The four chemically important types of atomic orbital correspond to values of <em class="emphasis">l</em> = 0, 1, 2, and 3. Orbitals with <em class="emphasis">l</em> = 0 are <em class="emphasis">s</em> orbitals and are spherically symmetrical, with the greatest probability of finding the electron occurring at the nucleus. All orbitals with values of <em class="emphasis">n</em> &gt; 1 and <em class="emphasis">l</em> = 0 contain one or more nodes. Orbitals with <em class="emphasis">l</em> = 1 are <em class="emphasis">p</em> orbitals and contain a nodal plane that includes the nucleus, giving rise to a dumbbell shape. Orbitals with <em class="emphasis">l</em> = 2 are <em class="emphasis">d</em> orbitals and have more complex shapes with at least two nodal surfaces. Orbitals with <em class="emphasis">l</em> = 3 are <em class="emphasis">f</em> orbitals, which are still more complex.</p>
+            <p class="para" id="averill_1.0-ch06_s05_s05_p09">Because its average distance from the nucleus determines the energy of an electron, each atomic orbital with a given set of quantum numbers has a particular energy associated with it, the <strong class="emphasis bold">orbital energy</strong>. In atoms or ions with only a single electron, all orbitals with the same value of <em class="emphasis">n</em> have the same energy (they are <strong class="emphasis bold">degenerate</strong>), and the energies of the principal shells increase smoothly as <em class="emphasis">n</em> increases. An atom or ion with the electron(s) in the lowest-energy orbital(s) is said to be in its ground state, whereas an atom or ion in which one or more electrons occupy higher-energy orbitals is said to be in an excited state. The calculation of orbital energies in atoms or ions with more than one electron (multielectron atoms or ions) is complicated by repulsive interactions between the electrons. The concept of <strong class="emphasis bold">electron shielding</strong>, in which intervening electrons act to reduce the positive nuclear charge experienced by an electron, allows the use of hydrogen-like orbitals and an <strong class="emphasis bold">effective nuclear charge</strong> (<em class="emphasis">Z</em><sub class="subscript">eff</sub>) to describe electron distributions in more complex atoms or ions. The degree to which orbitals with different values of <em class="emphasis">l</em> and the same value of <em class="emphasis">n</em> overlap or penetrate filled inner shells results in slightly different energies for different subshells in the same principal shell in most atoms.</p>
+        </div>
+        <div class="key_takeaways editable block" id="averill_1.0-ch06_s05_s05_n04">
+            <h3 class="title">Key Takeaway</h3>
+            <ul class="itemizedlist" id="averill_1.0-ch06_s05_s05_l01">
+                <li>There is a relationship between the motions of electrons in atoms and molecules and their energies that is described by quantum mechanics.</li>
+            </ul>
+        </div>
+        <div class="qandaset block" id="averill_1.0-ch06_s05_s05_qs01" defaultlabel="number">
+            <h3 class="title">Conceptual Problems</h3>
+            <ol class="qandadiv" id="averill_1.0-ch06_s05_s05_qs01_qd01">
+                <li class="qandaentry" id="averill_1.0-ch06_s05_s05_qs01_qd01_qa01">
+                    <div class="question">
+                        <p class="para">Why does an electron in an orbital with <em class="emphasis">n</em> = 1 in a hydrogen atom have a lower energy than a free electron (<em class="emphasis">n</em> = ∞)?</p>
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch06_s05_s05_qs01_qd01_qa02">
+                    <div class="question">
+                        <p class="para">What four variables are required to fully describe the position of any object in space? In quantum mechanics, one of these variables is not explicitly considered. Which one and why?</p>
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch06_s05_s05_qs01_qd01_qa03">
+                    <div class="question">
+                        <p class="para">Chemists generally refer to the square of the wave function rather than to the wave function itself. Why?</p>
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch06_s05_s05_qs01_qd01_qa04">
+                    <div class="question">
+                        <p class="para">Orbital energies of species with only one electron are defined by only one quantum number. Which one? In such a species, is the energy of an orbital with <em class="emphasis">n</em> = 2 greater than, less than, or equal to the energy of an orbital with <em class="emphasis">n</em> = 4? Justify your answer.</p>
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch06_s05_s05_qs01_qd01_qa05">
+                    <div class="question">
+                        <p class="para">In each pair of subshells for a hydrogen atom, which has the higher energy? Give the principal and the azimuthal quantum number for each pair.</p>
+                        <ol class="orderedlist" numeration="loweralpha">
+                            <li>1<em class="emphasis">s</em>, 2<em class="emphasis">p</em>
+</li>
+                            <li>2<em class="emphasis">p</em>, 2<em class="emphasis">s</em>
+</li>
+                            <li>2<em class="emphasis">s</em>, 3<em class="emphasis">s</em>
+</li>
+                            <li>3<em class="emphasis">d</em>, 4<em class="emphasis">s</em>
+</li>
+                        </ol>
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch06_s05_s05_qs01_qd01_qa06">
+                    <div class="question">
+                        <p class="para">What is the relationship between the energy of an orbital and its average radius? If an electron made a transition from an orbital with an average radius of 846.4 pm to an orbital with an average radius of 476.1 pm, would an emission spectrum or an absorption spectrum be produced? Why?</p>
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch06_s05_s05_qs01_qd01_qa07">
+                    <div class="question">
+                        <p class="para">In making a transition from an orbital with a principal quantum number of 4 to an orbital with a principal quantum number of 7, does the electron of a hydrogen atom emit or absorb a photon of energy? What would be the energy of the photon? To what region of the electromagnetic spectrum does this energy correspond?</p>
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch06_s05_s05_qs01_qd01_qa08">
+                    <div class="question">
+                        <p class="para">What quantum number defines each of the following?</p>
+                        <ol class="orderedlist" numeration="loweralpha">
+                            <li>the overall shape of an orbital</li>
+                            <li>the orientation of an electron with respect to a magnetic field</li>
+                            <li>the orientation of an orbital in space</li>
+                            <li>the average energy and distance of an electron from the nucleus</li>
+                        </ol>
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch06_s05_s05_qs01_qd01_qa09">
+                    <div class="question">
+                        <p class="para">In an attempt to explain the properties of the elements, Niels Bohr initially proposed electronic structures for several elements with orbits holding a certain number of electrons, some of which are in the following table:</p>
+                        <div class="informaltable" frame="all">
+                            <table cellpadding="0" cellspacing="0">
+                                <thead>
+                                    <tr>
+                                        <th align="center">Element</th>
+                                        <th align="center">Number of Electrons</th>
+                                        <th colspan="4" align="right">Electrons in orbits with <em class="emphasis bolditalic">n</em> =</th>
+                                    </tr>
+                                    <tr>
+                                        <th align="center"></th>
+                                        <th align="center"></th>
+                                        <th align="center">4</th>
+                                        <th align="center">3</th>
+                                        <th align="center">2</th>
+                                        <th align="center">1</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>H</td>
+                                        <td align="right">1</td>
+                                        <td align="right"></td>
+                                        <td align="right"></td>
+                                        <td align="right"></td>
+                                        <td align="right">1</td>
+                                    </tr>
+                                    <tr>
+                                        <td>He</td>
+                                        <td align="right">2</td>
+                                        <td align="right"></td>
+                                        <td align="right"></td>
+                                        <td align="right"></td>
+                                        <td align="right">2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ne</td>
+                                        <td align="right">10</td>
+                                        <td align="right"></td>
+                                        <td align="right"></td>
+                                        <td align="right">8</td>
+                                        <td align="right">2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ar</td>
+                                        <td align="right">18</td>
+                                        <td align="right"></td>
+                                        <td align="right">8</td>
+                                        <td align="right">8</td>
+                                        <td align="right">2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Li</td>
+                                        <td align="right">3</td>
+                                        <td align="right"></td>
+                                        <td align="right"></td>
+                                        <td align="right">1</td>
+                                        <td align="right">2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Na</td>
+                                        <td align="right">11</td>
+                                        <td align="right"></td>
+                                        <td align="right">1</td>
+                                        <td align="right">8</td>
+                                        <td align="right">2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>K</td>
+                                        <td align="right">19</td>
+                                        <td align="right">1</td>
+                                        <td align="right">8</td>
+                                        <td align="right">8</td>
+                                        <td align="right">2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Be</td>
+                                        <td align="right">4</td>
+                                        <td align="right"></td>
+                                        <td align="right"></td>
+                                        <td align="right">2</td>
+                                        <td align="right">2</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <ol class="orderedlist" numeration="loweralpha">
+                            <li>Draw the electron configuration of each atom based only on the information given in the table. What are the differences between Bohr’s initially proposed structures and those accepted today?</li>
+                            <li>Using Bohr’s model, what are the implications for the reactivity of each element?</li>
+                            <li>Give the actual electron configuration of each element in the table.</li>
+                        </ol>
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch06_s05_s05_qs01_qd01_qa10">
+                    <div class="question">
+                        <p class="para">What happens to the energy of a given orbital as the nuclear charge <em class="emphasis">Z</em> of a species increases? In a multielectron atom and for a given nuclear charge, the <em class="emphasis">Z</em><sub class="subscript">eff</sub> experienced by an electron depends on its value of <em class="emphasis">l</em>. Why?</p>
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch06_s05_s05_qs01_qd01_qa11">
+                    <div class="question">
+                        <p class="para">The electron density of a particular atom is divided into two general regions. Name these two regions and describe what each represents.</p>
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch06_s05_s05_qs01_qd01_qa12">
+                    <div class="question">
+                        <p class="para">As the principal quantum number increases, the energy difference between successive energy levels decreases. Why? What would happen to the electron configurations of the transition metals if this decrease did not occur?</p>
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch06_s05_s05_qs01_qd01_qa13">
+                    <div class="question">
+                        <p class="para">Describe the relationship between electron shielding and <em class="emphasis">Z</em><sub class="subscript">eff</sub> on the outermost electrons of an atom. Predict how chemical reactivity is affected by a decreased effective nuclear charge.</p>
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch06_s05_s05_qs01_qd01_qa14">
+                    <div class="question">
+                        <p class="para">If a given atom or ion has a single electron in each of the following subshells, which electron is easier to remove?</p>
+                        <ol class="orderedlist" numeration="loweralpha">
+                            <li>2<em class="emphasis">s</em>, 3<em class="emphasis">s</em>
+</li>
+                            <li>3<em class="emphasis">p</em>, 4<em class="emphasis">d</em>
+</li>
+                            <li>2<em class="emphasis">p</em>, 1<em class="emphasis">s</em>
+</li>
+                            <li>3<em class="emphasis">d</em>, 4<em class="emphasis">s</em>
+</li>
+                        </ol>
+                    </div>
+                </li>
+            </ol>
+        </div>
+        <div class="qandaset block" id="averill_1.0-ch06_s05_s05_qs02" defaultlabel="number">
+            <h3 class="title">Numerical Problems</h3>
+            <ol class="qandadiv" id="averill_1.0-ch06_s05_s05_qs02_qd01">
+                <li class="qandaentry" id="averill_1.0-ch06_s05_s05_qs02_qd01_qa01">
+                    <div class="question">
+                        <p class="para">How many subshells are possible for <em class="emphasis">n</em> = 3? What are they?</p>
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch06_s05_s05_qs02_qd01_qa02">
+                    <div class="question">
+                        <p class="para">How many subshells are possible for <em class="emphasis">n</em> = 5? What are they?</p>
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch06_s05_s05_qs02_qd01_qa03">
+                    <div class="question">
+                        <p class="para">What value of <em class="emphasis">l</em> corresponds to a <em class="emphasis">d</em> subshell? How many orbitals are in this subshell?</p>
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch06_s05_s05_qs02_qd01_qa04">
+                    <div class="question">
+                        <p class="para">What value of <em class="emphasis">l</em> corresponds to an <em class="emphasis">f</em> subshell? How many orbitals are in this subshell?</p>
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch06_s05_s05_qs02_qd01_qa05">
+                    <div class="question">
+                        <p class="para">State the number of orbitals and electrons that can occupy each subshell.</p>
+                        <ol class="orderedlist" numeration="loweralpha">
+                            <li>2<em class="emphasis">s</em>
+</li>
+                            <li>3<em class="emphasis">p</em>
+</li>
+                            <li>4<em class="emphasis">d</em>
+</li>
+                            <li>6<em class="emphasis">f</em>
+</li>
+                        </ol>
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch06_s05_s05_qs02_qd01_qa06">
+                    <div class="question">
+                        <p class="para">State the number of orbitals and electrons that can occupy each subshell.</p>
+                        <ol class="orderedlist" numeration="loweralpha">
+                            <li>1<em class="emphasis">s</em>
+</li>
+                            <li>4<em class="emphasis">p</em>
+</li>
+                            <li>5<em class="emphasis">d</em>
+</li>
+                            <li>4<em class="emphasis">f</em>
+</li>
+                        </ol>
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch06_s05_s05_qs02_qd01_qa07">
+                    <div class="question">
+                        <p class="para">How many orbitals and subshells are found within the principal shell <em class="emphasis">n</em> = 6? How do these orbital energies compare with those for <em class="emphasis">n</em> = 4?</p>
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch06_s05_s05_qs02_qd01_qa08">
+                    <div class="question">
+                        <p class="para">How many nodes would you expect a 4<em class="emphasis">p</em> orbital to have? A 5<em class="emphasis">s</em> orbital?</p>
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch06_s05_s05_qs02_qd01_qa09">
+                    <div class="question">
+                        <p class="para">A <em class="emphasis">p</em> orbital is found to have one node in addition to the nodal plane that bisects the lobes. What would you predict to be the value of <em class="emphasis">n</em>? If an <em class="emphasis">s</em> orbital has two nodes, what is the value of <em class="emphasis">n</em>?</p>
+                    </div>
+                </li>
+            </ol>
+        </div>
+        <div class="qandaset block" id="averill_1.0-ch06_s05_s05_qs02_ans" defaultlabel="number">
+            <h3 class="title">Answers</h3>
+            <ol class="qandadiv">
+                <li class="qandaentry" id="averill_1.0-ch06_s05_s05_qs02_qd01_qa01_ans">
+                    <div class="answer">
+                        <p class="para">Three subshells, with <em class="emphasis">l</em> = 0 (<em class="emphasis">s</em>), <em class="emphasis">l</em> = 1 (<em class="emphasis">p</em>), and <em class="emphasis">l</em> = 2 (<em class="emphasis">d</em>).</p>
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch06_s05_s05_qs02_qd01_qa02_ans" audience="instructoronly">
+                    <div class="answer" audience="instructoronly" d="" html="http://www.w3.org/1999/xhtml" mml="http://www.w3.org/1998/Math/MathML" xlink="http://www.w3.org/1999/xlink" xml="http://www.w3.org/XML/1998/namespace">
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch06_s05_s05_qs02_qd01_qa03_ans">
+                    <div class="answer">
+                        <p class="para">A <em class="emphasis">d</em> subshell has <em class="emphasis">l</em> = 2 and contains 5 orbitals.</p>
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch06_s05_s05_qs02_qd01_qa04_ans" audience="instructoronly">
+                    <div class="answer" audience="instructoronly" d="" html="http://www.w3.org/1999/xhtml" mml="http://www.w3.org/1998/Math/MathML" xlink="http://www.w3.org/1999/xlink" xml="http://www.w3.org/XML/1998/namespace">
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch06_s05_s05_qs02_qd01_qa05_ans">
+                    <div class="answer">
+                        <p class="para">
+                                    </p>
+<ol class="orderedlist" numeration="loweralpha">                                <li>2 electrons; 1 orbital</li>
+                                <li>6 electrons; 3 orbitals</li>
+                                <li>10 electrons; 5 orbitals</li>
+                                <li>14 electrons; 7 orbitals</li>
+</ol>
+                                
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch06_s05_s05_qs02_qd01_qa06_ans" audience="instructoronly">
+                    <div class="answer" audience="instructoronly" d="" html="http://www.w3.org/1999/xhtml" mml="http://www.w3.org/1998/Math/MathML" xlink="http://www.w3.org/1999/xlink" xml="http://www.w3.org/XML/1998/namespace">
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch06_s05_s05_qs02_qd01_qa07_ans">
+                    <div class="answer">
+                        <p class="para">A principal shell with <em class="emphasis">n</em> = 6 contains six subshells, with <em class="emphasis">l</em> = 0, 1, 2, 3, 4, and 5, respectively. These subshells contain 1, 3, 5, 7, 9, and 11 orbitals, respectively, for a total of 36 orbitals. The energies of the orbitals with <em class="emphasis">n</em> = 6 are higher than those of the corresponding orbitals with the same value of <em class="emphasis">l</em> for <em class="emphasis">n</em> = 4.</p>
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch06_s05_s05_qs02_qd01_qa08_ans" audience="instructoronly">
+                    <div class="answer" audience="instructoronly" d="" html="http://www.w3.org/1999/xhtml" mml="http://www.w3.org/1998/Math/MathML" xlink="http://www.w3.org/1999/xlink" xml="http://www.w3.org/XML/1998/namespace">
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch06_s05_s05_qs02_qd01_qa09_ans" audience="instructoronly">
+                    <div class="answer" audience="instructoronly" d="" html="http://www.w3.org/1999/xhtml" mml="http://www.w3.org/1998/Math/MathML" xlink="http://www.w3.org/1999/xlink" xml="http://www.w3.org/XML/1998/namespace">
+                    </div>
+                </li>
+            </ol>
+        </div>
+    </div>
+</div>
+
+  </div>
+  
+  <div id=navbar-bottom class="navbar">
+    <div class="navbar-part left">
+      
+        <a href="s10-04-the-relationship-between-energ.html"><img src="shared/images/batch-left.png"></a> <a href="s10-04-the-relationship-between-energ.html">Previous Section</a>
+      
+    </div>
+    <div class="navbar-part middle">
+      <a href="index.html"><img src="shared/images/batch-up.png"></a> <a href="index.html">Table of Contents</a>
+    </div>
+    <div class="navbar-part right">
+      
+        <a href="s10-06-building-up-the-periodic-table.html">Next Section</a> <a href="s10-06-building-up-the-periodic-table.html"><img src="shared/images/batch-right.png"></a>
+      
+    </div>
+  </div>
+
+  </div>
+  <script type="text/javascript" src="shared/book.js"></script>
+  
+  <script type="text/javascript" src="https://c328740.ssl.cf1.rackcdn.com/mathjax/latest/MathJax.js?config=MML_HTMLorMML"></script>
+  
+  
+</body>
+</html>

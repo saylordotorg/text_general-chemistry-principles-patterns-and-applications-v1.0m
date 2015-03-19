@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link href="shared/bookhub.css" rel="stylesheet" type="text/css">
+  <title>The Second Law of Thermodynamics</title>
+</head>
+<body>
+
+  
+  <div id=navbar-top class="navbar">
+    <div class="navbar-part left">
+      
+        <a href="s22-02-the-first-law-of-thermodynamic.html"><img src="shared/images/batch-left.png"></a> <a href="s22-02-the-first-law-of-thermodynamic.html">Previous Section</a>
+      
+    </div>
+    <div class="navbar-part middle">
+      <a href="index.html"><img src="shared/images/batch-up.png"></a> <a href="index.html">Table of Contents</a>
+    </div>
+    <div class="navbar-part right">
+      
+        <a href="s22-04-entropy-changes-and-the-third-.html">Next Section</a> <a href="s22-04-entropy-changes-and-the-third-.html"><img src="shared/images/batch-right.png"></a>
+      
+    </div>
+  </div>
+
+  <div id="book-content">
+    <div class="section" id="averill_1.0-ch18_s03" condition="start-of-chunk" version="5.0" lang="en">
+    <h2 class="title editable block">
+<span class="title-prefix">18.3</span> The Second Law of Thermodynamics</h2>
+    <div class="learning_objectives editable block" id="averill_1.0-ch18_s03_n01">
+        <h3 class="title">Learning Objective</h3>
+        <ol class="orderedlist" id="averill_1.0-ch18_s03_l01">
+            <li>To understand the relationship between internal energy and entropy.</li>
+        </ol>
+    </div>
+    <p class="para editable block" id="averill_1.0-ch18_s03_p01">The first law of thermodynamics governs changes in the state function we have called internal energy (<em class="emphasis">E</em>). According to <a class="xref" href="averill_1.0-ch18_s02#averill_1.0-ch18_s02">Section 18.2 "The First Law of Thermodynamics"</a>, changes in the internal energy (Δ<em class="emphasis">E</em>) are closely related to changes in the enthalpy (Δ<em class="emphasis">H</em>), which is a measure of the heat flow between a system and its surroundings at constant pressure. You also learned in <a class="xref" href="averill_1.0-ch05#averill_1.0-ch05">Chapter 5 "Energy Changes in Chemical Reactions"</a> that the enthalpy change for a chemical reaction can be calculated using tabulated values of enthalpies of formation. This information, however, does not tell us whether a particular process or reaction will occur spontaneously.</p>
+    <p class="para editable block" id="averill_1.0-ch18_s03_p02">Let’s consider a familiar example of spontaneous change. If a hot frying pan that has just been removed from the stove is allowed to come into contact with a cooler object, such as cold water in a sink, heat will flow from the hotter object to the cooler one, in this case usually releasing steam. Eventually both objects will reach the same temperature, at a value between the initial temperatures of the two objects. This transfer of heat from a hot object to a cooler one obeys the first law of thermodynamics: energy is conserved.</p>
+    <p class="para editable block" id="averill_1.0-ch18_s03_p03">Now consider the same process in reverse. Suppose that a hot frying pan in a sink of cold water were to become hotter while the water became cooler. As long as the same amount of thermal energy was gained by the frying pan and lost by the water, the first law of thermodynamics would be satisfied. Yet we all know that such a process cannot occur: heat always flows from a hot object to a cold one, never in the reverse direction. That is, <em class="emphasis">by itself</em> the magnitude of the heat flow associated with a process does not predict whether the process will occur spontaneously.</p>
+    <p class="para editable block" id="averill_1.0-ch18_s03_p04">For many years, chemists and physicists tried to identify a single measurable quantity that would enable them to predict whether a particular process or reaction would occur spontaneously. Initially, many of them focused on enthalpy changes and hypothesized that an exothermic process would always be spontaneous. But although it is true that many, if not most, spontaneous processes are exothermic, there are also many spontaneous processes that are <em class="emphasis">not</em> exothermic. For example, at a pressure of 1 atm, ice melts spontaneously at temperatures greater than 0°C, yet this is an endothermic process because heat is absorbed. Similarly, many salts (such as NH<sub class="subscript">4</sub>NO<sub class="subscript">3</sub>, NaCl, and KBr) dissolve spontaneously in water even though they absorb heat from the surroundings as they dissolve (i.e., Δ<em class="emphasis">H</em><sub class="subscript">soln</sub> &gt; 0). Reactions can also be both spontaneous and highly endothermic, like the reaction of barium hydroxide with ammonium thiocyanate shown in <a class="xref" href="#averill_1.0-ch18_s03_f01">Figure 18.6 "An Endothermic Reaction"</a>.</p>
+    <div class="figure large medium-height editable block" id="averill_1.0-ch18_s03_f01">
+        <p class="title"><span class="title-prefix">Figure 18.6</span> An Endothermic Reaction</p>
+        <img src="section_22/e114d8b906636e9d35e46b12b2d9118b.jpg">
+        <p class="para">The reaction of barium hydroxide with ammonium thiocyanate is spontaneous but highly endothermic, so water, one product of the reaction, quickly freezes into slush. When water is placed on a block of wood under the flask, the highly endothermic reaction that takes place in the flask freezes water that has been placed under the beaker, so the flask becomes frozen to the wood.</p>
+    </div>
+    <p class="para editable block" id="averill_1.0-ch18_s03_p05">Thus enthalpy is not the only factor that determines whether a process is spontaneous. For example, after a cube of sugar has dissolved in a glass of water so that the sucrose molecules are uniformly dispersed in a dilute solution, they never spontaneously come back together in solution to form a sugar cube. Moreover, the molecules of a gas remain evenly distributed throughout the entire volume of a glass bulb and never spontaneously assemble in only one portion of the available volume. To help explain why these phenomena proceed spontaneously in only one direction requires an additional state function called <span class="margin_term"><a class="glossterm">entropy (<em class="emphasis">S</em>)</a><span class="glossdef">The degree of disorder in a thermodynamic system, which is directly proportional to the possible number of microstates.</span></span>, a thermodynamic property of all substances that is proportional to their degree of disorder. In <a class="xref" href="averill_1.0-ch13#averill_1.0-ch13">Chapter 13 "Solutions"</a>, we introduced the concept of entropy in relation to solution formation. Here we further explore the nature of this state function and define it mathematically.</p>
+    <div class="section" id="averill_1.0-ch18_s03_s01">
+        <h2 class="title editable block">Entropy</h2>
+        <p class="para editable block" id="averill_1.0-ch18_s03_s01_p01">Chemical and physical changes in a system may be accompanied by either an increase or a decrease in the disorder of the system, corresponding to an increase in entropy (Δ<em class="emphasis">S</em> &gt; 0) or a decrease in entropy (Δ<em class="emphasis">S</em> &lt; 0), respectively. As with any other state function, the change in entropy is defined as the difference between the entropies of the final and initial states: Δ<em class="emphasis">S</em> = <em class="emphasis">S</em><sub class="subscript">f</sub> − <em class="emphasis">S</em><sub class="subscript">i</sub>.</p>
+        <p class="para editable block" id="averill_1.0-ch18_s03_s01_p02">When a gas expands into a vacuum, its entropy increases because the increased volume allows for greater atomic or molecular disorder. The greater the number of atoms or molecules in the gas, the greater the disorder. The magnitude of the entropy of a system depends on the number of microscopic states, or <em class="emphasis">microstates</em>, associated with it (in this case, the number of atoms or molecules); that is, the greater the number of microstates, the greater the entropy.</p>
+        <p class="para editable block" id="averill_1.0-ch18_s03_s01_p03">We can illustrate the concepts of microstates and entropy using a deck of playing cards, as shown in <a class="xref" href="#averill_1.0-ch18_s03_s01_f01">Figure 18.7 "Illustrating Low- and High-Entropy States with a Deck of Playing Cards"</a>. In any new deck, the 52 cards are arranged by four suits, with each suit arranged in descending order. If the cards are shuffled, however, there are approximately 10<sup class="superscript">68</sup> different ways they might be arranged, which corresponds to 10<sup class="superscript">68</sup> different microscopic states. The entropy of an ordered new deck of cards is therefore low, whereas the entropy of a randomly shuffled deck is high. Card games assign a higher value to a hand that has a low degree of disorder. In games such as five-card poker, only 4 of the 2,598,960 different possible hands, or microstates, contain the highly ordered and valued arrangement of cards called a royal flush, almost 1.1 million hands contain one pair, and more than 1.3 million hands are completely disordered and therefore have no value. Because the last two arrangements are far more probable than the first, the value of a poker hand is inversely proportional to its entropy.</p>
+        <div class="figure full editable block" id="averill_1.0-ch18_s03_s01_f01">
+            <p class="title"><span class="title-prefix">Figure 18.7</span> Illustrating Low- and High-Entropy States with a Deck of Playing Cards</p>
+            <img src="section_22/ca50eebb29059147760ce6b89af6fe50.jpg">
+            <p class="para">An new, unshuffled deck (top) has only a single arrangement, so there is only one microstate. In contrast, a randomly shuffled deck (bottom) can have any one of approximately 10<sup class="superscript">68</sup> different arrangements, which correspond to 10<sup class="superscript">68</sup> different microstates.</p>
+        </div>
+        <p class="para editable block" id="averill_1.0-ch18_s03_s01_p04">We can see how to calculate these kinds of probabilities for a chemical system by considering the possible arrangements of a sample of four gas molecules in a two-bulb container (<a class="xref" href="#averill_1.0-ch18_s03_s01_f02">Figure 18.8 "The Possible Microstates for a Sample of Four Gas Molecules in Two Bulbs of Equal Volume"</a>). There are five possible arrangements: all four molecules in the left bulb (I); three molecules in the left bulb and one in the right bulb (II); two molecules in each bulb (III); one molecule in the left bulb and three molecules in the right bulb (IV); and four molecules in the right bulb (V). If we assign a different color to each molecule to keep track of it for this discussion (remember, however, that in reality the molecules are indistinguishable from one another), we can see that there are 16 different ways the four molecules can be distributed in the bulbs, each corresponding to a particular microstate. As shown in <a class="xref" href="#averill_1.0-ch18_s03_s01_f02">Figure 18.8 "The Possible Microstates for a Sample of Four Gas Molecules in Two Bulbs of Equal Volume"</a>, arrangement I is associated with a single microstate, as is arrangement V, so each arrangement has a probability of 1/16. Arrangements II and IV each have a probability of 4/16 because each can exist in four microstates. Similarly, six different microstates can occur as arrangement III, making the probability of this arrangement 6/16. Thus the arrangement that we would expect to encounter, with half the gas molecules in each bulb, is the <em class="emphasis">most probable</em> arrangement. The others are not impossible but simply less likely.</p>
+        <div class="figure large editable block" id="averill_1.0-ch18_s03_s01_f02">
+            <p class="title"><span class="title-prefix">Figure 18.8</span> The Possible Microstates for a Sample of Four Gas Molecules in Two Bulbs of Equal Volume</p>
+            <img src="section_22/16332a96c8e876b99cc7e54f47db2867.jpg">
+            <p class="para">There are 16 different ways to distribute four gas molecules between the bulbs, with each distribution corresponding to a particular microstate. Arrangements I and V each produce a single microstate with a probability of 1/16. This particular arrangement is so improbable that it is likely not observed. Arrangements II and IV each produce four microstates, with a probability of 4/16. Arrangement III, with half the gas molecules in each bulb, has a probability of 6/16. It is the one encompassing the most microstates, so it is the most probable.</p>
+        </div>
+        <p class="para block" id="averill_1.0-ch18_s03_s01_p05">Instead of four molecules of gas, let’s now consider 1 L of an ideal gas at standard temperature and pressure (STP), which contains 2.69 × 10<sup class="superscript">22</sup> molecules (6.022 × 10<sup class="superscript">23</sup> molecules/22.4 L). If we allow the sample of gas to expand into a second 1 L container, the probability of finding all 2.69 × 10<sup class="superscript">22</sup> molecules in one container and none in the other at any given time is extremely small, approximately <span class="inlineequation"><math xml:id="averill_1.0-18_m020" display="inline"><semantics><mrow><mfrac><mn>2</mn><mrow><mn>2.69</mn><mo>×</mo><msup><mrow><mn>10</mn></mrow><mrow><mn>22</mn></mrow></msup></mrow></mfrac><mtext>.</mtext></mrow></semantics></math></span> The probability of such an occurrence is effectively zero. Although nothing prevents the molecules in the gas sample from occupying only one of the two bulbs, that particular arrangement is so improbable that it is never actually observed. The probability of arrangements with essentially equal numbers of molecules in each bulb is quite high, however, because there are <em class="emphasis">many</em> equivalent microstates in which the molecules are distributed equally. Hence a macroscopic sample of a gas occupies all of the space available to it, simply because this is the most probable arrangement.</p>
+        <p class="para editable block" id="averill_1.0-ch18_s03_s01_p06">A disordered system has a greater number of possible microstates than does an ordered system, so it has a higher entropy. This is most clearly seen in the entropy changes that accompany phase transitions, such as solid to liquid or liquid to gas. As you know from <a class="xref" href="averill_1.0-ch11#averill_1.0-ch11">Chapter 11 "Liquids"</a>, <a class="xref" href="averill_1.0-ch12#averill_1.0-ch12">Chapter 12 "Solids"</a>, and <a class="xref" href="averill_1.0-ch13#averill_1.0-ch13">Chapter 13 "Solutions"</a>, a crystalline solid is composed of an ordered array of molecules, ions, or atoms that occupy fixed positions in a lattice, whereas the molecules in a liquid are free to move and tumble within the volume of the liquid; molecules in a gas have even more freedom to move than those in a liquid. Each degree of motion increases the number of available microstates, resulting in a higher entropy. Thus the entropy of a system must increase during melting (Δ<em class="emphasis">S</em><sub class="subscript">fus</sub> &gt; 0). Similarly, when a liquid is converted to a vapor, the greater freedom of motion of the molecules in the gas phase means that Δ<em class="emphasis">S</em><sub class="subscript">vap</sub> &gt; 0. Conversely, the reverse processes (condensing a vapor to form a liquid or freezing a liquid to form a solid) must be accompanied by a decrease in the entropy of the system: Δ<em class="emphasis">S</em> &lt; 0.</p>
+        <div class="callout editable block" id="averill_1.0-ch18_s03_s01_n01">
+            <h3 class="title">Note the Pattern</h3>
+            <p class="para" id="averill_1.0-ch18_s03_s01_p07">Entropy (<em class="emphasis">S</em>) is a thermodynamic property of all substances that is proportional to their degree of disorder. The greater the number of possible microstates for a system, the greater the disorder and the higher the entropy.</p>
+        </div>
+        <p class="para editable block" id="averill_1.0-ch18_s03_s01_p08">Experiments show that the magnitude of Δ<em class="emphasis">S</em><sub class="subscript">vap</sub> is 80–90 J/(mol·K) for a wide variety of liquids with different boiling points. However, liquids that have highly ordered structures due to hydrogen bonding or other intermolecular interactions tend to have significantly higher values of Δ<em class="emphasis">S</em><sub class="subscript">vap</sub>. For instance, Δ<em class="emphasis">S</em><sub class="subscript">vap</sub> for water is 102 J/(mol·K). Another process that is accompanied by entropy changes is the formation of a solution. As illustrated in <a class="xref" href="#averill_1.0-ch18_s03_s01_f03">Figure 18.9 "The Effect of Solution Formation on Entropy"</a>, the formation of a liquid solution from a crystalline solid (the solute) and a liquid solvent is expected to result in an increase in the number of available microstates of the system and hence its entropy. Indeed, dissolving a substance such as NaCl in water disrupts both the ordered crystal lattice of NaCl and the ordered hydrogen-bonded structure of water, leading to an increase in the entropy of the system. At the same time, however, each dissolved Na<sup class="superscript">+</sup> ion becomes hydrated by an ordered arrangement of at least six water molecules, and the Cl<sup class="superscript">−</sup> ions also cause the water to adopt a particular local structure. Both of these effects <em class="emphasis">increase</em> the order of the system, leading to a <em class="emphasis">decrease</em> in entropy. The overall entropy change for the formation of a solution therefore depends on the relative magnitudes of these opposing factors. In the case of an NaCl solution, disruption of the crystalline NaCl structure and the hydrogen-bonded interactions in water is quantitatively more important, so Δ<em class="emphasis">S</em><sub class="subscript">soln</sub> &gt; 0.</p>
+        <div class="figure large medium-height editable block" id="averill_1.0-ch18_s03_s01_f03">
+            <p class="title"><span class="title-prefix">Figure 18.9</span> The Effect of Solution Formation on Entropy</p>
+            <img src="section_22/b8c52b3c38b3bc645d4a6e8649a04f21.jpg">
+            <p class="para">Dissolving NaCl in water results in an increase in the entropy of the system. Each hydrated ion, however, forms an ordered arrangement with water molecules, which decreases the entropy of the system. The magnitude of the increase is greater than the magnitude of the decrease, so the overall entropy change for the formation of an NaCl solution is positive.</p>
+        </div>
+        <div class="exercises editable block" id="averill_1.0-ch18_s03_s01_n02">
+            <h3 class="title">Example 5</h3>
+            <p class="para" id="averill_1.0-ch18_s03_s01_p09">Predict which substance in each pair has the higher entropy and justify your answer.</p>
+            <ol class="orderedlist" id="averill_1.0-ch18_s03_s01_l01" numeration="loweralpha">
+                <li>1 mol of NH<sub class="subscript">3</sub>(g) or 1 mol of He(g), both at 25°C</li>
+                <li>1 mol of Pb(s) at 25°C or 1 mol of Pb(l) at 800°C</li>
+            </ol>
+            <p class="para" id="averill_1.0-ch18_s03_s01_p10"><strong class="emphasis bold">Given: </strong>amounts of substances and temperature</p>
+            <p class="para" id="averill_1.0-ch18_s03_s01_p11"><strong class="emphasis bold">Asked for: </strong>higher entropy</p>
+            <p class="para" id="averill_1.0-ch18_s03_s01_p12">
+                        <strong class="emphasis bold">Strategy:</strong>
+                    </p>
+            <p class="para" id="averill_1.0-ch18_s03_s01_p13">From the number of atoms present and the phase of each substance, predict which has the greater number of available microstates and hence the higher entropy.</p>
+            <p class="para" id="averill_1.0-ch18_s03_s01_p14">
+                        <strong class="emphasis bold">Solution:</strong>
+                    </p>
+            <ol class="orderedlist" id="averill_1.0-ch18_s03_s01_l02" numeration="loweralpha">
+                <li>Both substances are gases at 25°C, but one consists of He atoms and the other consists of NH<sub class="subscript">3</sub> molecules. With four atoms instead of one, the NH<sub class="subscript">3</sub> molecules have more motions available, leading to a greater number of microstates. Hence we predict that the NH<sub class="subscript">3</sub> sample will have the higher entropy.</li>
+                <li>The nature of the atomic species is the same in both cases, but the phase is different: one sample is a solid, and one is a liquid. Based on the greater freedom of motion available to atoms in a liquid, we predict that the liquid sample will have the higher entropy.</li>
+            </ol>
+            <p class="simpara">Exercise</p>
+            <p class="para" id="averill_1.0-ch18_s03_s01_p15">Predict which substance in each pair has the higher entropy and justify your answer.</p>
+            <ol class="orderedlist" id="averill_1.0-ch18_s03_s01_l03" numeration="loweralpha">
+                <li>1 mol of He(g) at 10 K and 1 atm pressure or 1 mol of He(g) at 250°C and 0.2 atm</li>
+                <li>a mixture of 3 mol of H<sub class="subscript">2</sub>(g) and 1 mol of N<sub class="subscript">2</sub>(g) at 25°C and 1 atm or a sample of 2 mol of NH<sub class="subscript">3</sub>(g) at 25°C and 1 atm</li>
+            </ol>
+            <p class="para" id="averill_1.0-ch18_s03_s01_p16">
+                        <strong class="emphasis bold">Answer:</strong>
+                    </p>
+            <ol class="orderedlist" id="averill_1.0-ch18_s03_s01_l04" numeration="loweralpha">
+                <li>1 mol of He(g) at 250°C and 0.2 atm (higher temperature and lower pressure indicate greater volume and more microstates)</li>
+                <li>a mixture of 3 mol of H<sub class="subscript">2</sub>(g) and 1 mol of N<sub class="subscript">2</sub>(g) at 25°C and 1 atm (more molecules of gas are present)</li>
+            </ol>
+        </div>
+    </div>
+    <div class="section" id="averill_1.0-ch18_s03_s02">
+        <h2 class="title editable block">Reversible and Irreversible Changes</h2>
+        <p class="para editable block" id="averill_1.0-ch18_s03_s02_p01">Changes in entropy (Δ<em class="emphasis">S</em>), together with changes in enthalpy (Δ<em class="emphasis">H</em>), enable us to predict in which direction a chemical or physical change will occur spontaneously. Before discussing how to do so, however, we must understand the difference between a reversible process and an irreversible one. In a <span class="margin_term"><a class="glossterm">reversible process</a><span class="glossdef">A process in which every intermediate state between the extremes is an equilibrium state, regardless of the direction of the change.</span></span>, every intermediate state between the extremes is an equilibrium state, regardless of the direction of the change. In contrast, an <span class="margin_term"><a class="glossterm">irreversible process</a><span class="glossdef">A process in which the intermediate states between the extremes are not equilibrium states, so change occurs spontaneously in only one direction.</span></span> is one in which the intermediate states are not equilibrium states, so change occurs spontaneously in only one direction. As a result, <em class="emphasis">a reversible process can change direction at any time, whereas an irreversible process cannot</em>. When a gas expands reversibly against an external pressure such as a piston, for example, the expansion can be reversed at any time by reversing the motion of the piston; once the gas is compressed, it can be allowed to expand again, and the process can continue indefinitely. In contrast, the expansion of a gas into a vacuum (<em class="emphasis">P</em><sub class="subscript">ext</sub> = 0) is irreversible because the external pressure is measurably less than the internal pressure of the gas. No equilibrium states exist, and the gas expands irreversibly. When gas escapes from a microscopic hole in a balloon into a vacuum, for example, the process is irreversible; the direction of airflow cannot change.</p>
+        <p class="para editable block" id="averill_1.0-ch18_s03_s02_p02">Because work done during the expansion of a gas depends on the opposing external pressure (<em class="emphasis">w</em> = <em class="emphasis">P</em><sub class="subscript">ext</sub>Δ<em class="emphasis">V</em>), <em class="emphasis">work done in a reversible process is always equal to or greater than work done in a corresponding irreversible process</em>: <em class="emphasis">w</em><sub class="subscript">rev</sub> ≥ <em class="emphasis">w</em><sub class="subscript">irrev</sub>. Whether a process is reversible or irreversible, Δ<em class="emphasis">E</em> = <em class="emphasis">q</em> + <em class="emphasis">w</em>. Because <em class="emphasis">E</em> is a state function, the magnitude of Δ<em class="emphasis">E</em> does <em class="emphasis">not</em> depend on reversibility and is independent of the path taken. So</p>
+        <div class="equation block" id="averill_1.0-ch18_s03_s02_eq01">
+
+                    <p class="title editable"><span class="title-prefix">Equation 18.14</span> </p>
+                    <span class="mathphrase">Δ<em class="emphasis">E</em> = <em class="emphasis">q</em><sub class="subscript">rev</sub> + <em class="emphasis">w</em><sub class="subscript">rev</sub> = <em class="emphasis">q</em><sub class="subscript">irrev</sub> + <em class="emphasis">w</em><sub class="subscript">irrev</sub></span>
+                </div>
+        <div class="callout editable block" id="averill_1.0-ch18_s03_s02_n01">
+            <h3 class="title">Note the Pattern</h3>
+            <p class="para" id="averill_1.0-ch18_s03_s02_p03">Work done in a reversible process is always equal to or greater than work done in a corresponding irreversible process: <em class="emphasis">w</em><sub class="subscript">rev</sub> ≥ <em class="emphasis">w</em><sub class="subscript">irrev</sub>.</p>
+        </div>
+        <p class="para editable block" id="averill_1.0-ch18_s03_s02_p04">In other words, Δ<em class="emphasis">E</em> for a process is the same whether that process is carried out in a reversible manner or an irreversible one. We now return to our earlier definition of entropy, using the magnitude of the heat flow for a reversible process (<em class="emphasis">q</em><sub class="subscript">rev</sub>) to define entropy quantitatively.</p>
+    </div>
+    <div class="section" id="averill_1.0-ch18_s03_s03">
+        <h2 class="title editable block">The Relationship between Internal Energy and Entropy</h2>
+        <p class="para editable block" id="averill_1.0-ch18_s03_s03_p01">Because the quantity of heat transferred (<em class="emphasis">q</em><sub class="subscript">rev</sub>) is directly proportional to the absolute temperature of an object (<em class="emphasis">T</em>) (<em class="emphasis">q</em><sub class="subscript">rev</sub> ∝ <em class="emphasis">T</em>), the hotter the object, the greater the amount of heat transferred. Moreover, adding heat to a system increases the kinetic energy of the component atoms and molecules and hence their disorder (Δ<em class="emphasis">S</em> ∝ <em class="emphasis">q</em><sub class="subscript">rev</sub>). Combining these relationships for any reversible process,</p>
+        <div class="equation block" id="averill_1.0-ch18_s03_s03_eq01">
+
+                    <p class="title editable"><span class="title-prefix">Equation 18.15</span> </p>
+
+                    <math xml:id="averill_1.0-18_m021" display="block">
+                        <semantics>
+                            <mrow>
+                                <mtable>
+                                    <mtr>
+                                        <mtd columnalign="right">
+                                            <mrow>
+                                                <msub>
+                                                    <mi>q</mi>
+                                                    <mrow>
+                                                        <mtext>rev</mtext>
+                                                    </mrow>
+                                                </msub>
+                                                <mo>=</mo>
+                                                <mi>T</mi>
+                                                <mi>Δ</mi>
+                                                <mi>S</mi>
+                                            </mrow>
+                                        </mtd>
+                                        <mtd>
+                                            <mrow>
+                                                <mtext>and</mtext>
+                                            </mrow>
+                                        </mtd>
+                                        <mtd>
+                                            <mrow>
+                                                <mi>Δ</mi>
+                                                <mi>S</mi>
+                                                <mo>=</mo>
+                                                <mfrac>
+                                                    <mrow>
+                                                        <msub>
+                                                            <mi>q</mi>
+                                                            <mrow>
+                                                            <mtext>rev</mtext>
+                                                            </mrow>
+                                                        </msub>
+                                                    </mrow>
+                                                    <mi>T</mi>
+                                                </mfrac>
+                                            </mrow>
+                                        </mtd>
+                                    </mtr>
+                                </mtable>
+                            </mrow>
+                        </semantics>
+                    </math>
+</div>
+        <p class="para editable block" id="averill_1.0-ch18_s03_s03_p02">Because the numerator (<em class="emphasis">q</em><sub class="subscript">rev</sub>) is expressed in units of energy (joules), the units of Δ<em class="emphasis">S</em> are joules/kelvin (J/K). Recognizing that the work done in a reversible process at constant pressure is <em class="emphasis">w</em><sub class="subscript">rev</sub> = −<em class="emphasis">P</em>Δ<em class="emphasis">V</em>, we can express <a class="xref" href="#averill_1.0-ch18_s03_s02_eq01" xrefstyle="select:label">Equation 18.14</a> as follows:</p>
+        <div class="equation block" id="averill_1.0-ch18_s03_s03_eq02">
+
+                    <p class="title editable"><span class="title-prefix">Equation 18.16</span> </p>
+                    <span class="mathphrase">Δ<em class="emphasis">E</em> = <em class="emphasis">q</em><sub class="subscript">rev</sub> + <em class="emphasis">w</em><sub class="subscript">rev</sub> = <em class="emphasis">T</em>Δ<em class="emphasis">S</em> − <em class="emphasis">P</em>Δ<em class="emphasis">V</em></span>
+                </div>
+        <p class="para editable block" id="averill_1.0-ch18_s03_s03_p03">Thus the change in the internal energy of the system is related to the change in entropy, the absolute temperature, and the <em class="emphasis">PV</em> work done.</p>
+        <p class="para editable block" id="averill_1.0-ch18_s03_s03_p04">To illustrate the use of <a class="xref" href="#averill_1.0-ch18_s03_s03_eq01" xrefstyle="select:label">Equation 18.15</a> and <a class="xref" href="#averill_1.0-ch18_s03_s03_eq02" xrefstyle="select:label">Equation 18.16</a>, we consider two reversible processes before turning to an irreversible process. When a sample of an ideal gas is allowed to expand reversibly at constant temperature, heat must be added to the gas during expansion to keep its <em class="emphasis">T</em> constant (<a class="xref" href="#averill_1.0-ch18_s03_s03_f01">Figure 18.10 "Expansion of Gas at Constant Temperature"</a>). The internal energy of the gas does not change because the temperature of the gas does not change; that is, Δ<em class="emphasis">E</em> = 0 and <em class="emphasis">q</em><sub class="subscript">rev</sub> = −<em class="emphasis">w</em><sub class="subscript">rev</sub>. During expansion, Δ<em class="emphasis">V</em> &gt; 0, so the gas performs work on its surroundings: <em class="emphasis">w</em><sub class="subscript">rev</sub> = −<em class="emphasis">P</em>Δ<em class="emphasis">V</em> &lt; 0. According to <a class="xref" href="#averill_1.0-ch18_s03_s03_eq02" xrefstyle="select:label">Equation 18.16</a>, this means that <em class="emphasis">q</em><sub class="subscript">rev</sub> must increase during expansion; that is, the gas must absorb heat from the surroundings during expansion, and the surroundings must give up that same amount of heat. The entropy change of the system is therefore Δ<em class="emphasis">S</em><sub class="subscript">sys</sub> = +<em class="emphasis">q</em><sub class="subscript">rev</sub>/<em class="emphasis">T</em>, and the entropy change of the surroundings is Δ<em class="emphasis">S</em><sub class="subscript">surr</sub> = −<em class="emphasis">q</em><sub class="subscript">rev</sub>/<em class="emphasis">T</em>. The corresponding change in entropy of the universe is then as follows:</p>
+        <div class="equation block" id="averill_1.0-ch18_s03_s03_eq03">
+
+                    <p class="title editable"><span class="title-prefix">Equation 18.17</span> </p>
+
+                    <math xml:id="averill_1.0-18_m022" display="block">
+                        <semantics>
+                            <mrow>
+                                <mi>Δ</mi>
+                                <msub>
+                                    <mi>S</mi>
+                                    <mrow>
+                                        <mtext>univ</mtext>
+                                    </mrow>
+                                </msub>
+                                <mo>=</mo>
+                                <mi>Δ</mi>
+                                <msub>
+                                    <mi>S</mi>
+                                    <mrow>
+                                        <mtext>sys</mtext>
+                                    </mrow>
+                                </msub>
+                                <mo>+</mo>
+                                <mi>Δ</mi>
+                                <msub>
+                                    <mi>S</mi>
+                                    <mrow>
+                                        <mtext>surr</mtext>
+                                    </mrow>
+                                </msub>
+                                <mo>=</mo>
+                                <mfrac>
+                                    <mrow>
+                                        <msub>
+                                            <mi>q</mi>
+                                            <mrow>
+                                                <mtext>rev</mtext>
+                                            </mrow>
+                                        </msub>
+                                    </mrow>
+                                    <mi>T</mi>
+                                </mfrac>
+                                <mo>+</mo>
+                                <mrow>
+                                    <mo>(</mo>
+                                    <mrow>
+                                        <mo>−</mo>
+                                        <mfrac>
+                                            <mrow>
+                                                <msub>
+                                                    <mi>q</mi>
+                                                    <mrow>
+                                                        <mtext>rev</mtext>
+                                                    </mrow>
+                                                </msub>
+                                            </mrow>
+                                            <mi>T</mi>
+                                        </mfrac>
+                                    </mrow>
+                                    <mo>)</mo>
+                                </mrow>
+                                <mo>=</mo>
+                                <mn>0</mn>
+                            </mrow>
+                        </semantics>
+                    </math>
+</div>
+        <p class="para editable block" id="averill_1.0-ch18_s03_s03_p05">Thus no change in Δ<em class="emphasis">S</em><sub class="subscript">univ</sub> has occurred.</p>
+        <div class="figure large medium-height editable block" id="averill_1.0-ch18_s03_s03_f01">
+            <p class="title"><span class="title-prefix">Figure 18.10</span> Expansion of Gas at Constant Temperature</p>
+            <img src="section_22/1e65b4a8cafffa18456c357e1ca95974.jpg">
+            <p class="para">In the initial state (top), the temperatures of a gas and the surroundings are the same. During the reversible expansion of the gas, heat must be added to the gas to maintain a constant temperature. Thus the internal energy of the gas does not change, but work is performed on the surroundings. In the final state (bottom), the temperature of the surroundings is lower because the gas has absorbed heat from the surroundings during expansion.</p>
+        </div>
+        <p class="para editable block" id="averill_1.0-ch18_s03_s03_p06">Now consider the reversible melting of a sample of ice at 0°C and 1 atm. The enthalpy of fusion of ice is 6.01 kJ/mol, which means that 6.01 kJ of heat are absorbed reversibly from the surroundings when 1 mol of ice melts at 0°C, as illustrated in <a class="xref" href="#averill_1.0-ch18_s03_s03_f02">Figure 18.11 "Thermograms Showing That Heat Is Absorbed from the Surroundings When Ice Melts at 0°C"</a>. The surroundings constitute a sample of low-density carbon foam that is thermally conductive, and the system is the ice cube that has been placed on it. The direction of heat flow along the resulting temperature gradient is indicated with an arrow. From <a class="xref" href="#averill_1.0-ch18_s03_s03_eq01" xrefstyle="select:label">Equation 18.15</a>, we see that the entropy of fusion of ice can be written as follows:</p>
+        <div class="equation block" id="averill_1.0-ch18_s03_s03_eq04">
+
+                    <p class="title editable"><span class="title-prefix">Equation 18.18</span> </p>
+
+                    <math xml:id="averill_1.0-18_m023" display="block">
+                        <semantics>
+                            <mrow>
+                                <mi>Δ</mi>
+                                <msub>
+                                    <mi>S</mi>
+                                    <mrow>
+                                        <mtext>fus</mtext>
+                                    </mrow>
+                                </msub>
+                                <mo>=</mo>
+                                <mfrac>
+                                    <mrow>
+                                        <msub>
+                                            <mi>q</mi>
+                                            <mrow>
+                                                <mtext>rev</mtext>
+                                            </mrow>
+                                        </msub>
+                                    </mrow>
+                                    <mi>T</mi>
+                                </mfrac>
+                                <mo>=</mo>
+                                <mfrac>
+                                    <mrow>
+                                        <mi>Δ</mi>
+                                        <msub>
+                                            <mi>H</mi>
+                                            <mrow>
+                                                <mtext>fus</mtext>
+                                            </mrow>
+                                        </msub>
+                                    </mrow>
+                                    <mi>T</mi>
+                                </mfrac>
+                            </mrow>
+                        </semantics>
+                    </math>
+</div>
+        <div class="figure large medium-height editable block" id="averill_1.0-ch18_s03_s03_f02">
+            <p class="title"><span class="title-prefix">Figure 18.11</span> Thermograms Showing That Heat Is Absorbed from the Surroundings When Ice Melts at 0°C</p>
+            <img src="section_22/f23b4ca3c9202a6a98137966a0e9c520.jpg">
+            <p class="para">By convention, a thermogram shows cold regions in blue, warm regions in red, and thermally intermediate regions in green. When an ice cube (the system, dark blue) is placed on the corner of a square sample of low-density carbon foam with very high thermal conductivity, the temperature of the foam is lowered (going from red to green). As the ice melts, a temperature gradient appears, ranging from warm to very cold. An arrow indicates the direction of heat flow from the surroundings (red and green) to the ice cube. The amount of heat lost by the surroundings is the same as the amount gained by the ice, so the entropy of the universe does not change.</p>
+        </div>
+        <p class="para editable block" id="averill_1.0-ch18_s03_s03_p07">In this case, Δ<em class="emphasis">S</em><sub class="subscript">fus</sub> = (6.01 kJ/mol)/(273 K) = 22.0 J/(mol·K) = Δ<em class="emphasis">S</em><sub class="subscript">sys</sub>. The amount of heat lost by the surroundings is the same as the amount gained by the ice, so Δ<em class="emphasis">S</em><sub class="subscript">surr</sub> = <em class="emphasis">q</em><sub class="subscript">rev</sub>/<em class="emphasis">T</em> = −(6.01 kJ/mol)/(273 K) = −22.0 J/(mol·K). Once again, we see that the entropy of the universe does not change:</p>
+        <span class="informalequation block">
+                    <span class="mathphrase">Δ<em class="emphasis">S</em><sub class="subscript">univ</sub> = Δ<em class="emphasis">S</em><sub class="subscript">sys</sub> + Δ<em class="emphasis">S</em><sub class="subscript">surr</sub> = 22.0 J/(mol·K) − 22.0 J/(mol·K) = 0</span>
+                </span>
+        <p class="para editable block" id="averill_1.0-ch18_s03_s03_p08">In these two examples of reversible processes, the entropy of the universe is unchanged. This is true of all reversible processes and constitutes part of the <span class="margin_term"><a class="glossterm">second law of thermodynamics</a><span class="glossdef">The entropy of the universe remains constant in a reversible process, whereas the entropy of the universe increases in an irreversible (spontaneous) process.</span></span>: <em class="emphasis">the entropy of the universe remains constant in a reversible process, whereas the entropy of the universe increases in an irreversible (spontaneous) process</em>.</p>
+        <div class="callout editable block" id="averill_1.0-ch18_s03_s03_n01">
+            <h3 class="title">Note the Pattern</h3>
+            <p class="para" id="averill_1.0-ch18_s03_s03_p09">The entropy of the universe increases during a spontaneous process.</p>
+        </div>
+        <p class="para editable block" id="averill_1.0-ch18_s03_s03_p10">As an example of an irreversible process, consider the entropy changes that accompany the spontaneous and irreversible transfer of heat from a hot object to a cold one, as occurs when lava spewed from a volcano flows into cold ocean water. The cold substance, the water, gains heat (<em class="emphasis">q</em> &gt; 0), so the change in the entropy of the water can be written as Δ<em class="emphasis">S</em><sub class="subscript">cold</sub> = <em class="emphasis">q</em>/<em class="emphasis">T</em><sub class="subscript">cold</sub>. Similarly, the hot substance, the lava, loses heat (<em class="emphasis">q</em> &lt; 0), so its entropy change can be written as Δ<em class="emphasis">S</em><sub class="subscript">hot</sub> = −<em class="emphasis">q</em>/<em class="emphasis">T</em><sub class="subscript">hot</sub>, where <em class="emphasis">T</em><sub class="subscript">cold</sub> and <em class="emphasis">T</em><sub class="subscript">hot</sub> are the temperatures of the cold and hot substances, respectively. The total entropy change of the universe accompanying this process is therefore</p>
+        <div class="equation block" id="averill_1.0-ch18_s03_s03_eq05">
+
+                    <p class="title editable"><span class="title-prefix">Equation 18.19</span> </p>
+
+                    <math xml:id="averill_1.0-18_m024" display="block">
+                        <semantics>
+                            <mrow>
+                                <mi>Δ</mi>
+                                <msub>
+                                    <mi>S</mi>
+                                    <mrow>
+                                        <mtext>univ</mtext>
+                                    </mrow>
+                                </msub>
+                                <mo>=</mo>
+                                <mi>Δ</mi>
+                                <msub>
+                                    <mi>S</mi>
+                                    <mrow>
+                                        <mtext>cold</mtext>
+                                    </mrow>
+                                </msub>
+                                <mo>+</mo>
+                                <mi>Δ</mi>
+                                <msub>
+                                    <mi>S</mi>
+                                    <mrow>
+                                        <mtext>hot</mtext>
+                                    </mrow>
+                                </msub>
+                                <mo>=</mo>
+                                <mfrac>
+                                    <mi>q</mi>
+                                    <mrow>
+                                        <msub>
+                                            <mi>T</mi>
+                                            <mrow>
+                                                <mtext>cold</mtext>
+                                            </mrow>
+                                        </msub>
+                                    </mrow>
+                                </mfrac>
+                                <mo>+</mo>
+                                <mrow>
+                                    <mo>(</mo>
+                                    <mrow>
+                                        <mo>−</mo>
+                                        <mfrac>
+                                            <mi>q</mi>
+                                            <mrow>
+                                                <msub>
+                                                    <mi>T</mi>
+                                                    <mrow>
+                                                        <mtext>hot</mtext>
+                                                    </mrow>
+                                                </msub>
+                                            </mrow>
+                                        </mfrac>
+                                    </mrow>
+                                    <mo>)</mo>
+                                </mrow>
+                            </mrow>
+                        </semantics>
+                    </math>
+</div>
+        <p class="para editable block" id="averill_1.0-ch18_s03_s03_p11">The numerators on the right side of <a class="xref" href="#averill_1.0-ch18_s03_s03_eq05" xrefstyle="select:label">Equation 18.19</a> are the same in magnitude but opposite in sign. Whether Δ<em class="emphasis">S</em><sub class="subscript">univ</sub> is positive or negative depends on the relative magnitudes of the denominators. By definition, <em class="emphasis">T</em><sub class="subscript">hot</sub> &gt; <em class="emphasis">T</em><sub class="subscript">cold</sub>, so −<em class="emphasis">q</em>/<em class="emphasis">T</em><sub class="subscript">hot</sub> must be less than <em class="emphasis">q</em>/<em class="emphasis">T</em><sub class="subscript">cold</sub>, and Δ<em class="emphasis">S</em><sub class="subscript">univ</sub> must be positive. As predicted by the second law of thermodynamics, the entropy of the universe increases during this irreversible process. Any process for which Δ<em class="emphasis">S</em><sub class="subscript">univ</sub> is positive is, by definition, a spontaneous one that will occur as written. Conversely, any process for which Δ<em class="emphasis">S</em><sub class="subscript">univ</sub> approaches zero will not occur spontaneously as written but will occur spontaneously in the reverse direction. We see, therefore, that heat is spontaneously transferred from a hot substance, the lava, to a cold substance, the ocean water. In fact, if the lava is hot enough (e.g., if it is molten), so much heat can be transferred that the water is converted to steam (<a class="xref" href="#averill_1.0-ch18_s03_s03_f03">Figure 18.12 "Spontaneous Transfer of Heat from a Hot Substance to a Cold Substance"</a>).</p>
+        <div class="figure large medium-height editable block" id="averill_1.0-ch18_s03_s03_f03">
+            <p class="title"><span class="title-prefix">Figure 18.12</span> Spontaneous Transfer of Heat from a Hot Substance to a Cold Substance</p>
+            <img src="section_22/38a9391ec943f35f76c5118d7ffa13d4.jpg">
+            <p class="para">When molten lava flows into cold ocean water, so much heat is spontaneously transferred to the water that steam is produced.</p>
+        </div>
+        <div class="exercises block" id="averill_1.0-ch18_s03_s03_n02">
+            <h3 class="title">Example 6</h3>
+            <p class="para" id="averill_1.0-ch18_s03_s03_p12">Tin has two allotropes with different structures. Gray tin (α-tin) has a structure similar to that of diamond, whereas white tin (β-tin) is denser, with a unit cell structure that is based on a rectangular prism. At temperatures greater than 13.2°C, white tin is the more stable phase, but below that temperature, it slowly converts reversibly to the less dense, powdery gray phase. This phenomenon plagued Napoleon’s army during his ill-fated invasion of Russia in 1812: the buttons on his soldiers’ uniforms were made of tin and disintegrated during the Russian winter, adversely affecting the soldiers’ health (and morale). The conversion of white tin to gray tin is exothermic, with Δ<em class="emphasis">H</em> = −2.1 kJ/mol at 13.2°C.</p>
+            <ol class="orderedlist" id="averill_1.0-ch18_s03_s03_l01" numeration="loweralpha">
+                <li>What is Δ<em class="emphasis">S</em> for this process?</li>
+                <li>Which is the more highly ordered form of tin—white or gray?</li>
+            </ol>
+            <p class="para" id="averill_1.0-ch18_s03_s03_p13"><strong class="emphasis bold">Given: </strong>Δ<em class="emphasis">H</em> and temperature</p>
+            <p class="para" id="averill_1.0-ch18_s03_s03_p14"><strong class="emphasis bold">Asked for: </strong>Δ<em class="emphasis">S</em> and relative degree of order</p>
+            <p class="para" id="averill_1.0-ch18_s03_s03_p15">
+                        <strong class="emphasis bold">Strategy:</strong>
+                    </p>
+            <p class="para" id="averill_1.0-ch18_s03_s03_p16">Use <a class="xref" href="#averill_1.0-ch18_s03_s03_eq01" xrefstyle="select:label">Equation 18.15</a> to calculate the change in entropy for the reversible phase transition. From the calculated value of Δ<em class="emphasis">S</em>, predict which allotrope has the more highly ordered structure.</p>
+            <p class="para" id="averill_1.0-ch18_s03_s03_p17">
+                        <strong class="emphasis bold">Solution:</strong>
+                    </p>
+            <ol class="orderedlist" id="averill_1.0-ch18_s03_s03_l02" numeration="loweralpha">
+                <li>
+                    <p class="para">We know from <a class="xref" href="#averill_1.0-ch18_s03_s03_eq01" xrefstyle="select:label">Equation 18.15</a> that the entropy change for any reversible process is the heat transferred (in joules) divided by the temperature at which the process occurs. Because the conversion occurs at constant pressure, and Δ<em class="emphasis">H</em> and Δ<em class="emphasis">E</em> are essentially equal for reactions that involve only solids, we can calculate the change in entropy for the reversible phase transition where <em class="emphasis">q</em><sub class="subscript">rev</sub> = Δ<em class="emphasis">H</em>. Substituting the given values for Δ<em class="emphasis">H</em> and temperature in kelvins (in this case, <em class="emphasis">T</em> = 13.2°C = 286.4 K),</p>
+                    <span class="informalequation">
+
+                                <math xml:id="averill_1.0-18_m025" display="block">
+                                    <semantics>
+                                        <mrow>
+                                            <mi>Δ</mi>
+                                            <mi>S</mi>
+                                            <mo>=</mo>
+                                            <mfrac>
+                                                <mrow>
+                                                    <msub>
+                                                        <mi>q</mi>
+                                                        <mrow>
+                                                            <mtext>rev</mtext>
+                                                        </mrow>
+                                                    </msub>
+                                                </mrow>
+                                                <mi>T</mi>
+                                            </mfrac>
+                                            <mo>=</mo>
+                                            <mfrac>
+                                                <mrow>
+                                                    <mo stretchy="false">(</mo>
+                                                    <mo>−</mo>
+                                                    <mn>2.1</mn>
+                                                    <mtext> </mtext>
+                                                    <menclose notation="updiagonalstrike">
+                                                        <mrow>
+                                                            <mtext>kJ</mtext>
+                                                        </mrow>
+                                                    </menclose>
+                                                    <mtext>/mol</mtext>
+                                                    <mo stretchy="false">)</mo>
+                                                    <mo stretchy="false">(</mo>
+                                                    <mn>1000</mn>
+                                                    <mtext> J/</mtext>
+                                                    <menclose notation="updiagonalstrike">
+                                                        <mrow>
+                                                            <mtext>kJ</mtext>
+                                                        </mrow>
+                                                    </menclose>
+                                                    <mo stretchy="false">)</mo>
+                                                </mrow>
+                                                <mrow>
+                                                    <mn>286.4</mn>
+                                                    <mtext> K</mtext>
+                                                </mrow>
+                                            </mfrac>
+                                            <mo>=</mo>
+                                            <mo>−</mo>
+                                            <mn>7.3</mn>
+                                            <mtext> J/</mtext>
+                                            <mo stretchy="false">(</mo>
+                                            <mtext>mol</mtext>
+                                            <mo>⋅</mo>
+                                            <mtext>K</mtext>
+                                            <mo stretchy="false">)</mo>
+                                        </mrow>
+                                    </semantics>
+                                </math>
+</span>
+                </li>
+                <li>The fact that Δ<em class="emphasis">S</em> &lt; 0 means that entropy decreases when white tin is converted to gray tin. Thus gray tin must be the more highly ordered structure.</li>
+            </ol>
+            <p class="simpara">Exercise</p>
+            <p class="para" id="averill_1.0-ch18_s03_s03_p18">Elemental sulfur exists in two forms: an orthorhombic form (S<sub class="subscript">α</sub>), which is stable below 95.3°C, and a monoclinic form (S<sub class="subscript">β</sub>), which is stable above 95.3°C. The conversion of orthorhombic sulfur to monoclinic sulfur is endothermic, with Δ<em class="emphasis">H</em> = 0.401 kJ/mol at 1 atm.</p>
+            <ol class="orderedlist" id="averill_1.0-ch18_s03_s03_l03" numeration="loweralpha">
+                <li>What is Δ<em class="emphasis">S</em> for this process?</li>
+                <li>Which is the more highly ordered form of sulfur—S<sub class="subscript">α</sub> or S<sub class="subscript">β</sub>?</li>
+            </ol>
+            <p class="para" id="averill_1.0-ch18_s03_s03_p19">
+                        <strong class="emphasis bold">Answer:</strong>
+                    </p>
+            <ol class="orderedlist" id="averill_1.0-ch18_s03_s03_l04" numeration="loweralpha">
+                <li>1.09 J/(mol·K)</li>
+                <li>S<sub class="subscript">α</sub>
+</li>
+            </ol>
+        </div>
+        <div class="callout editable block" id="averill_1.0-ch18_s03_s03_n03">
+            <h3 class="title">Summary</h3>
+            <p class="para" id="averill_1.0-ch18_s03_s03_p20">A measure of the disorder of a system is its <strong class="emphasis bold">entropy (</strong><em class="emphasis bolditalic">S</em><strong class="emphasis bold">)</strong>, a state function whose value increases with an increase in the number of available microstates. A <strong class="emphasis bold">reversible process</strong> is one for which all intermediate states between extremes are equilibrium states; it can change direction at any time. In contrast, an <strong class="emphasis bold">irreversible process</strong> occurs in one direction only. The change in entropy of the system or the surroundings is the quantity of heat transferred divided by the temperature. The <strong class="emphasis bold">second law of thermodynamics</strong> states that in a reversible process, the entropy of the universe is constant, whereas in an irreversible process, such as the transfer of heat from a hot object to a cold object, the entropy of the universe increases.</p>
+        </div>
+        <div class="key_takeaways editable block" id="averill_1.0-ch18_s03_s03_n04">
+            <h3 class="title">Key Takeaways</h3>
+            <ul class="itemizedlist" id="averill_1.0-ch18_s03_s03_l05">
+                <li>For a given system, the greater the number of microstates, the higher the entropy.</li>
+                <li>During a spontaneous process, the entropy of the universe increases.</li>
+            </ul>
+        </div>
+        <div class="key_takeaways block" id="averill_1.0-ch18_s03_s03_n05">
+            <h3 class="title">Key Equation</h3>
+            <p class="para" id="averill_1.0-ch18_s03_s03_p21">
+                        <strong class="emphasis bold">Entropy change</strong>
+                    </p>
+            <p class="para" id="averill_1.0-ch18_s03_s03_p22"><a class="xref" href="#averill_1.0-ch18_s03_s03_eq01" xrefstyle="select:label">Equation 18.15</a>: <span class="inlineequation"><math xml:id="averill_1.0-18_m026" display="inline"><semantics><mrow><mi>Δ</mi><mi>S</mi><mo>=</mo><mfrac><mrow><msub><mi>q</mi><mrow><mtext>rev</mtext></mrow></msub></mrow><mi>T</mi></mfrac></mrow></semantics></math></span></p>
+        </div>
+        <div class="qandaset block" id="averill_1.0-ch18_s03_s03_qa01" defaultlabel="number">
+            <h3 class="title">Conceptual Problems</h3>
+            <ol class="qandadiv" id="averill_1.0-ch18_s03_s03_qa01_qd01">
+                <li class="qandaentry" id="averill_1.0-ch18_s03_s03_qa01_qd01_q01">
+                    <div class="question">
+                        <p class="para">A Russian space vehicle developed a leak, which resulted in an internal pressure drop from 1 atm to 0.85 atm. Is this an example of a reversible expansion? Has work been done?</p>
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch18_s03_s03_qa01_qd01_q02">
+                    <div class="question">
+                        <p class="para">Which member of each pair do you expect to have a higher entropy? Why?</p>
+                        <ol class="orderedlist" numeration="loweralpha">
+                            <li>solid phenol or liquid phenol</li>
+                            <li>1-butanol or butane</li>
+                            <li>cyclohexane or cyclohexanol</li>
+                            <li>1 mol of N<sub class="subscript">2</sub> mixed with 2 mol of O<sub class="subscript">2</sub> or 2 mol of NO<sub class="subscript">2</sub>
+</li>
+                            <li>1 mol of O<sub class="subscript">2</sub> or 1 mol of O<sub class="subscript">3</sub>
+</li>
+                            <li>1 mol of propane at 1 atm or 1 mol of propane at 2 atm</li>
+                        </ol>
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch18_s03_s03_qa01_qd01_q03">
+                    <div class="question">
+                        <p class="para">Determine whether each process is reversible or irreversible.</p>
+                        <ol class="orderedlist" numeration="loweralpha">
+                            <li>ice melting at 0°C</li>
+                            <li>salt crystallizing from a saline solution</li>
+                            <li>evaporation of a liquid in equilibrium with its vapor in a sealed flask</li>
+                            <li>a neutralization reaction</li>
+                        </ol>
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch18_s03_s03_qa01_qd01_q04">
+                    <div class="question">
+                        <p class="para">Determine whether each process is reversible or irreversible.</p>
+                        <ol class="orderedlist" numeration="loweralpha">
+                            <li>cooking spaghetti</li>
+                            <li>the reaction between sodium metal and water</li>
+                            <li>oxygen uptake by hemoglobin</li>
+                            <li>evaporation of water at its boiling point</li>
+                        </ol>
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch18_s03_s03_qa01_qd01_q05">
+                    <div class="question">
+                        <p class="para">Explain why increasing the temperature of a gas increases its entropy. What effect does this have on the internal energy of the gas?</p>
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch18_s03_s03_qa01_qd01_q06">
+                    <div class="question">
+                        <p class="para">For a series of related compounds, does Δ<em class="emphasis">S</em><sub class="subscript">vap</sub> increase or decrease with an increase in the strength of intermolecular interactions in the liquid state? Why?</p>
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch18_s03_s03_qa01_qd01_q07">
+                    <div class="question">
+                        <p class="para">Is the change in the enthalpy of reaction or the change in entropy of reaction more sensitive to changes in temperature? Explain your reasoning.</p>
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch18_s03_s03_qa01_qd01_q08">
+                    <div class="question">
+                        <p class="para">Solid potassium chloride has a highly ordered lattice structure. Do you expect Δ<em class="emphasis">S</em><sub class="subscript">soln</sub> to be greater or less than zero? Why? What opposing factors must be considered in making your prediction?</p>
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch18_s03_s03_qa01_qd01_q09">
+                    <div class="question">
+                        <p class="para">Aniline (C<sub class="subscript">6</sub>H<sub class="subscript">5</sub>NH<sub class="subscript">2</sub>) is an oily liquid at 25°C that darkens on exposure to air and light. It is used in dying fabrics and in staining wood black. One gram of aniline dissolves in 28.6 mL of water, but aniline is completely miscible with ethanol. Do you expect Δ<em class="emphasis">S</em><sub class="subscript">soln</sub> in H<sub class="subscript">2</sub>O to be greater than, less than, or equal to Δ<em class="emphasis">S</em><sub class="subscript">soln</sub> in CH<sub class="subscript">3</sub>CH<sub class="subscript">2</sub>OH? Why?</p>
+                    </div>
+                </li>
+            </ol>
+        </div>
+        <div class="qandaset block" id="averill_1.0-ch18_s03_s03_qa01_ans" defaultlabel="number">
+            <h3 class="title">Answers</h3>
+            <ol class="qandadiv">
+                <li class="qandaentry" id="averill_1.0-ch18_s03_s03_qa01_qd01_q01_ans">
+                    <div class="answer">
+                        <p class="para">No, it is irreversible; no work is done because the external pressure is effectively zero.</p>
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch18_s03_s03_qa01_qd01_q02_ans" audience="instructoronly">
+                    <div class="answer" audience="instructoronly" d="" html="http://www.w3.org/1999/xhtml" mml="http://www.w3.org/1998/Math/MathML" xlink="http://www.w3.org/1999/xlink" xml="http://www.w3.org/XML/1998/namespace">
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch18_s03_s03_qa01_qd01_q03_ans">
+                    <div class="answer">
+                        <ol class="orderedlist" numeration="loweralpha">
+                            <li>reversible</li>
+                            <li>irreversible</li>
+                            <li>reversible</li>
+                            <li>irreversible</li>
+                        </ol>
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch18_s03_s03_qa01_qd01_q04_ans" audience="instructoronly">
+                    <div class="answer" audience="instructoronly" d="" html="http://www.w3.org/1999/xhtml" mml="http://www.w3.org/1998/Math/MathML" xlink="http://www.w3.org/1999/xlink" xml="http://www.w3.org/XML/1998/namespace">
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch18_s03_s03_qa01_qd01_q05_ans" audience="instructoronly">
+                    <div class="answer" audience="instructoronly" d="" html="http://www.w3.org/1999/xhtml" mml="http://www.w3.org/1998/Math/MathML" xlink="http://www.w3.org/1999/xlink" xml="http://www.w3.org/XML/1998/namespace">
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch18_s03_s03_qa01_qd01_q06_ans" audience="instructoronly">
+                    <div class="answer" audience="instructoronly" d="" html="http://www.w3.org/1999/xhtml" mml="http://www.w3.org/1998/Math/MathML" xlink="http://www.w3.org/1999/xlink" xml="http://www.w3.org/XML/1998/namespace">
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch18_s03_s03_qa01_qd01_q07_ans" audience="instructoronly">
+                    <div class="answer" audience="instructoronly" d="" html="http://www.w3.org/1999/xhtml" mml="http://www.w3.org/1998/Math/MathML" xlink="http://www.w3.org/1999/xlink" xml="http://www.w3.org/XML/1998/namespace">
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch18_s03_s03_qa01_qd01_q08_ans" audience="instructoronly">
+                    <div class="answer" audience="instructoronly" d="" html="http://www.w3.org/1999/xhtml" mml="http://www.w3.org/1998/Math/MathML" xlink="http://www.w3.org/1999/xlink" xml="http://www.w3.org/XML/1998/namespace">
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch18_s03_s03_qa01_qd01_q09_ans">
+                    <div class="answer">
+                        <p class="para">Water has a highly ordered, hydrogen-bonded structure that must reorganize to accommodate hydrophobic solutes like aniline. In contrast, we expect that aniline will be able to disperse randomly throughout ethanol, which has a significantly less ordered structure. We therefore predict that Δ<em class="emphasis">S</em><sub class="subscript">soln</sub> in ethanol will be more positive than Δ<em class="emphasis">S</em><sub class="subscript">soln</sub> in water.</p>
+                    </div>
+                </li>
+            </ol>
+        </div>
+        <div class="qandaset block" id="averill_1.0-ch18_s03_s03_qa02" defaultlabel="number">
+            <h3 class="title">Numerical Problems</h3>
+            <ol class="qandadiv" id="averill_1.0-ch18_s03_s03_qa02_qd01">
+                <li class="qandaentry" id="averill_1.0-ch18_s03_s03_qa02_qd01_q01">
+                    <div class="question">
+                        <p class="para">Liquid nitrogen, which has a boiling point of −195.79°C, is used as a coolant and as a preservative for biological tissues. Is the entropy of nitrogen higher or lower at −200°C than at −190°C? Explain your answer. Liquid nitrogen freezes to a white solid at −210.00°C, with an enthalpy of fusion of 0.71 kJ/mol. What is its entropy of fusion? Is freezing biological tissue in liquid nitrogen an example of a reversible process or an irreversible process?</p>
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch18_s03_s03_qa02_qd01_q02">
+                    <div class="question">
+                        <p class="para">Using the second law of thermodynamics, explain why heat flows from a hot body to a cold body but not from a cold body to a hot body.</p>
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch18_s03_s03_qa02_qd01_q03">
+                    <div class="question">
+                        <p class="para">One test of the spontaneity of a reaction is whether the entropy of the universe increases: Δ<em class="emphasis">S</em><sub class="subscript">univ</sub> &gt; 0. Using an entropic argument, show that the following reaction is spontaneous at 25°C:</p>
+                        <span class="informalequation">
+                                    <span class="mathphrase">4Fe(s) + 3O<sub class="subscript">2</sub>(g) → 2Fe<sub class="subscript">2</sub>O<sub class="subscript">3</sub>(s)</span>
+                                </span>
+                        <p class="para">Why does the entropy of the universe increase in this reaction even though gaseous molecules, which have a high entropy, are consumed?</p>
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch18_s03_s03_qa02_qd01_q04">
+                    <div class="question">
+                        <p class="para">Calculate the missing data in the following table.</p>
+                        <div class="informaltable" frame="all">
+                            <table cellpadding="0" cellspacing="0">
+                                <thead>
+                                    <tr>
+                                        <th align="center">Compound</th>
+                                        <th align="center">Δ<em class="emphasis">H</em><sub class="subscript">fus</sub> (kJ/mol)</th>
+                                        <th align="center">Δ<em class="emphasis">S</em><sub class="subscript">fus</sub> [J/(mol·K)]</th>
+                                        <th align="center">Melting Point (°C)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>acetic acid</td>
+                                        <td align="right">11.7</td>
+                                        <td align="right"></td>
+                                        <td align="right">16.6</td>
+                                    </tr>
+                                    <tr>
+                                        <td>CH<sub class="subscript">3</sub>CN</td>
+                                        <td align="right">8.2</td>
+                                        <td align="right">35.9</td>
+                                        <td align="right"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>CH<sub class="subscript">4</sub>
+</td>
+                                        <td align="right">0.94</td>
+                                        <td align="right"></td>
+                                        <td align="right">−182.5</td>
+                                    </tr>
+                                    <tr>
+                                        <td>CH<sub class="subscript">3</sub>OH</td>
+                                        <td align="right"></td>
+                                        <td align="right">18.2</td>
+                                        <td align="right">−97.7</td>
+                                    </tr>
+                                    <tr>
+                                        <td>formic acid</td>
+                                        <td align="right">12.7</td>
+                                        <td align="right">45.1</td>
+                                        <td align="right"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <p class="para">Based on this table, can you conclude that entropy is related to the nature of functional groups? Explain your reasoning.</p>
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch18_s03_s03_qa02_qd01_q05">
+                    <div class="question">
+                        <p class="para">Calculate the missing data in the following table.</p>
+                        <div class="informaltable" frame="all">
+                            <table cellpadding="0" cellspacing="0">
+                                <thead>
+                                    <tr>
+                                        <th align="center">Compound</th>
+                                        <th align="center">Δ<em class="emphasis">H</em><sub class="subscript">vap</sub> (kJ/mol)</th>
+                                        <th align="center">Δ<em class="emphasis">S</em><sub class="subscript">vap</sub> [J/(mol·K)]</th>
+                                        <th align="center">Boiling Point (°C)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>hexanoic acid</td>
+                                        <td align="right">71.1</td>
+                                        <td align="right"></td>
+                                        <td align="right">105.7</td>
+                                    </tr>
+                                    <tr>
+                                        <td>hexane</td>
+                                        <td align="right">28.9</td>
+                                        <td align="right">85.5</td>
+                                        <td align="right"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>formic acid</td>
+                                        <td align="right"></td>
+                                        <td align="right">60.7</td>
+                                        <td align="right">100.8</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1-hexanol</td>
+                                        <td align="right">44.5</td>
+                                        <td align="right"></td>
+                                        <td align="right">157.5</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <p class="para">The text states that the magnitude of Δ<em class="emphasis">S</em><sub class="subscript">vap</sub> tends to be similar for a wide variety of compounds. Based on the values in the table, do you agree?</p>
+                    </div>
+                </li>
+            </ol>
+        </div>
+    </div>
+</div>
+
+  </div>
+  
+  <div id=navbar-bottom class="navbar">
+    <div class="navbar-part left">
+      
+        <a href="s22-02-the-first-law-of-thermodynamic.html"><img src="shared/images/batch-left.png"></a> <a href="s22-02-the-first-law-of-thermodynamic.html">Previous Section</a>
+      
+    </div>
+    <div class="navbar-part middle">
+      <a href="index.html"><img src="shared/images/batch-up.png"></a> <a href="index.html">Table of Contents</a>
+    </div>
+    <div class="navbar-part right">
+      
+        <a href="s22-04-entropy-changes-and-the-third-.html">Next Section</a> <a href="s22-04-entropy-changes-and-the-third-.html"><img src="shared/images/batch-right.png"></a>
+      
+    </div>
+  </div>
+
+  </div>
+  <script type="text/javascript" src="shared/book.js"></script>
+  
+  <script type="text/javascript" src="https://c328740.ssl.cf1.rackcdn.com/mathjax/latest/MathJax.js?config=MML_HTMLorMML"></script>
+  
+  
+</body>
+</html>

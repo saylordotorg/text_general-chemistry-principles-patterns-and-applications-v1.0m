@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link href="shared/bookhub.css" rel="stylesheet" type="text/css">
+  <title>Essential Skills 6</title>
+</head>
+<body>
+
+  
+  <div id=navbar-top class="navbar">
+    <div class="navbar-part left">
+      
+        <a href="s15-08-liquid-crystals.html"><img src="shared/images/batch-left.png"></a> <a href="s15-08-liquid-crystals.html">Previous Section</a>
+      
+    </div>
+    <div class="navbar-part middle">
+      <a href="index.html"><img src="shared/images/batch-up.png"></a> <a href="index.html">Table of Contents</a>
+    </div>
+    <div class="navbar-part right">
+      
+        <a href="s15-10-end-of-chapter-material.html">Next Section</a> <a href="s15-10-end-of-chapter-material.html"><img src="shared/images/batch-right.png"></a>
+      
+    </div>
+  </div>
+
+  <div id="book-content">
+    <div class="section" id="averill_1.0-ch11_s09" condition="start-of-chunk" version="5.0" lang="en">
+    <h2 class="title editable block">
+<span class="title-prefix">11.9</span> Essential Skills 6</h2>
+    <div class="learning_objectives editable block" id="averill_1.0-ch11_s09_n01">
+        <h3 class="title">Topics</h3>
+        <ul class="itemizedlist" id="averill_1.0-ch11_s09_l01">
+            <li>Natural Logarithms</li>
+            <li>Calculations Using Natural Logarithms</li>
+        </ul>
+    </div>
+    <p class="para editable block" id="averill_1.0-ch11_s09_p01">Essential Skills 3 in <a class="xref" href="averill_1.0-ch04#averill_1.0-ch04">Chapter 4 "Reactions in Aqueous Solution"</a>, <a class="xref" href="averill_1.0-ch04_s10#averill_1.0-ch04_s10">Section 4.10 "Essential Skills 3"</a>, introduced the common, or base-10, logarithms and showed how to use the properties of exponents to perform logarithmic calculations. In this section, we describe natural logarithms, their relationship to common logarithms, and how to do calculations with them using the same properties of exponents.</p>
+    <div class="section" id="averill_1.0-ch11_s09_s01">
+        <h2 class="title editable block">Natural Logarithms</h2>
+        <p class="para editable block" id="averill_1.0-ch11_s09_s01_p01">Many natural phenomena exhibit an exponential rate of increase or decrease. Population growth is an example of an exponential rate of increase, whereas a runner’s performance may show an exponential decline if initial improvements are substantially greater than those that occur at later stages of training. Exponential changes are represented logarithmically by <em class="emphasis">e</em><sup class="superscript"><em class="emphasis">x</em></sup>, where <em class="emphasis">e</em> is an irrational number whose value is approximately 2.7183. The <em class="emphasis">natural logarithm</em>, abbreviated as ln, is the power <em class="emphasis">x</em> to which <em class="emphasis">e</em> must be raised to obtain a particular number. The natural logarithm of <em class="emphasis">e</em> is 1 (ln <em class="emphasis">e</em> = 1).</p>
+        <p class="para editable block" id="averill_1.0-ch11_s09_s01_p02">Some important relationships between base-10 logarithms and natural logarithms are as follows:</p>
+        <span class="informalequation block">
+                    <span class="mathphrase">10<sup class="superscript">1</sup> = 10 = e<sup class="superscript">2.303</sup></span>
+                </span>
+        <span class="informalequation block">
+                    <span class="mathphrase">ln <em class="emphasis">e</em><sup class="superscript"><em class="emphasis">x</em></sup> = <em class="emphasis">x</em></span>
+                </span>
+        <span class="informalequation block">
+                    <span class="mathphrase">ln 10 = ln(<em class="emphasis">e</em><sup class="superscript">2.303</sup>) = 2.303</span>
+                </span>
+        <span class="informalequation block">
+                    <span class="mathphrase">log 10 = ln <em class="emphasis">e</em> = 1</span>
+                </span>
+        <p class="para editable block" id="averill_1.0-ch11_s09_s01_p03">According to these relationships, ln 10 = 2.303 and log 10 = 1. Because multiplying by 1 does not change an equality,</p>
+        <span class="informalequation block">
+                    <span class="mathphrase">ln 10 = 2.303 log 10</span>
+                </span>
+        <p class="para editable block" id="averill_1.0-ch11_s09_s01_p04">Substituting any value <em class="emphasis">y</em> for 10 gives</p>
+        <span class="informalequation block">
+                    <span class="mathphrase">ln <em class="emphasis">y</em> = 2.303 log <em class="emphasis">y</em></span>
+                </span>
+        <p class="para editable block" id="averill_1.0-ch11_s09_s01_p05">Other important relationships are as follows:</p>
+        <span class="informalequation block">
+                    <span class="mathphrase">log <em class="emphasis">A</em><sup class="superscript"><em class="emphasis">x</em></sup> = <em class="emphasis">x</em> log <em class="emphasis">A</em></span>
+                </span>
+        <span class="informalequation block">
+                    <span class="mathphrase">ln <em class="emphasis">e</em><sup class="superscript"><em class="emphasis">x</em></sup> = <em class="emphasis">x</em> ln <em class="emphasis">e</em> = <em class="emphasis">x</em> = <em class="emphasis">e</em><sup class="superscript">ln</sup> <sup class="superscript"><em class="emphasis">x</em></sup></span>
+                </span>
+        <p class="para editable block" id="averill_1.0-ch11_s09_s01_p06">Entering a value <em class="emphasis">x</em>, such as 3.86, into your calculator and pressing the “ln” key gives the value of ln <em class="emphasis">x</em>, which is 1.35 for <em class="emphasis">x</em> = 3.86. Conversely, entering the value 1.35 and pressing “<em class="emphasis">e</em><sup class="superscript"><em class="emphasis">x</em></sup>” key gives an answer of 3.86.<span class="footnote" id="averill_1.0-fn11_003">On some calculators, pressing [INV] and then [ln <em class="emphasis">x</em>] is equivalent to pressing [<em class="emphasis">e</em>x].</span> Hence</p>
+        <span class="informalequation block">
+                    <span class="mathphrase"><em class="emphasis">e</em><sup class="superscript">ln3.86</sup> = <em class="emphasis">e</em><sup class="superscript">1.35</sup> = 3.86</span>
+                </span>
+        <span class="informalequation block">
+                    <span class="mathphrase">ln(<em class="emphasis">e</em><sup class="superscript">3.86</sup>) = 3.86</span>
+                </span>
+        <div class="exercises editable block" id="averill_1.0-ch11_s09_s01_n01">
+            <h3 class="title">Skill Builder ES1</h3>
+            <p class="para" id="averill_1.0-ch11_s09_s01_p07">Calculate the natural logarithm of each number and express each as a power of the base <em class="emphasis">e</em>.</p>
+            <ol class="orderedlist" id="averill_1.0-ch11_s09_s01_l01" numeration="loweralpha">
+                <li>0.523</li>
+                <li>1.63</li>
+            </ol>
+            <p class="para" id="averill_1.0-ch11_s09_s01_p08">
+                        <strong class="emphasis bold">Solution:</strong>
+                    </p>
+            <ol class="orderedlist" id="averill_1.0-ch11_s09_s01_l02" numeration="loweralpha">
+                <li>ln(0.523) = −0.648; <em class="emphasis">e</em><sup class="superscript">−0.648</sup> = 0.523</li>
+                <li>ln(1.63) = 0.489; <em class="emphasis">e</em><sup class="superscript">0.489</sup> = 1.63</li>
+            </ol>
+        </div>
+        <div class="exercises editable block" id="averill_1.0-ch11_s09_s01_n02">
+            <h3 class="title">Skill Builder ES2</h3>
+            <p class="para" id="averill_1.0-ch11_s09_s01_p09">What number is each value the natural logarithm of?</p>
+            <ol class="orderedlist" id="averill_1.0-ch11_s09_s01_l03" numeration="loweralpha">
+                <li>2.87</li>
+                <li>0.030</li>
+                <li>−1.39</li>
+            </ol>
+            <p class="para" id="averill_1.0-ch11_s09_s01_p10">
+                        <strong class="emphasis bold">Solution:</strong>
+                    </p>
+            <ol class="orderedlist" id="averill_1.0-ch11_s09_s01_l04" numeration="loweralpha">
+                <li>ln <em class="emphasis">x</em> = 2.87; <em class="emphasis">x</em> = <em class="emphasis">e</em><sup class="superscript">2.87</sup> = 17.6 = 18 to two significant figures</li>
+                <li>ln <em class="emphasis">x</em> = 0.030; <em class="emphasis">x</em> = <em class="emphasis">e</em><sup class="superscript">0.030</sup> = 1.03 = 1.0 to two significant figures</li>
+                <li>ln <em class="emphasis">x</em> = −1.39; <em class="emphasis">x</em> = <em class="emphasis">e</em><sup class="superscript">−1.39</sup> = 0.249 = 0.25</li>
+            </ol>
+        </div>
+    </div>
+    <div class="section" id="averill_1.0-ch11_s09_s02">
+        <h2 class="title editable block">Calculations with Natural Logarithms</h2>
+        <p class="para editable block" id="averill_1.0-ch11_s09_s02_p01">Like common logarithms, natural logarithms use the properties of exponents. We can expand <a class="xref" href="averill_1.0-ch04_s10#averill_1.0-ch04_s10_s01_t01">Table 4.5 "Relationships in Base-10 Logarithms"</a> in Essential Skills 3 to include natural logarithms:</p>
+        <div class="informaltable block" frame="all">
+            <table cellpadding="0" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th align="center">Operation</th>
+                        <th align="center">Exponential Form</th>
+                        <th align="center">Logarithm</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="2">Multiplication</td>
+                        <td>(10<sup class="superscript"><em class="emphasis">a</em></sup>)(10<sup class="superscript"><em class="emphasis">b</em></sup>) = 10<sup class="superscript"><em class="emphasis">a</em></sup> <sup class="superscript">+</sup> <sup class="superscript"><em class="emphasis">b</em></sup>
+</td>
+                        <td>log(<em class="emphasis">ab</em>) = log <em class="emphasis">a</em> + log <em class="emphasis">b</em>
+</td>
+                    </tr>
+                    <tr>
+                        <td>(<em class="emphasis">e</em><sup class="superscript"><em class="emphasis">x</em></sup>)(<em class="emphasis">e</em><sup class="superscript"><em class="emphasis">y</em></sup>) = <em class="emphasis">e</em><sup class="superscript"><em class="emphasis">x</em></sup> <sup class="superscript">+</sup> <sup class="superscript"><em class="emphasis">y</em></sup>
+</td>
+                        <td>ln(<em class="emphasis">e</em><sup class="superscript"><em class="emphasis">x</em></sup><em class="emphasis">e</em><sup class="superscript"><em class="emphasis">y</em></sup>) = ln(<em class="emphasis">e</em><sup class="superscript"><em class="emphasis">x</em></sup>) + ln(<em class="emphasis">e</em><sup class="superscript"><em class="emphasis">y</em></sup>) = <em class="emphasis">x</em> + <em class="emphasis">y</em>
+</td>
+                    </tr>
+                    <tr>
+                        <td>Division</td>
+                        <td>
+                                    <span class="inlineequation">
+
+                                        <math xml:id="averill_1.0-ch11_m021" display="inline">
+                                            <semantics>
+                                                <mtable>
+                                                    <mtr>
+                                                        <mtd>
+                                                            <mfrac>
+                                                            <mrow>
+                                                            <msup>
+                                                            <mrow>
+                                                            <mn>10</mn>
+                                                            </mrow>
+                                                            <mi>a</mi>
+                                                            </msup>
+                                                            </mrow>
+                                                            <mrow>
+                                                            <msup>
+                                                            <mrow>
+                                                            <mn>10</mn>
+                                                            </mrow>
+                                                            <mi>b</mi>
+                                                            </msup>
+                                                            </mrow>
+                                                            </mfrac>
+                                                            <mo>=</mo>
+                                                            <mi> </mi>
+                                                            <msup>
+                                                            <mn>10</mn>
+                                                            <mrow>
+                                                            <mi>a</mi>
+                                                            <mtext> </mtext>
+                                                            <mo>−</mo>
+                                                            <mtext> </mtext>
+                                                            <mi>b</mi>
+                                                            </mrow>
+                                                            </msup>
+                                                        </mtd>
+                                                    </mtr>
+                                                    <mtr>
+                                                        <mtd>
+                                                            <mfrac>
+                                                            <mrow>
+                                                            <msup>
+                                                            <mi>e</mi>
+                                                            <mi>x</mi>
+                                                            </msup>
+                                                            </mrow>
+                                                            <mrow>
+                                                            <msup>
+                                                            <mi>e</mi>
+                                                            <mi>y</mi>
+                                                            </msup>
+                                                            </mrow>
+                                                            </mfrac>
+                                                            <mi> </mi>
+                                                            <mo>=</mo>
+                                                            <mi> </mi>
+                                                            <msup>
+                                                            <mi>e</mi>
+                                                            <mrow>
+                                                            <mi>x</mi>
+                                                            <mtext> </mtext>
+                                                            <mo>−</mo>
+                                                            <mtext> </mtext>
+                                                            <mi>y</mi>
+                                                            </mrow>
+                                                            </msup>
+                                                        </mtd>
+                                                    </mtr>
+                                                </mtable>
+                                            </semantics>
+                                        </math>
+</span>
+                                </td>
+                        <td>
+                                    <span class="inlineequation">
+
+                                        <math xml:id="averill_1.0-ch11_m022" display="inline">
+                                            <semantics>
+                                                <mtable>
+                                                    <mtr>
+                                                        <mtd>
+                                                            <mi>log</mi>
+                                                            <mrow>
+                                                            <mo>(</mo>
+                                                            <mrow>
+                                                            <mfrac>
+                                                            <mi>a</mi>
+                                                            <mi>b</mi>
+                                                            </mfrac>
+                                                            </mrow>
+                                                            <mo>)</mo>
+                                                            </mrow>
+                                                            <mo>=</mo>
+                                                            <mi> </mi>
+                                                            <mi>log</mi>
+                                                            <mtext> </mtext>
+                                                            <mi>a</mi>
+                                                            <mi> </mi>
+                                                            <mo>−</mo>
+                                                            <mi> </mi>
+                                                            <mi>log</mi>
+                                                            <mtext> </mtext>
+                                                            <mi>b</mi>
+                                                        </mtd>
+                                                    </mtr>
+                                                    <mtr>
+                                                        <mtd>
+                                                            <mtext>ln </mtext>
+                                                            <mi> </mi>
+                                                            <mrow>
+                                                            <mo>(</mo>
+                                                            <mrow>
+                                                            <mfrac>
+                                                            <mi>x</mi>
+                                                            <mi>y</mi>
+                                                            </mfrac>
+                                                            </mrow>
+                                                            <mo>)</mo>
+                                                            </mrow>
+                                                            <mi> </mi>
+                                                            <mo>=</mo>
+                                                            <mi> </mi>
+                                                            <mtext>ln </mtext>
+                                                            <mi>x</mi>
+                                                            <mo>−</mo>
+                                                            <mi> </mi>
+                                                            <mtext>ln </mtext>
+                                                            <mi>y</mi>
+                                                        </mtd>
+                                                    </mtr>
+                                                    <mtr>
+                                                        <mtd>
+                                                            <mi>ln</mi>
+                                                            <mrow>
+                                                            <mo>(</mo>
+                                                            <mrow>
+                                                            <mfrac>
+                                                            <mrow>
+                                                            <msup>
+                                                            <mi>e</mi>
+                                                            <mi>x</mi>
+                                                            </msup>
+                                                            </mrow>
+                                                            <mrow>
+                                                            <msup>
+                                                            <mi>e</mi>
+                                                            <mi>y</mi>
+                                                            </msup>
+                                                            </mrow>
+                                                            </mfrac>
+                                                            </mrow>
+                                                            <mo>)</mo>
+                                                            </mrow>
+                                                            <mi> </mi>
+                                                            <mo>=</mo>
+                                                            <mi> </mi>
+                                                            <mi>ln</mi>
+                                                            <mo stretchy="false">(</mo>
+                                                            <msup>
+                                                            <mi>e</mi>
+                                                            <mi>x</mi>
+                                                            </msup>
+                                                            <mo stretchy="false">)</mo>
+                                                            <mi> </mi>
+                                                            <mo>−</mo>
+                                                            <mi> </mi>
+                                                            <mi>ln</mi>
+                                                            <mo stretchy="false">(</mo>
+                                                            <msup>
+                                                            <mi>e</mi>
+                                                            <mi>y</mi>
+                                                            </msup>
+                                                            <mo stretchy="false">)</mo>
+                                                            <mi> </mi>
+                                                            <mo>=</mo>
+                                                            <mi> </mi>
+                                                            <mi>x</mi>
+                                                            <mo>−</mo>
+                                                            <mi>y</mi>
+                                                        </mtd>
+                                                    </mtr>
+                                                </mtable>
+                                            </semantics>
+                                        </math>
+</span>
+                                </td>
+                    </tr>
+                    <tr>
+                        <td>Inverse</td>
+                        <td></td>
+                        <td>
+                                    <span class="inlineequation">
+
+                                        <math xml:id="averill_1.0-ch11_m023" display="inline">
+                                            <semantics>
+                                                <mtable>
+                                                    <mtr>
+                                                        <mtd>
+                                                            <mi>log</mi>
+                                                            <mi> </mi>
+                                                            <mrow>
+                                                            <mo>(</mo>
+                                                            <mrow>
+                                                            <mfrac>
+                                                            <mn>1</mn>
+                                                            <mi>a</mi>
+                                                            </mfrac>
+                                                            </mrow>
+                                                            <mo>)</mo>
+                                                            </mrow>
+                                                            <mi> </mi>
+                                                            <mo>=</mo>
+                                                            <mi> </mi>
+                                                            <mo>−</mo>
+                                                            <mi> </mi>
+                                                            <mi>log</mi>
+                                                            <mi> </mi>
+                                                            <mi>a</mi>
+                                                        </mtd>
+                                                    </mtr>
+                                                    <mtr>
+                                                        <mtd>
+                                                            <mi>ln</mi>
+                                                            <mrow>
+                                                            <mo>(</mo>
+                                                            <mrow>
+                                                            <mfrac>
+                                                            <mn>1</mn>
+                                                            <mi>x</mi>
+                                                            </mfrac>
+                                                            </mrow>
+                                                            <mo>)</mo>
+                                                            </mrow>
+                                                            <mo>=</mo>
+                                                            <mi> </mi>
+                                                            <mo>−</mo>
+                                                            <mtext>ln </mtext>
+                                                            <mi> </mi>
+                                                            <mi>x</mi>
+                                                        </mtd>
+                                                    </mtr>
+                                                </mtable>
+                                            </semantics>
+                                        </math>
+</span>
+                                </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <p class="para editable block" id="averill_1.0-ch11_s09_s02_p02">The number of significant figures in a number is the same as the number of digits after the decimal point in its logarithm. For example, the natural logarithm of 18.45 is 2.9151, which means that <em class="emphasis">e</em><sup class="superscript">2.9151</sup> is equal to 18.45.</p>
+        <div class="exercises block" id="averill_1.0-ch11_s09_s02_n01">
+            <h3 class="title">Skill Builder ES3</h3>
+            <p class="para" id="averill_1.0-ch11_s09_s02_p03">Calculate the natural logarithm of each number.</p>
+            <ol class="orderedlist" id="averill_1.0-ch11_s09_s02_l01" numeration="loweralpha">
+                <li>22 × 18.6</li>
+                <li>
+                                <span class="inlineequation">
+
+                                    <math xml:id="averill_1.0-ch11_m024" display="inline">
+                                        <semantics>
+                                            <mrow>
+                                                <mfrac>
+                                                    <mrow>
+                                                        <mn>0.51</mn>
+                                                    </mrow>
+                                                    <mrow>
+                                                        <mn>2.67</mn>
+                                                    </mrow>
+                                                </mfrac>
+                                            </mrow>
+                                        </semantics>
+                                    </math>
+</span>
+                            </li>
+                <li>0.079 × 1.485</li>
+                <li>
+                                <span class="inlineequation">
+
+                                    <math xml:id="averill_1.0-ch11_m025" display="inline">
+                                        <semantics>
+                                            <mrow>
+                                                <mfrac>
+                                                    <mrow>
+                                                        <mn>20.5</mn>
+                                                    </mrow>
+                                                    <mrow>
+                                                        <mn>0.026</mn>
+                                                    </mrow>
+                                                </mfrac>
+                                            </mrow>
+                                        </semantics>
+                                    </math>
+</span>
+                            </li>
+            </ol>
+            <p class="para" id="averill_1.0-ch11_s09_s02_p04">
+                        <strong class="emphasis bold">Solution:</strong>
+                    </p>
+            <ol class="orderedlist" id="averill_1.0-ch11_s09_s02_l02" numeration="loweralpha">
+                <li>ln(22 × 18.6) = ln(22) + ln(18.6) = 3.09 + 2.923 = 6.01. Alternatively, 22 × 18.6 = 410; ln(410) = 6.02.</li>
+                <li>
+<span class="inlineequation"><math xml:id="averill_1.0-ch11_m026" display="inline"><semantics><mrow><mi>ln</mi><mrow><mo>(</mo><mrow><mfrac><mrow><mn>0.51</mn></mrow><mrow><mn>2.67</mn></mrow></mfrac></mrow><mo>)</mo></mrow><mi> </mi><mo>=</mo><mi> </mi><mi>ln</mi><mo stretchy="false">(</mo><mn>0.51</mn><mo stretchy="false">)</mo><mi> </mi><mo>−</mo><mi> </mi><mi>ln</mi><mo stretchy="false">(</mo><mn>2.67</mn><mo stretchy="false">)</mo><mi> </mi><mo>=</mo><mi> </mi><mo>−</mo><mn>0.67</mn><mi> </mi><mo>−</mo><mi> </mi><mn>0.982</mn><mi> </mi><mo>=</mo><mi> </mi><mo>−</mo><mn>1.65.</mn></mrow></semantics></math></span> Alternatively, <span class="inlineequation"><math xml:id="averill_1.0-ch11_m027" display="inline"><semantics><mrow><mfrac><mrow><mn>0.51</mn></mrow><mrow><mn>2.67</mn></mrow></mfrac><mo>=</mo><mi> </mi><mn>0.19</mn><mtext>;</mtext></mrow></semantics></math></span> ln(0.19) = −1.66.</li>
+                <li>ln(0.079 × 1.485) = ln(0.079) + ln(1.485) = −2.54 + 0.395 = −2.15. Alternatively, 0.079 × 1.485 = 0.12; ln(0.12) = −2.12.</li>
+                <li>
+<span class="inlineequation"><math xml:id="averill_1.0-ch11_m028" display="inline"><semantics><mrow><mi>ln</mi><mrow><mo>(</mo><mrow><mfrac><mrow><mn>20.5</mn></mrow><mrow><mn>0.026</mn></mrow></mfrac></mrow><mo>)</mo></mrow><mo>=</mo><mi> </mi><mi>ln</mi><mo stretchy="false">(</mo><mn>20.5</mn><mo stretchy="false">)</mo><mo>−</mo><mi> </mi><mi>ln</mi><mo stretchy="false">(</mo><mn>0.026</mn><mo stretchy="false">)</mo><mi> </mi><mo>=</mo><mi> </mi><mn>3.0204</mn><mi> </mi><mo>−</mo><mo stretchy="false">(</mo><mo>−</mo><mn>3.65</mn><mo stretchy="false">)</mo><mo>=</mo><mi> </mi><mn>6.67.</mn></mrow></semantics></math></span> Alternatively, <span class="inlineequation"><math xml:id="averill_1.0-ch11_m029" display="inline"><semantics><mrow><mfrac><mrow><mn>20.5</mn></mrow><mrow><mn>0.026</mn></mrow></mfrac><mo>=</mo><mi> </mi><mn>790</mn><mtext>;</mtext></mrow></semantics></math></span> ln(790) = 6.67.</li>
+            </ol>
+            <p class="para" id="averill_1.0-ch11_s09_s02_p05">The answers obtained using the two methods may differ slightly due to rounding errors.</p>
+        </div>
+        <div class="exercises block" id="averill_1.0-ch11_s09_s02_n02">
+            <h3 class="title">Skill Builder ES4</h3>
+            <p class="para" id="averill_1.0-ch11_s09_s02_p06">Calculate the natural logarithm of each number.</p>
+            <ol class="orderedlist" id="averill_1.0-ch11_s09_s02_l03" numeration="loweralpha">
+                <li>34 × 16.5</li>
+                <li>
+                                <span class="inlineequation">
+
+                                    <math xml:id="averill_1.0-ch11_m030" display="inline">
+                                        <semantics>
+                                            <mrow>
+                                                <mfrac>
+                                                    <mrow>
+                                                        <mn>2.10</mn>
+                                                    </mrow>
+                                                    <mrow>
+                                                        <mn>0.052</mn>
+                                                    </mrow>
+                                                </mfrac>
+                                            </mrow>
+                                        </semantics>
+                                    </math>
+</span>
+                            </li>
+                <li>0.402 × 3.930</li>
+                <li>
+                                <span class="inlineequation">
+
+                                    <math xml:id="averill_1.0-ch11_m031" display="inline">
+                                        <semantics>
+                                            <mrow>
+                                                <mfrac>
+                                                    <mrow>
+                                                        <mn>0.164</mn>
+                                                    </mrow>
+                                                    <mrow>
+                                                        <mn>10.7</mn>
+                                                    </mrow>
+                                                </mfrac>
+                                            </mrow>
+                                        </semantics>
+                                    </math>
+</span>
+                            </li>
+            </ol>
+            <p class="para" id="averill_1.0-ch11_s09_s02_p07">
+                        <strong class="emphasis bold">Solution:</strong>
+                    </p>
+            <ol class="orderedlist" id="averill_1.0-ch11_s09_s02_l04" numeration="loweralpha">
+                <li>6.33</li>
+                <li>3.70</li>
+                <li>0.457</li>
+                <li>−4.178</li>
+            </ol>
+        </div>
+    </div>
+</div>
+
+  </div>
+  
+  <div id=navbar-bottom class="navbar">
+    <div class="navbar-part left">
+      
+        <a href="s15-08-liquid-crystals.html"><img src="shared/images/batch-left.png"></a> <a href="s15-08-liquid-crystals.html">Previous Section</a>
+      
+    </div>
+    <div class="navbar-part middle">
+      <a href="index.html"><img src="shared/images/batch-up.png"></a> <a href="index.html">Table of Contents</a>
+    </div>
+    <div class="navbar-part right">
+      
+        <a href="s15-10-end-of-chapter-material.html">Next Section</a> <a href="s15-10-end-of-chapter-material.html"><img src="shared/images/batch-right.png"></a>
+      
+    </div>
+  </div>
+
+  </div>
+  <script type="text/javascript" src="shared/book.js"></script>
+  
+  <script type="text/javascript" src="https://c328740.ssl.cf1.rackcdn.com/mathjax/latest/MathJax.js?config=MML_HTMLorMML"></script>
+  
+  
+</body>
+</html>

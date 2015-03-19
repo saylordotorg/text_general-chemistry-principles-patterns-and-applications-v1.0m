@@ -1,0 +1,1212 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link href="shared/bookhub.css" rel="stylesheet" type="text/css">
+  <title>Entropy Changes and the Third Law of Thermodynamics</title>
+</head>
+<body>
+
+  
+  <div id=navbar-top class="navbar">
+    <div class="navbar-part left">
+      
+        <a href="s22-03-the-second-law-of-thermodynami.html"><img src="shared/images/batch-left.png"></a> <a href="s22-03-the-second-law-of-thermodynami.html">Previous Section</a>
+      
+    </div>
+    <div class="navbar-part middle">
+      <a href="index.html"><img src="shared/images/batch-up.png"></a> <a href="index.html">Table of Contents</a>
+    </div>
+    <div class="navbar-part right">
+      
+        <a href="s22-05-free-energy.html">Next Section</a> <a href="s22-05-free-energy.html"><img src="shared/images/batch-right.png"></a>
+      
+    </div>
+  </div>
+
+  <div id="book-content">
+    <div class="section" id="averill_1.0-ch18_s04" condition="start-of-chunk" version="5.0" lang="en">
+    <h2 class="title editable block">
+<span class="title-prefix">18.4</span> Entropy Changes and the Third Law of Thermodynamics</h2>
+    <div class="learning_objectives editable block" id="averill_1.0-ch18_s04_n01">
+        <h3 class="title">Learning Objective</h3>
+        <ol class="orderedlist" id="averill_1.0-ch18_s04_l01">
+            <li>To use thermodynamic cycles to calculate changes in entropy.</li>
+        </ol>
+    </div>
+    <p class="para editable block" id="averill_1.0-ch18_s04_p01">The atoms, molecules, or ions that compose a chemical system can undergo several types of molecular motion, including translation, rotation, and vibration (<a class="xref" href="#averill_1.0-ch18_s04_f01">Figure 18.13 "Molecular Motions"</a>). The greater the molecular motion of a system, the greater the number of possible microstates and the higher the entropy. A perfectly ordered system with only a single microstate available to it would have an entropy of zero. The only system that meets this criterion is a perfect crystal at a temperature of absolute zero (0 K), in which each component atom, molecule, or ion is fixed in place within a crystal lattice and exhibits no motion. Such a state of perfect order (or, conversely, zero disorder) corresponds to zero entropy. In practice, absolute zero is an ideal temperature that is unobtainable, and a perfect single crystal is also an ideal that cannot be achieved. Nonetheless, the combination of these two ideals constitutes the basis for the <span class="margin_term"><a class="glossterm">third law of thermodynamics</a><span class="glossdef">The entropy of any perfectly ordered, crystalline substance at absolute zero is zero.</span></span>: <em class="emphasis">the entropy of any perfectly ordered, crystalline substance at absolute zero is zero</em>.</p>
+    <div class="figure large editable block" id="averill_1.0-ch18_s04_f01">
+        <p class="title"><span class="title-prefix">Figure 18.13</span> Molecular Motions</p>
+        <img src="section_22/6042f2292e2c4c0f403b608bd294af3f.jpg">
+        <p class="para">Vibrational, rotational, and translational motions of a carbon dioxide molecule are illustrated here. Only a perfectly ordered, crystalline substance at absolute zero would exhibit no molecular motion and have zero entropy. In practice, this is an unattainable ideal.</p>
+    </div>
+    <p class="para editable block" id="averill_1.0-ch18_s04_p02">The third law of thermodynamics has two important consequences: it defines the <em class="emphasis">sign</em> of the entropy of any substance at temperatures above absolute zero as positive, and it provides a fixed reference point that allows us to measure the <em class="emphasis">absolute entropy</em> of any substance at any temperature.<span class="footnote" id="averill_1.0-fn18_002">In practice, chemists determine the absolute entropy of a substance by measuring the molar heat capacity (<em class="emphasis">C</em><sub class="subscript">p</sub>) as a function of temperature and then plotting the quantity <em class="emphasis">C</em><sub class="subscript">p</sub>/<em class="emphasis">T</em> versus <em class="emphasis">T</em>. The <em class="emphasis">area</em> under the curve between 0 K and any temperature <em class="emphasis">T</em> is the absolute entropy of the substance at <em class="emphasis">T</em>.</span> In contrast, other thermodynamic properties, such as internal energy and enthalpy, can be evaluated in only <em class="emphasis">relative</em> terms, not absolute terms. In this section, we examine two different ways to calculate Δ<em class="emphasis">S</em> for a reaction or a physical change. The first, based on the definition of absolute entropy provided by the third law of thermodynamics, uses tabulated values of absolute entropies of substances. The second, based on the fact that entropy is a state function, uses a thermodynamic cycle similar to those we first encountered in <a class="xref" href="averill_1.0-ch05#averill_1.0-ch05">Chapter 5 "Energy Changes in Chemical Reactions"</a>.</p>
+    <div class="section" id="averill_1.0-ch18_s04_s01">
+        <h2 class="title editable block">Calculating Δ<em class="emphasis">S</em> from Standard Molar Entropy Values</h2>
+        <p class="para editable block" id="averill_1.0-ch18_s04_s01_p01">One way of calculating Δ<em class="emphasis">S</em> for a reaction is to use tabulated values of the <span class="margin_term"><a class="glossterm">standard molar entropy (<em class="emphasis">S</em>°)</a><span class="glossdef">The entropy of 1 mol of a substance at a standard temperature of 298 K.</span></span>, which is the entropy of 1 mol of a substance at a standard temperature of 298 K; the units of <em class="emphasis">S</em>° are J/(mol·K). Unlike enthalpy or internal energy, it is possible to obtain absolute entropy values by measuring the entropy change that occurs between the reference point of 0 K [corresponding to <em class="emphasis">S</em> = 0  J/(mol·K)] and 298 K.</p>
+        <p class="para editable block" id="averill_1.0-ch18_s04_s01_p02">As shown in <a class="xref" href="#averill_1.0-ch18_s04_s01_t01">Table 18.1 "Standard Molar Entropy Values of Selected Substances at 25°C"</a>, for substances with approximately the same molar mass and number of atoms, <em class="emphasis">S</em>° values fall in the order <em class="emphasis">S</em>°(gas) &gt; <em class="emphasis">S</em>°(liquid) &gt; <em class="emphasis">S</em>°(solid). For instance, <em class="emphasis">S</em>° for liquid water is 70.0 J/(mol·K), whereas <em class="emphasis">S</em>° for water vapor is 188.8 J/(mol·K). Likewise, <em class="emphasis">S</em>° is 260.7 J/(mol·K) for gaseous I<sub class="subscript">2</sub> and 116.1 J/(mol·K) for solid I<sub class="subscript">2</sub>. This order makes qualitative sense based on the kinds and extents of motion available to atoms and molecules in the three phases. The correlation between physical state and absolute entropy is illustrated in <a class="xref" href="#averill_1.0-ch18_s04_s01_f01">Figure 18.14 "A Generalized Plot of Entropy versus Temperature for a Single Substance"</a>, which is a generalized plot of the entropy of a substance versus temperature.</p>
+        <div class="table block" id="averill_1.0-ch18_s04_s01_t01" frame="all">
+            <p class="title"><span class="title-prefix">Table 18.1</span> Standard Molar Entropy Values of Selected Substances at 25°C</p>
+            <table cellpadding="0" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th align="center">Substance</th>
+                        <th align="center">
+<em class="emphasis">S</em>° [J/(mol·K)]</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                                    <strong class="emphasis bold">Gases</strong>
+                                </td>
+                        <td align="right"></td>
+                    </tr>
+                    <tr>
+                        <td>He</td>
+                        <td align="right">126.2</td>
+                    </tr>
+                    <tr>
+                        <td>H<sub class="subscript">2</sub>
+</td>
+                        <td align="right">130.7</td>
+                    </tr>
+                    <tr>
+                        <td>Ne</td>
+                        <td align="right">146.3</td>
+                    </tr>
+                    <tr>
+                        <td>Ar</td>
+                        <td align="right">154.8</td>
+                    </tr>
+                    <tr>
+                        <td>Kr</td>
+                        <td align="right">164.1</td>
+                    </tr>
+                    <tr>
+                        <td>Xe</td>
+                        <td align="right">169.7</td>
+                    </tr>
+                    <tr>
+                        <td>H<sub class="subscript">2</sub>O</td>
+                        <td align="right">188.8</td>
+                    </tr>
+                    <tr>
+                        <td>N<sub class="subscript">2</sub>
+</td>
+                        <td align="right">191.6</td>
+                    </tr>
+                    <tr>
+                        <td>O<sub class="subscript">2</sub>
+</td>
+                        <td align="right">205.2</td>
+                    </tr>
+                    <tr>
+                        <td>CO<sub class="subscript">2</sub>
+</td>
+                        <td align="right">213.8</td>
+                    </tr>
+                    <tr>
+                        <td>I<sub class="subscript">2</sub>
+</td>
+                        <td align="right">260.7</td>
+                    </tr>
+                    <tr>
+                        <td>
+                                    <strong class="emphasis bold">Liquids</strong>
+                                </td>
+                        <td align="right"></td>
+                    </tr>
+                    <tr>
+                        <td>H<sub class="subscript">2</sub>O</td>
+                        <td align="right">70.0</td>
+                    </tr>
+                    <tr>
+                        <td>CH<sub class="subscript">3</sub>OH</td>
+                        <td align="right">126.8</td>
+                    </tr>
+                    <tr>
+                        <td>Br<sub class="subscript">2</sub>
+</td>
+                        <td align="right">152.2</td>
+                    </tr>
+                    <tr>
+                        <td>CH<sub class="subscript">3</sub>CH<sub class="subscript">2</sub>OH</td>
+                        <td align="right">160.7</td>
+                    </tr>
+                    <tr>
+                        <td>C<sub class="subscript">6</sub>H<sub class="subscript">6</sub>
+</td>
+                        <td align="right">173.4</td>
+                    </tr>
+                    <tr>
+                        <td>CH<sub class="subscript">3</sub>COCl</td>
+                        <td align="right">200.8</td>
+                    </tr>
+                    <tr>
+                        <td>C<sub class="subscript">6</sub>H<sub class="subscript">12</sub> (cyclohexane)</td>
+                        <td align="right">204.4</td>
+                    </tr>
+                    <tr>
+                        <td>C<sub class="subscript">8</sub>H<sub class="subscript">18</sub> (isooctane)</td>
+                        <td align="right">329.3</td>
+                    </tr>
+                    <tr>
+                        <td>
+                                    <strong class="emphasis bold">Solids</strong>
+                                </td>
+                        <td align="right"></td>
+                    </tr>
+                    <tr>
+                        <td>C (diamond)</td>
+                        <td align="right">2.4</td>
+                    </tr>
+                    <tr>
+                        <td>C (graphite)</td>
+                        <td align="right">5.7</td>
+                    </tr>
+                    <tr>
+                        <td>LiF</td>
+                        <td align="right">35.7</td>
+                    </tr>
+                    <tr>
+                        <td>SiO<sub class="subscript">2</sub> (quartz)</td>
+                        <td align="right">41.5</td>
+                    </tr>
+                    <tr>
+                        <td>Ca</td>
+                        <td align="right">41.6</td>
+                    </tr>
+                    <tr>
+                        <td>Na</td>
+                        <td align="right">51.3</td>
+                    </tr>
+                    <tr>
+                        <td>MgF<sub class="subscript">2</sub>
+</td>
+                        <td align="right">57.2</td>
+                    </tr>
+                    <tr>
+                        <td>K</td>
+                        <td align="right">64.7</td>
+                    </tr>
+                    <tr>
+                        <td>NaCl</td>
+                        <td align="right">72.1</td>
+                    </tr>
+                    <tr>
+                        <td>KCl</td>
+                        <td align="right">82.6</td>
+                    </tr>
+                    <tr>
+                        <td>I<sub class="subscript">2</sub>
+</td>
+                        <td align="right">116.1</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="figure large medium-height editable block" id="averill_1.0-ch18_s04_s01_f01">
+            <p class="title"><span class="title-prefix">Figure 18.14</span> A Generalized Plot of Entropy versus Temperature for a Single Substance</p>
+            <img src="section_22/8bad6e4ce5fc3525a3b5538530398533.jpg">
+            <p class="para">Absolute entropy increases steadily with increasing temperature until the melting point is reached, where it jumps suddenly as the substance undergoes a phase change from a highly ordered solid to a disordered liquid (Δ<em class="emphasis">S</em><sub class="subscript">fus</sub>). The entropy again increases steadily with increasing temperature until the boiling point is reached, where it jumps suddenly as the liquid undergoes a phase change to a highly disordered gas (Δ<em class="emphasis">S</em><sub class="subscript">vap</sub>).</p>
+        </div>
+        <p class="para editable block" id="averill_1.0-ch18_s04_s01_p03">A closer examination of <a class="xref" href="#averill_1.0-ch18_s04_s01_t01">Table 18.1 "Standard Molar Entropy Values of Selected Substances at 25°C"</a> also reveals that substances with similar molecular structures tend to have similar <em class="emphasis">S</em>° values. Among crystalline materials, those with the lowest entropies tend to be rigid crystals composed of small atoms linked by strong, highly directional bonds, such as diamond [<em class="emphasis">S</em>° = 2.4 J/(mol·K)]. In contrast, graphite, the softer, less rigid allotrope of carbon, has a higher <em class="emphasis">S</em>° [5.7 J/(mol·K)] due to more disorder in the crystal. Soft crystalline substances and those with larger atoms tend to have higher entropies because of increased molecular motion and disorder. Similarly, the absolute entropy of a substance tends to increase with increasing molecular complexity because the number of available microstates increases with molecular complexity. For example, compare the <em class="emphasis">S</em>° values for CH<sub class="subscript">3</sub>OH(l) and CH<sub class="subscript">3</sub>CH<sub class="subscript">2</sub>OH(l). Finally, substances with strong hydrogen bonds have lower values of <em class="emphasis">S</em>°, which reflects a more ordered structure.</p>
+        <p class="para editable block" id="averill_1.0-ch18_s04_s01_p04">To calculate Δ<em class="emphasis">S</em>° for a chemical reaction from standard molar entropies, we use the familiar “products minus reactants” rule, in which the absolute entropy of each reactant and product is multiplied by its stoichiometric coefficient in the balanced chemical equation. Example 7 illustrates this procedure for the combustion of the liquid hydrocarbon isooctane (C<sub class="subscript">8</sub>H<sub class="subscript">18</sub>; 2,2,4-trimethylpentane).</p>
+        <div class="exercises block" id="averill_1.0-ch18_s04_s01_n01">
+            <h3 class="title">Example 7</h3>
+            <p class="para" id="averill_1.0-ch18_s04_s01_p05">Use the data in <a class="xref" href="#averill_1.0-ch18_s04_s01_t01">Table 18.1 "Standard Molar Entropy Values of Selected Substances at 25°C"</a> to calculate Δ<em class="emphasis">S</em>° for the reaction of liquid isooctane with O<sub class="subscript">2</sub>(g) to give CO<sub class="subscript">2</sub>(g) and H<sub class="subscript">2</sub>O(g) at 298 K.</p>
+            <p class="para" id="averill_1.0-ch18_s04_s01_p06"><strong class="emphasis bold">Given: </strong>standard molar entropies, reactants, and products</p>
+            <p class="para" id="averill_1.0-ch18_s04_s01_p07"><strong class="emphasis bold">Asked for: </strong>Δ<em class="emphasis">S</em>°</p>
+            <p class="para" id="averill_1.0-ch18_s04_s01_p08">
+                        <strong class="emphasis bold">Strategy:</strong>
+                    </p>
+            <p class="para" id="averill_1.0-ch18_s04_s01_p09">Write the balanced chemical equation for the reaction and identify the appropriate quantities in <a class="xref" href="#averill_1.0-ch18_s04_s01_t01">Table 18.1 "Standard Molar Entropy Values of Selected Substances at 25°C"</a>. Subtract the sum of the absolute entropies of the reactants from the sum of the absolute entropies of the products, each multiplied by their appropriate stoichiometric coefficients, to obtain Δ<em class="emphasis">S</em>° for the reaction.</p>
+            <p class="para" id="averill_1.0-ch18_s04_s01_p10">
+                        <strong class="emphasis bold">Solution:</strong>
+                    </p>
+            <p class="para" id="averill_1.0-ch18_s04_s01_p11">The balanced chemical equation for the complete combustion of isooctane (C<sub class="subscript">8</sub>H<sub class="subscript">18</sub>) is as follows:</p>
+            <span class="informalequation">
+
+                        <math xml:id="averill_1.0-18_m027" display="block">
+                            <semantics>
+                                <mrow>
+                                    <msub>
+                                        <mtext>C</mtext>
+                                        <mn>8</mn>
+                                    </msub>
+                                    <msub>
+                                        <mtext>H</mtext>
+                                        <mrow>
+                                            <mn>18</mn>
+                                        </mrow>
+                                    </msub>
+                                    <mtext>(l)</mtext>
+                                    <mo>+</mo>
+                                    <mfrac>
+                                        <mrow>
+                                            <mn>25</mn>
+                                        </mrow>
+                                        <mn>2</mn>
+                                    </mfrac>
+                                    <msub>
+                                        <mtext>O</mtext>
+                                        <mn>2</mn>
+                                    </msub>
+                                    <mtext>(g)</mtext>
+                                    <mo>→</mo>
+                                    <mn>8</mn>
+                                    <msub>
+                                        <mrow>
+                                            <mtext>CO</mtext>
+                                        </mrow>
+                                        <mn>2</mn>
+                                    </msub>
+                                    <mtext>(g)</mtext>
+                                    <mo>+</mo>
+                                    <mn>9</mn>
+                                    <msub>
+                                        <mtext>H</mtext>
+                                        <mn>2</mn>
+                                    </msub>
+                                    <mtext>O(g)</mtext>
+                                </mrow>
+                            </semantics>
+                        </math>
+</span>
+            <p class="para" id="averill_1.0-ch18_s04_s01_p12">We calculate Δ<em class="emphasis">S</em>° for the reaction using the “products minus reactants” rule, where <em class="emphasis">m</em> and <em class="emphasis">n</em> are the stoichiometric coefficients of each product and each reactant:</p>
+            <span class="informalequation">
+
+                        <math xml:id="averill_1.0-18_m028" display="block">
+                            <semantics>
+                                <mrow>
+                                    <mtable>
+                                        <mtr>
+                                            <mtd columnalign="right">
+                                                <mrow>
+                                                    <mi>Δ</mi>
+                                                    <mi>S</mi>
+                                                    <msub>
+                                                        <mo>°</mo>
+                                                        <mrow>
+                                                            <mtext>rxn</mtext>
+                                                        </mrow>
+                                                    </msub>
+                                                </mrow>
+                                            </mtd>
+                                            <mtd columnalign="left">
+                                                <mrow>
+                                                    <mo>=</mo>
+                                                    <mo>∑</mo>
+                                                    <mi>m</mi>
+                                                    <mi>S</mi>
+                                                    <mo>°</mo>
+                                                    <mtext>(products)</mtext>
+                                                    <mo>−</mo>
+                                                    <mo>∑</mo>
+                                                    <mi>n</mi>
+                                                    <mi>S</mi>
+                                                    <mo>°</mo>
+                                                    <mtext>(reactants)</mtext>
+                                                </mrow>
+                                            </mtd>
+                                        </mtr>
+                                        <mtr>
+                                            <mtd columnalign="right">
+                                                <mrow></mrow>
+                                            </mtd>
+                                            <mtd columnalign="left">
+                                                <mrow>
+                                                    <mo>=</mo>
+                                                    <mo stretchy="false">[</mo>
+                                                    <mn>8</mn>
+                                                    <mi>S</mi>
+                                                    <mo>°</mo>
+                                                    <mo stretchy="false">(</mo>
+                                                    <msub>
+                                                        <mrow>
+                                                            <mtext>CO</mtext>
+                                                        </mrow>
+                                                        <mn>2</mn>
+                                                    </msub>
+                                                    <mo stretchy="false">)</mo>
+                                                    <mo>+</mo>
+                                                    <mn>9</mn>
+                                                    <mi>S</mi>
+                                                    <mo>°</mo>
+                                                    <mo stretchy="false">(</mo>
+                                                    <msub>
+                                                        <mtext>H</mtext>
+                                                        <mn>2</mn>
+                                                    </msub>
+                                                    <mtext>O</mtext>
+                                                    <mo stretchy="false">)</mo>
+                                                    <mo stretchy="false">]</mo>
+                                                    <mo>−</mo>
+                                                    <mrow>
+                                                        <mo>[</mo>
+                                                        <mrow>
+                                                            <mi>S</mi>
+                                                            <mo>°</mo>
+                                                            <mo stretchy="false">(</mo>
+                                                            <msub>
+                                                            <mtext>C</mtext>
+                                                            <mn>8</mn>
+                                                            </msub>
+                                                            <msub>
+                                                            <mtext>H</mtext>
+                                                            <mrow>
+                                                            <mn>18</mn>
+                                                            </mrow>
+                                                            </msub>
+                                                            <mo stretchy="false">)</mo>
+                                                            <mo>+</mo>
+                                                            <mfrac>
+                                                            <mrow>
+                                                            <mn>25</mn>
+                                                            </mrow>
+                                                            <mn>2</mn>
+                                                            </mfrac>
+                                                            <mi>S</mi>
+                                                            <mo>°</mo>
+                                                            <mo stretchy="false">(</mo>
+                                                            <msub>
+                                                            <mtext>O</mtext>
+                                                            <mn>2</mn>
+                                                            </msub>
+                                                            <mo stretchy="false">)</mo>
+                                                        </mrow>
+                                                        <mo>]</mo>
+                                                    </mrow>
+                                                </mrow>
+                                            </mtd>
+                                        </mtr>
+                                        <mtr>
+                                            <mtd columnalign="right">
+                                                <mrow></mrow>
+                                            </mtd>
+                                            <mtd columnalign="left">
+                                                <mrow>
+                                                    <mo>=</mo>
+                                                    <mrow>
+                                                        <mo>{</mo>
+                                                        <mrow>
+                                                            <mo stretchy="false">[</mo>
+                                                            <mn>8</mn>
+                                                            <mtext> </mtext>
+                                                            <menclose notation="updiagonalstrike">
+                                                            <mrow>
+                                                            <mtext>mol</mtext>
+                                                            </mrow>
+                                                            </menclose>
+                                                            <msub>
+                                                            <mrow>
+                                                            <mtext> CO</mtext>
+                                                            </mrow>
+                                                            <mn>2</mn>
+                                                            </msub>
+                                                            <mo>×</mo>
+                                                            <mn>213.8</mn>
+                                                            <mtext> J/</mtext>
+                                                            <mo stretchy="false">(</mo>
+                                                            <menclose notation="updiagonalstrike">
+                                                            <mrow>
+                                                            <mtext>mol</mtext>
+                                                            </mrow>
+                                                            </menclose>
+                                                            <mo>⋅</mo>
+                                                            <mtext>K</mtext>
+                                                            <mo stretchy="false">)</mo>
+                                                            <mo stretchy="false">]</mo>
+                                                            <mo>+</mo>
+                                                            <mo stretchy="false">[</mo>
+                                                            <mn>9</mn>
+                                                            <mtext> </mtext>
+                                                            <menclose notation="updiagonalstrike">
+                                                            <mrow>
+                                                            <mtext>mol</mtext>
+                                                            </mrow>
+                                                            </menclose>
+                                                            <msub>
+                                                            <mrow>
+                                                            <mtext> H</mtext>
+                                                            </mrow>
+                                                            <mn>2</mn>
+                                                            </msub>
+                                                            <mtext>O</mtext>
+                                                            <mo>×</mo>
+                                                            <mn>188.8</mn>
+                                                            <mtext> J/</mtext>
+                                                            <mo stretchy="false">(</mo>
+                                                            <menclose notation="updiagonalstrike">
+                                                            <mrow>
+                                                            <mtext>mol</mtext>
+                                                            </mrow>
+                                                            </menclose>
+                                                            <mo>⋅</mo>
+                                                            <mtext>K</mtext>
+                                                            <mo stretchy="false">)</mo>
+                                                            <mo stretchy="false">]</mo>
+                                                        </mrow>
+                                                        <mo>}</mo>
+                                                    </mrow>
+                                                </mrow>
+                                            </mtd>
+                                        </mtr>
+                                        <mtr>
+                                            <mtd columnalign="right">
+                                                <mrow></mrow>
+                                            </mtd>
+                                            <mtd>
+                                                <mrow>
+                                                    <mtext> </mtext>
+                                                    <mo>−</mo>
+                                                    <mrow>
+                                                        <mo>{</mo>
+                                                        <mrow>
+                                                            <mo stretchy="false">[</mo>
+                                                            <mn>1</mn>
+                                                            <menclose notation="updiagonalstrike">
+                                                            <mrow>
+                                                            <mtext>mol</mtext>
+                                                            </mrow>
+                                                            </menclose>
+                                                            <msub>
+                                                            <mrow>
+                                                            <mtext> C</mtext>
+                                                            </mrow>
+                                                            <mn>8</mn>
+                                                            </msub>
+                                                            <msub>
+                                                            <mtext>H</mtext>
+                                                            <mrow>
+                                                            <mn>18</mn>
+                                                            </mrow>
+                                                            </msub>
+                                                            <mo>×</mo>
+                                                            <mn>329.3</mn>
+                                                            <mtext> J/</mtext>
+                                                            <mo stretchy="false">(</mo>
+                                                            <menclose notation="updiagonalstrike">
+                                                            <mrow>
+                                                            <mtext>mol</mtext>
+                                                            </mrow>
+                                                            </menclose>
+                                                            <mo>⋅</mo>
+                                                            <mtext>K</mtext>
+                                                            <mo stretchy="false">)</mo>
+                                                            <mo stretchy="false">]</mo>
+                                                            <mo>+</mo>
+                                                            <mrow>
+                                                            <mo>[</mo>
+                                                            <mrow>
+                                                            <mfrac>
+                                                            <mrow>
+                                                            <mn>25</mn>
+                                                            </mrow>
+                                                            <mn>2</mn>
+                                                            </mfrac>
+                                                            <menclose notation="updiagonalstrike">
+                                                            <mrow>
+                                                            <mtext>mol</mtext>
+                                                            </mrow>
+                                                            </menclose>
+                                                            <msub>
+                                                            <mrow>
+                                                            <mtext> O</mtext>
+                                                            </mrow>
+                                                            <mn>2</mn>
+                                                            </msub>
+                                                            <mo>×</mo>
+                                                            <mn>205.2</mn>
+                                                            <mtext> J/</mtext>
+                                                            <mo stretchy="false">(</mo>
+                                                            <menclose notation="updiagonalstrike">
+                                                            <mrow>
+                                                            <mtext>mol</mtext>
+                                                            </mrow>
+                                                            </menclose>
+                                                            <mo>⋅</mo>
+                                                            <mtext>K</mtext>
+                                                            <mo stretchy="false">)</mo>
+                                                            </mrow>
+                                                            <mo>]</mo>
+                                                            </mrow>
+                                                        </mrow>
+                                                        <mo>}</mo>
+                                                    </mrow>
+                                                </mrow>
+                                            </mtd>
+                                        </mtr>
+                                        <mtr>
+                                            <mtd columnalign="right">
+                                                <mrow></mrow>
+                                            </mtd>
+                                            <mtd columnalign="left">
+                                                <mrow>
+                                                    <mo>=</mo>
+                                                    <mn>515.3</mn>
+                                                    <mtext> J/K</mtext>
+                                                </mrow>
+                                            </mtd>
+                                        </mtr>
+                                    </mtable>
+                                </mrow>
+                            </semantics>
+                        </math>
+</span>
+            <p class="para" id="averill_1.0-ch18_s04_s01_p13">Δ<em class="emphasis">S</em>° is positive, as expected for a combustion reaction in which one large hydrocarbon molecule is converted to many molecules of gaseous products.</p>
+            <p class="simpara">Exercise</p>
+            <p class="para" id="averill_1.0-ch18_s04_s01_p14">Use the data in <a class="xref" href="#averill_1.0-ch18_s04_s01_t01">Table 18.1 "Standard Molar Entropy Values of Selected Substances at 25°C"</a> to calculate Δ<em class="emphasis">S</em>° for the reaction of H<sub class="subscript">2</sub>(g) with liquid benzene (C<sub class="subscript">6</sub>H<sub class="subscript">6</sub>) to give cyclohexane (C<sub class="subscript">6</sub>H<sub class="subscript">12</sub>).</p>
+            <p class="para" id="averill_1.0-ch18_s04_s01_p15"><strong class="emphasis bold">Answer: </strong>−361.1 J/K</p>
+        </div>
+        <div class="callout editable block" id="averill_1.0-ch18_s04_s01_n02">
+            <h3 class="title">Note the Pattern</h3>
+            <p class="para" id="averill_1.0-ch18_s04_s01_p16">Entropy increases with softer, less rigid solids, solids that contain larger atoms, and solids with complex molecular structures.</p>
+        </div>
+        <div class="callout editable block" id="averill_1.0-ch18_s04_s01_n03">
+            <h3 class="title">Note the Pattern</h3>
+            <p class="para" id="averill_1.0-ch18_s04_s01_p17">Δ<em class="emphasis">S</em>° for a reaction can be calculated from absolute entropy values using the same “products minus reactants” rule used to calculate Δ<em class="emphasis">H</em>°.</p>
+        </div>
+    </div>
+    <div class="section" id="averill_1.0-ch18_s04_s02">
+        <h2 class="title editable block">Calculating Δ<em class="emphasis">S</em> from Thermodynamic Cycles</h2>
+        <p class="para editable block" id="averill_1.0-ch18_s04_s02_p01">We can also calculate a change in entropy using a thermodynamic cycle. As you learned in <a class="xref" href="averill_1.0-ch05#averill_1.0-ch05">Chapter 5 "Energy Changes in Chemical Reactions"</a>, the molar heat capacity (<em class="emphasis">C</em><sub class="subscript">p</sub>) is the amount of heat needed to raise the temperature of 1 mol of a substance by 1°C at constant pressure. Similarly, <em class="emphasis">C</em><sub class="subscript">v</sub> is the amount of heat needed to raise the temperature of 1 mol of a substance by 1°C at constant volume. The increase in entropy with increasing temperature in <a class="xref" href="#averill_1.0-ch18_s04_s01_f01">Figure 18.14 "A Generalized Plot of Entropy versus Temperature for a Single Substance"</a> is approximately proportional to the heat capacity of the substance.</p>
+        <p class="para editable block" id="averill_1.0-ch18_s04_s02_p02">Recall that the entropy change (Δ<em class="emphasis">S</em>) is related to heat flow (<em class="emphasis">q</em><sub class="subscript">rev</sub>) by Δ<em class="emphasis">S</em> = <em class="emphasis">q</em><sub class="subscript">rev</sub>/<em class="emphasis">T</em>. Because <em class="emphasis">q</em><sub class="subscript">rev</sub> = <em class="emphasis">nC</em><sub class="subscript">p</sub>Δ<em class="emphasis">T</em> at constant pressure or <em class="emphasis">nC</em><sub class="subscript">v</sub>Δ<em class="emphasis">T</em> at constant volume, where <em class="emphasis">n</em> is the number of moles of substance present, the change in entropy for a substance whose temperature changes from <em class="emphasis">T</em><sub class="subscript">1</sub> to <em class="emphasis">T</em><sub class="subscript">2</sub> is as follows:</p>
+        <span class="informalequation block">
+
+                    <math xml:id="averill_1.0-18_m029" display="block">
+                        <semantics>
+                            <mrow>
+                                <mi>Δ</mi>
+                                <mi>S</mi>
+                                <mo>=</mo>
+                                <mfrac>
+                                    <mrow>
+                                        <msub>
+                                            <mi>q</mi>
+                                            <mrow>
+                                                <mi>r</mi>
+                                                <mi>e</mi>
+                                                <mi>v</mi>
+                                            </mrow>
+                                        </msub>
+                                    </mrow>
+                                    <mi>T</mi>
+                                </mfrac>
+                                <mo>=</mo>
+                                <mi>n</mi>
+                                <msub>
+                                    <mi>C</mi>
+                                    <mtext>p</mtext>
+                                </msub>
+                                <mfrac>
+                                    <mrow>
+                                        <mi>Δ</mi>
+                                        <mi>T</mi>
+                                    </mrow>
+                                    <mi>T</mi>
+                                </mfrac>
+                                <mtext> </mtext>
+                                <mrow>
+                                    <mo>(</mo>
+                                    <mrow>
+                                        <mtext>constant pressure</mtext>
+                                    </mrow>
+                                    <mo>)</mo>
+                                </mrow>
+                            </mrow>
+                        </semantics>
+                    </math>
+</span>
+        <p class="para editable block" id="averill_1.0-ch18_s04_s02_p03">As you will discover in more advanced math courses than is required here, it can be shown that this is equal to the following:<span class="footnote" id="averill_1.0-fn18_003">For a review of natural logarithms, see Essential Skills 6 in <a class="xref" href="averill_1.0-ch11#averill_1.0-ch11">Chapter 11 "Liquids"</a>.</span></p>
+        <div class="equation block" id="averill_1.0-ch18_s04_s02_eq01">
+
+                    <p class="title editable"><span class="title-prefix">Equation 18.20</span> </p>
+
+                    <math xml:id="averill_1.0-18_m030" display="block">
+                        <semantics>
+                            <mrow>
+                                <mi>Δ</mi>
+                                <mi>S</mi>
+                                <mo>=</mo>
+                                <mi>n</mi>
+                                <msub>
+                                    <mi>C</mi>
+                                    <mtext>p</mtext>
+                                </msub>
+                                <mtext>ln </mtext>
+                                <mfrac>
+                                    <mrow>
+                                        <msub>
+                                            <mi>T</mi>
+                                            <mn>2</mn>
+                                        </msub>
+                                    </mrow>
+                                    <mrow>
+                                        <msub>
+                                            <mi>T</mi>
+                                            <mn>1</mn>
+                                        </msub>
+                                    </mrow>
+                                </mfrac>
+                                <mtext> </mtext>
+                                <mrow>
+                                    <mo>(</mo>
+                                    <mrow>
+                                        <mtext>constant pressure</mtext>
+                                    </mrow>
+                                    <mo>)</mo>
+                                </mrow>
+                            </mrow>
+                        </semantics>
+                    </math>
+</div>
+        <p class="para editable block" id="averill_1.0-ch18_s04_s02_p04">Similarly,</p>
+        <div class="equation block" id="averill_1.0-ch18_s04_s02_eq02">
+
+                    <p class="title editable"><span class="title-prefix">Equation 18.21</span> </p>
+
+                    <math xml:id="averill_1.0-18_m031" display="block">
+                        <semantics>
+                            <mrow>
+                                <mi>Δ</mi>
+                                <mi>S</mi>
+                                <mo>=</mo>
+                                <mi>n</mi>
+                                <msub>
+                                    <mi>C</mi>
+                                    <mtext>v</mtext>
+                                </msub>
+                                <mtext>ln </mtext>
+                                <mfrac>
+                                    <mrow>
+                                        <msub>
+                                            <mi>T</mi>
+                                            <mn>2</mn>
+                                        </msub>
+                                    </mrow>
+                                    <mrow>
+                                        <msub>
+                                            <mi>T</mi>
+                                            <mn>1</mn>
+                                        </msub>
+                                    </mrow>
+                                </mfrac>
+                                <mtext> </mtext>
+                                <mrow>
+                                    <mo>(</mo>
+                                    <mrow>
+                                        <mtext>constant volume</mtext>
+                                    </mrow>
+                                    <mo>)</mo>
+                                </mrow>
+                            </mrow>
+                        </semantics>
+                    </math>
+</div>
+        <p class="para editable block" id="averill_1.0-ch18_s04_s02_p05">Thus we can use a combination of heat capacity measurements (<a class="xref" href="#averill_1.0-ch18_s04_s02_eq01" xrefstyle="select:label">Equation 18.20</a> or <a class="xref" href="#averill_1.0-ch18_s04_s02_eq02" xrefstyle="select:label">Equation 18.21</a>) and experimentally measured values of enthalpies of fusion or vaporization if a phase change is involved (<a class="xref" href="averill_1.0-ch18_s03#averill_1.0-ch18_s03_s03_eq04" xrefstyle="select:label">Equation 18.18</a>) to calculate the entropy change corresponding to a change in the temperature of a sample.</p>
+        <p class="para editable block" id="averill_1.0-ch18_s04_s02_p06">We can use a thermodynamic cycle to calculate the entropy change when the phase change for a substance such as sulfur cannot be measured directly. As noted in the exercise in Example 6, elemental sulfur exists in two forms (part (a) in <a class="xref" href="#averill_1.0-ch18_s04_s02_f01">Figure 18.15 "Two Forms of Elemental Sulfur and a Thermodynamic Cycle Showing the Transition from One to the Other"</a>): an orthorhombic form with a highly ordered structure (S<sub class="subscript">α</sub>) and a less-ordered monoclinic form (S<sub class="subscript">β</sub>). The orthorhombic (α) form is more stable at room temperature but undergoes a phase transition to the monoclinic (β) form at temperatures greater than 95.3°C (368.5 K). The transition from S<sub class="subscript">α</sub> to S<sub class="subscript">β</sub> can be described by the thermodynamic cycle shown in part (b) in <a class="xref" href="#averill_1.0-ch18_s04_s02_f01">Figure 18.15 "Two Forms of Elemental Sulfur and a Thermodynamic Cycle Showing the Transition from One to the Other"</a>, in which liquid sulfur is an intermediate. The change in entropy that accompanies the conversion of liquid sulfur to S<sub class="subscript">β</sub> (−Δ<em class="emphasis">S</em><sub class="subscript">fus(β)</sub> = Δ<em class="emphasis">S</em><sub class="subscript">3</sub> in the cycle) cannot be measured directly. Because entropy is a state function, however, Δ<em class="emphasis">S</em><sub class="subscript">3</sub> can be calculated from the overall entropy change (Δ<em class="emphasis">S</em><sub class="subscript">t</sub>) for the S<sub class="subscript">α</sub>–S<sub class="subscript">β</sub> transition, which equals the sum of the Δ<em class="emphasis">S</em> values for the steps in the thermodynamic cycle, using <a class="xref" href="#averill_1.0-ch18_s04_s02_eq01" xrefstyle="select:label">Equation 18.20</a> and tabulated thermodynamic parameters (the heat capacities of S<sub class="subscript">α</sub> and S<sub class="subscript">β</sub>, Δ<em class="emphasis">H</em><sub class="subscript">fus(α)</sub>, and the melting point of S<sub class="subscript">α</sub>.)</p>
+        <div class="figure large editable block" id="averill_1.0-ch18_s04_s02_f01">
+            <p class="title"><span class="title-prefix">Figure 18.15</span> Two Forms of Elemental Sulfur and a Thermodynamic Cycle Showing the Transition from One to the Other</p>
+            <img src="section_22/13f703820796f96830ffbdb074383889.jpg">
+            <p class="para">(a) Orthorhombic sulfur (S<sub class="subscript">α</sub>) has a highly ordered structure in which the S<sub class="subscript">8</sub> rings are stacked in a “crankshaft” arrangement. Monoclinic sulfur (S<sub class="subscript">β</sub>) is also composed of S<sub class="subscript">8</sub> rings but has a less-ordered structure. (b) At 368.5 K, S<sub class="subscript">α</sub> undergoes a phase transition to S<sub class="subscript">β</sub>. Although Δ<em class="emphasis">S</em><sub class="subscript">3</sub> cannot be measured directly, it can be calculated using the values shown in this thermodynamic cycle.</p>
+        </div>
+        <p class="para editable block" id="averill_1.0-ch18_s04_s02_p07">If we know the melting point of S<sub class="subscript">α</sub> (<em class="emphasis">T</em><sub class="subscript">m</sub> = 115.2°C = 388.4 K) and Δ<em class="emphasis">S</em><sub class="subscript">t</sub> for the overall phase transition [calculated to be 1.09 J/(mol·K) in the exercise in Example 6], we can calculate Δ<em class="emphasis">S</em><sub class="subscript">3</sub> from the values given in part (b) in <a class="xref" href="#averill_1.0-ch18_s04_s02_f01">Figure 18.15 "Two Forms of Elemental Sulfur and a Thermodynamic Cycle Showing the Transition from One to the Other"</a> where <em class="emphasis">C</em><sub class="subscript">p(α)</sub> = 22.70 J/mol·K and <em class="emphasis">C</em><sub class="subscript">p(β)</sub> = 24.77 J/mol·K (subscripts on Δ<em class="emphasis">S</em> refer to steps in the cycle):</p>
+        <span class="informalequation block">
+
+                    <math xml:id="averill_1.0-18_m032" display="block">
+                        <semantics>
+                            <mrow>
+                                <mtable>
+                                    <mtr>
+                                        <mtd columnalign="right">
+                                            <mrow>
+                                                <mi>Δ</mi>
+                                                <msub>
+                                                    <mi>S</mi>
+                                                    <mtext>t</mtext>
+                                                </msub>
+                                            </mrow>
+                                        </mtd>
+                                        <mtd columnalign="left">
+                                            <mrow>
+                                                <mo>=</mo>
+                                                <mi>Δ</mi>
+                                                <msub>
+                                                    <mi>S</mi>
+                                                    <mn>1</mn>
+                                                </msub>
+                                                <mo>+</mo>
+                                                <mi>Δ</mi>
+                                                <msub>
+                                                    <mi>S</mi>
+                                                    <mn>2</mn>
+                                                </msub>
+                                                <mo>+</mo>
+                                                <mi>Δ</mi>
+                                                <msub>
+                                                    <mi>S</mi>
+                                                    <mn>3</mn>
+                                                </msub>
+                                                <mo>+</mo>
+                                                <mi>Δ</mi>
+                                                <msub>
+                                                    <mi>S</mi>
+                                                    <mn>4</mn>
+                                                </msub>
+                                            </mrow>
+                                        </mtd>
+                                    </mtr>
+                                    <mtr>
+                                        <mtd columnalign="right">
+                                            <mrow>
+                                                <mn>1.09</mn>
+                                                <mtext> J/</mtext>
+                                                <mo stretchy="false">(</mo>
+                                                <mtext>mol</mtext>
+                                                <mo>⋅</mo>
+                                                <mtext>K</mtext>
+                                                <mo stretchy="false">)</mo>
+                                            </mrow>
+                                        </mtd>
+                                        <mtd columnalign="left">
+                                            <mrow>
+                                                <mo>=</mo>
+                                                <msub>
+                                                    <mi>C</mi>
+                                                    <mrow>
+                                                        <mtext>p</mtext>
+                                                        <mo stretchy="false">(</mo>
+                                                        <mi>α</mi>
+                                                        <mo stretchy="false">)</mo>
+                                                    </mrow>
+                                                </msub>
+                                                <mi>ln</mi>
+                                                <mrow>
+                                                    <mo>(</mo>
+                                                    <mrow>
+                                                        <mfrac>
+                                                            <mrow>
+                                                            <msub>
+                                                            <mi>T</mi>
+                                                            <mn>2</mn>
+                                                            </msub>
+                                                            </mrow>
+                                                            <mrow>
+                                                            <msub>
+                                                            <mi>T</mi>
+                                                            <mn>1</mn>
+                                                            </msub>
+                                                            </mrow>
+                                                        </mfrac>
+                                                    </mrow>
+                                                    <mo>)</mo>
+                                                </mrow>
+                                                <mo>+</mo>
+                                                <mfrac>
+                                                    <mrow>
+                                                        <mi>Δ</mi>
+                                                        <msub>
+                                                            <mi>H</mi>
+                                                            <mrow>
+                                                            <mtext>fus</mtext>
+                                                            </mrow>
+                                                        </msub>
+                                                    </mrow>
+                                                    <mrow>
+                                                        <msub>
+                                                            <mi>T</mi>
+                                                            <mtext>m</mtext>
+                                                        </msub>
+                                                    </mrow>
+                                                </mfrac>
+                                                <mo>+</mo>
+                                                <mi>Δ</mi>
+                                                <msub>
+                                                    <mi>S</mi>
+                                                    <mn>3</mn>
+                                                </msub>
+                                                <mo>+</mo>
+                                                <msub>
+                                                    <mi>C</mi>
+                                                    <mrow>
+                                                        <mi>p</mi>
+                                                        <mo stretchy="false">(</mo>
+                                                        <mi>β</mi>
+                                                        <mo stretchy="false">)</mo>
+                                                    </mrow>
+                                                </msub>
+                                                <mi>ln</mi>
+                                                <mrow>
+                                                    <mo>(</mo>
+                                                    <mrow>
+                                                        <mfrac>
+                                                            <mrow>
+                                                            <msub>
+                                                            <mi>T</mi>
+                                                            <mn>4</mn>
+                                                            </msub>
+                                                            </mrow>
+                                                            <mrow>
+                                                            <msub>
+                                                            <mi>T</mi>
+                                                            <mn>3</mn>
+                                                            </msub>
+                                                            </mrow>
+                                                        </mfrac>
+                                                    </mrow>
+                                                    <mo>)</mo>
+                                                </mrow>
+                                            </mrow>
+                                        </mtd>
+                                    </mtr>
+                                    <mtr>
+                                        <mtd columnalign="right">
+                                            <mrow></mrow>
+                                        </mtd>
+                                        <mtd columnalign="left">
+                                            <mrow>
+                                                <mo>=</mo>
+                                                <mn>22.70</mn>
+                                                <mtext> J/</mtext>
+                                                <mo stretchy="false">(</mo>
+                                                <mtext>mol</mtext>
+                                                <mo>⋅</mo>
+                                                <mtext>K</mtext>
+                                                <mo stretchy="false">)</mo>
+                                                <mi>ln</mi>
+                                                <mrow>
+                                                    <mo>(</mo>
+                                                    <mrow>
+                                                        <mfrac>
+                                                            <mrow>
+                                                            <mn>388.4</mn>
+                                                            </mrow>
+                                                            <mrow>
+                                                            <mn>368.5</mn>
+                                                            </mrow>
+                                                        </mfrac>
+                                                    </mrow>
+                                                    <mo>)</mo>
+                                                </mrow>
+                                                <mo>+</mo>
+                                                <mrow>
+                                                    <mo>(</mo>
+                                                    <mrow>
+                                                        <mfrac>
+                                                            <mrow>
+                                                            <mn>1.722</mn>
+                                                            <mtext> </mtext>
+                                                            <menclose notation="updiagonalstrike">kJ</menclose>
+                                                            <mtext>/mol</mtext>
+                                                            </mrow>
+                                                            <mrow>
+                                                            <mn>388.4</mn>
+                                                            <mtext> K</mtext>
+                                                            </mrow>
+                                                        </mfrac>
+                                                        <mo>×</mo>
+                                                        <mn>1000</mn>
+                                                        <mtext> J/</mtext>
+                                                        <menclose notation="updiagonalstrike">kJ</menclose>
+                                                    </mrow>
+                                                    <mo>)</mo>
+                                                </mrow>
+                                                <mo>+</mo>
+                                                <mi>Δ</mi>
+                                                <msub>
+                                                    <mi>S</mi>
+                                                    <mn>3</mn>
+                                                </msub>
+                                                <mo>+</mo>
+                                                <mn>24.77</mn>
+                                                <mtext> J/</mtext>
+                                                <mo stretchy="false">(</mo>
+                                                <mtext>mol</mtext>
+                                                <mo>⋅</mo>
+                                                <mtext>K</mtext>
+                                                <mo stretchy="false">)</mo>
+                                                <mi>ln</mi>
+                                                <mrow>
+                                                    <mo>(</mo>
+                                                    <mrow>
+                                                        <mfrac>
+                                                            <mrow>
+                                                            <mn>368.5</mn>
+                                                            </mrow>
+                                                            <mrow>
+                                                            <mn>388.4</mn>
+                                                            </mrow>
+                                                        </mfrac>
+                                                    </mrow>
+                                                    <mo>)</mo>
+                                                </mrow>
+                                            </mrow>
+                                        </mtd>
+                                    </mtr>
+                                    <mtr>
+                                        <mtd columnalign="right">
+                                            <mrow></mrow>
+                                        </mtd>
+                                        <mtd columnalign="left">
+                                            <mrow>
+                                                <mo>=</mo>
+                                                <mo stretchy="false">[</mo>
+                                                <mn>1.194</mn>
+                                                <mtext> J/</mtext>
+                                                <mo stretchy="false">(</mo>
+                                                <mtext>mol</mtext>
+                                                <mo>⋅</mo>
+                                                <mtext>K</mtext>
+                                                <mo stretchy="false">)</mo>
+                                                <mo stretchy="false">]</mo>
+                                                <mo>+</mo>
+                                                <mo stretchy="false">[</mo>
+                                                <mn>4.434</mn>
+                                                <mtext> J/</mtext>
+                                                <mo stretchy="false">(</mo>
+                                                <mtext>mol</mtext>
+                                                <mo>⋅</mo>
+                                                <mtext>K</mtext>
+                                                <mo stretchy="false">)</mo>
+                                                <mo stretchy="false">]</mo>
+                                                <mo>+</mo>
+                                                <mi>Δ</mi>
+                                                <msub>
+                                                    <mi>S</mi>
+                                                    <mn>3</mn>
+                                                </msub>
+                                                <mo>+</mo>
+                                                <mo stretchy="false">[</mo>
+                                                <mo>−</mo>
+                                                <mn>1.303</mn>
+                                                <mtext> J/</mtext>
+                                                <mo stretchy="false">(</mo>
+                                                <mtext>mol</mtext>
+                                                <mo>⋅</mo>
+                                                <mtext>K</mtext>
+                                                <mo stretchy="false">)</mo>
+                                                <mo stretchy="false">]</mo>
+                                            </mrow>
+                                        </mtd>
+                                    </mtr>
+                                </mtable>
+                            </mrow>
+                        </semantics>
+                    </math>
+</span>
+        <p class="para editable block" id="averill_1.0-ch18_s04_s02_p08">Solving for Δ<em class="emphasis">S</em><sub class="subscript">3</sub> gives a value of −3.24 J/(mol·K). As expected for the conversion of a less ordered state (a liquid) to a more ordered one (a crystal), Δ<em class="emphasis">S</em><sub class="subscript">3</sub> is negative.</p>
+        <div class="callout editable block" id="averill_1.0-ch18_s04_s02_n01">
+            <h3 class="title">Summary</h3>
+            <p class="para" id="averill_1.0-ch18_s04_s02_p09">The <strong class="emphasis bold">third law of thermodynamics</strong> states that the entropy of any perfectly ordered, crystalline substance at absolute zero is zero. At temperatures greater than absolute zero, entropy has a positive value, which allows us to measure the <em class="emphasis">absolute entropy</em> of a substance. Measurements of the heat capacity of a substance and the enthalpies of fusion or vaporization can be used to calculate the changes in entropy that accompany a physical change. The entropy of 1 mol of a substance at a standard temperature of 298 K is its <strong class="emphasis bold">standard molar entropy (</strong><em class="emphasis bolditalic">S</em><strong class="emphasis bold">°)</strong>. We can use the “products minus reactants” rule to calculate the standard entropy change (Δ<em class="emphasis">S</em>°) for a reaction using tabulated values of <em class="emphasis">S</em>° for the reactants and the products.</p>
+        </div>
+        <div class="key_takeaways editable block" id="averill_1.0-ch18_s04_s02_n02">
+            <h3 class="title">Key Takeaway</h3>
+            <ul class="itemizedlist" id="averill_1.0-ch18_s04_s02_l01">
+                <li>Entropy changes can be calculated using the “products minus reactants” rule or from a combination of heat capacity measurements and measured values of enthalpies of fusion or vaporization.</li>
+            </ul>
+        </div>
+        <div class="key_takeaways block" id="averill_1.0-ch18_s04_s02_n03">
+            <h3 class="title">Key Equations</h3>
+            <p class="para" id="averill_1.0-ch18_s04_s02_p10">
+                        <strong class="emphasis bold">Temperature dependence of entropy at constant pressure</strong>
+                    </p>
+            <p class="para" id="averill_1.0-ch18_s04_s02_p11"><a class="xref" href="#averill_1.0-ch18_s04_s02_eq01" xrefstyle="select:label">Equation 18.20</a>: <span class="inlineequation"><math xml:id="averill_1.0-18_m033" display="inline"><semantics><mrow><mi>Δ</mi><mi>S</mi><mo>=</mo><mi>n</mi><msub><mi>C</mi><mtext>p</mtext></msub><mtext>ln </mtext><mfrac><mrow><msub><mi>T</mi><mn>2</mn></msub></mrow><mrow><msub><mi>T</mi><mn>1</mn></msub></mrow></mfrac></mrow></semantics></math></span></p>
+            <p class="para" id="averill_1.0-ch18_s04_s02_p12">
+                        <strong class="emphasis bold">Temperature dependence of entropy at constant volume</strong>
+                    </p>
+            <p class="para" id="averill_1.0-ch18_s04_s02_p13"><a class="xref" href="#averill_1.0-ch18_s04_s02_eq02" xrefstyle="select:label">Equation 18.21</a>: <span class="inlineequation"><math xml:id="averill_1.0-18_m034" display="inline"><semantics><mrow><mi>Δ</mi><mi>S</mi><mo>=</mo><mi>n</mi><msub><mi>C</mi><mtext>v</mtext></msub><mtext>ln </mtext><mfrac><mrow><msub><mi>T</mi><mn>2</mn></msub></mrow><mrow><msub><mi>T</mi><mn>1</mn></msub></mrow></mfrac></mrow></semantics></math></span></p>
+        </div>
+        <div class="qandaset block" id="averill_1.0-ch18_s04_s02_qa01" defaultlabel="number">
+            <h3 class="title">Conceptual Problems</h3>
+            <ol class="qandadiv" id="averill_1.0-ch18_s04_s02_qa01_qd01">
+                <li class="qandaentry" id="averill_1.0-ch18_s04_s02_qa01_qd01_q01">
+                    <div class="question">
+                        <p class="para">Crystalline MgCl<sub class="subscript">2</sub> has <em class="emphasis">S</em>° = 89.63 J/(mol·K), whereas aqueous MgCl<sub class="subscript">2</sub> has <em class="emphasis">S</em>° = −25.1 J/(mol·K). Is this consistent with the third law of thermodynamics? Explain your answer.</p>
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch18_s04_s02_qa01_qd01_q02">
+                    <div class="question">
+                        <p class="para">Why is it possible to measure absolute entropies but not absolute enthalpies?</p>
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch18_s04_s02_qa01_qd01_q03">
+                    <div class="question">
+                        <p class="para">How many microstates are available to a system at absolute zero? How many are available to a substance in its liquid state?</p>
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch18_s04_s02_qa01_qd01_q04">
+                    <div class="question">
+                        <p class="para">Substance A has a higher heat capacity than substance B. Do you expect the absolute entropy of substance A to be less than, similar to, or greater than that of substance B? Why? As the two substances are heated, for which substance do you predict the entropy to increase more rapidly?</p>
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch18_s04_s02_qa01_qd01_q05">
+                    <div class="question">
+                        <p class="para">Phase transitions must be considered when calculating entropy changes. Why?</p>
+                    </div>
+                </li>
+            </ol>
+        </div>
+        <div class="qandaset block" id="averill_1.0-ch18_s04_s02_qa02" defaultlabel="number">
+            <h3 class="title">Numerical Problems</h3>
+            <ol class="qandadiv" id="averill_1.0-ch18_s04_s02_qa02_qd01">
+                <li class="qandaentry" id="averill_1.0-ch18_s04_s02_qa02_qd01_q01">
+                    <div class="question">
+                        <p class="para">What is the final temperature of water when 5.20 g of ice at 0.0°C are added to 250 mL of water in an insulated thermos at 30.0°C? The value of Δ<em class="emphasis">H</em><sub class="subscript">fus</sub> for water is 6.01 kJ/mol, and the heat capacity of liquid water is 75.3 J/(mol·°C). What is the entropy change for this process?</p>
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch18_s04_s02_qa02_qd01_q02">
+                    <div class="question">
+                        <p class="para">Calculate the change in both enthalpy and entropy when a 3.0 g block of ice melts at 0.0°C [Δ<em class="emphasis">H</em><sub class="subscript">fus</sub>(H<sub class="subscript">2</sub>O) = 6.01 kJ/mol]. For the same block of ice, calculate the entropy change for the system when the ice is warmed from 0.0°C to 25°C. The heat capacity of liquid water over this temperature range is 75.3 J/(mol·°C).</p>
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch18_s04_s02_qa02_qd01_q03">
+                    <div class="question">
+                        <p class="para">Use the data in <a class="xref" href="#averill_1.0-ch18_s04_s01_t01">Table 18.1 "Standard Molar Entropy Values of Selected Substances at 25°C"</a> and <a class="xref" href="averill_1.0-ch96appA#averill_1.0-ch96appA">Chapter 25 "Appendix A: Standard Thermodynamic Quantities for Chemical Substances at 25°C"</a> to calculate Δ<em class="emphasis">S</em>° for each reaction.</p>
+                        <ol class="orderedlist" numeration="loweralpha">
+                            <li>
+                                            <span class="inlineequation">
+
+                                                <math xml:id="averill_1.0-18_m035" display="inline">
+                                                    <semantics>
+                                                        <mrow>
+                                                            <msub>
+                                                            <mtext>H</mtext>
+                                                            <mn>2</mn>
+                                                            </msub>
+                                                            <mtext>(g)</mtext>
+                                                            <mo>+</mo>
+                                                            <mfrac>
+                                                            <mn>1</mn>
+                                                            <mn>2</mn>
+                                                            </mfrac>
+                                                            <msub>
+                                                            <mtext>O</mtext>
+                                                            <mn>2</mn>
+                                                            </msub>
+                                                            <mtext>(g)</mtext>
+                                                            <mo>→</mo>
+                                                            <msub>
+                                                            <mtext>H</mtext>
+                                                            <mn>2</mn>
+                                                            </msub>
+                                                            <mtext>O(l)</mtext>
+                                                        </mrow>
+                                                    </semantics>
+                                                </math>
+</span>
+                                        </li>
+                            <li>CH<sub class="subscript">3</sub>OH(l) + HCl(g) → CH<sub class="subscript">3</sub>Cl(g) + H<sub class="subscript">2</sub>O(l)</li>
+                            <li>H<sub class="subscript">2</sub>(g) + Br<sub class="subscript">2</sub>(l) → 2HBr(g)</li>
+                            <li>Zn(s) + 2HCl(aq) → ZnCl<sub class="subscript">2</sub>(s) + H<sub class="subscript">2</sub>(g)</li>
+                        </ol>
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch18_s04_s02_qa02_qd01_q04">
+                    <div class="question">
+                        <p class="para">Calculate the entropy change (J/K) when 4.35 g of liquid bromine are heated from 30.0°C to 50.0°C if the molar heat capacity (<em class="emphasis">C</em><sub class="subscript">p</sub>) of liquid bromine is 75.1 kJ/(mol·K).</p>
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch18_s04_s02_qa02_qd01_q05">
+                    <div class="question">
+                        <p class="para">Calculate the molar heat capacity (<em class="emphasis">C</em><sub class="subscript">p</sub>) of titanium tetrachloride if the change in entropy when a 6.00 g sample of TiCl<sub class="subscript">4</sub>(l) is heated from 25.0°C to 40.0°C is 0.154 J/K.</p>
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch18_s04_s02_qa02_qd01_q06">
+                    <div class="question">
+                        <p class="para">When a 1.00 g sample of lead is heated from 298.2 K to just below its melting temperature of 600.5 K, the change in entropy is 0.0891 J/K. Determine the molar heat capacity (<em class="emphasis">C</em><sub class="subscript">p</sub>) of lead over this temperature range.</p>
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch18_s04_s02_qa02_qd01_q07">
+                    <div class="question">
+                        <p class="para">Phosphorus oxychloride (POCl<sub class="subscript">3</sub>) is a chlorinating agent that is frequently used in organic chemistry to replace oxygen with chlorine. Given Δ<em class="emphasis">S</em><sub class="subscript">vap</sub> = 93.08 J/(mol·K) and Δ<em class="emphasis">H</em><sub class="subscript">vap</sub> = 35.2 kJ/mol, does POCl<sub class="subscript">3</sub> spontaneously convert from a liquid to a gas at 110°C? Does it spontaneously crystallize at 0.0°C if Δ<em class="emphasis">H</em><sub class="subscript">fus</sub> = 34.3 kJ/mol and Δ<em class="emphasis">S</em><sub class="subscript">fus</sub> = 125 J/(mol·K)? Using the information provided, what is the melting point of POCl<sub class="subscript">3</sub>?</p>
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch18_s04_s02_qa02_qd01_q08">
+                    <div class="question">
+                        <p class="para">A useful reagent for the fluorination of alcohols, carboxylic acids, and carbonyl compounds is selenium tetrafluoride (SeF<sub class="subscript">4</sub>). One must be careful when using this compound, however, because it is known to attack glass (such as the glass of a reaction vessel).</p>
+                        <ol class="orderedlist" numeration="loweralpha">
+                            <li>Is SeF<sub class="subscript">4</sub> a liquid or a gas at 100°C given that Δ<em class="emphasis">H</em><sub class="subscript">vap</sub> = 46.9 kJ/mol and Δ<em class="emphasis">S</em><sub class="subscript">vap</sub> = 124 J/(mol·K)?</li>
+                            <li>Determine the boiling point of SeF<sub class="subscript">4</sub>.</li>
+                            <li>Would you use SeF<sub class="subscript">4</sub> for a solution reaction at 0°C if Δ<em class="emphasis">H</em><sub class="subscript">fus</sub> = 46 kJ/mol and Δ<em class="emphasis">S</em><sub class="subscript">fus</sub> = 178 J/(mol·K)?</li>
+                        </ol>
+                    </div>
+                </li>
+            </ol>
+        </div>
+        <div class="qandaset block" id="averill_1.0-ch18_s04_s02_qa02_ans" defaultlabel="number">
+            <h3 class="title">Answers</h3>
+            <ol class="qandadiv">
+                <li class="qandaentry" id="averill_1.0-ch18_s04_s02_qa02_qd01_q01_ans">
+                    <div class="answer">
+                        <p class="para">27.8°C; 0.85 J.</p>
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch18_s04_s02_qa02_qd01_q02_ans" audience="instructoronly">
+                    <div class="answer" audience="instructoronly" d="" html="http://www.w3.org/1999/xhtml" mml="http://www.w3.org/1998/Math/MathML" xlink="http://www.w3.org/1999/xlink" xml="http://www.w3.org/XML/1998/namespace">
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch18_s04_s02_qa02_qd01_q03_ans">
+                    <div class="answer">
+                        <ol class="orderedlist" numeration="loweralpha">
+                            <li>−163.3 J/K</li>
+                            <li>−9.1 J/K</li>
+                            <li>114.5 J/K</li>
+                            <li>−173.2 J/K</li>
+                        </ol>
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch18_s04_s02_qa02_qd01_q04_ans" audience="instructoronly">
+                    <div class="answer" audience="instructoronly" d="" html="http://www.w3.org/1999/xhtml" mml="http://www.w3.org/1998/Math/MathML" xlink="http://www.w3.org/1999/xlink" xml="http://www.w3.org/XML/1998/namespace">
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch18_s04_s02_qa02_qd01_q05_ans">
+                    <div class="answer">
+                        <p class="para">25.0 J/(mol·K)</p>
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch18_s04_s02_qa02_qd01_q06_ans" audience="instructoronly">
+                    <div class="answer" audience="instructoronly" d="" html="http://www.w3.org/1999/xhtml" mml="http://www.w3.org/1998/Math/MathML" xlink="http://www.w3.org/1999/xlink" xml="http://www.w3.org/XML/1998/namespace">
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch18_s04_s02_qa02_qd01_q07_ans">
+                    <div class="answer">
+                        <p class="para">yes; yes; 274 K</p>
+                    </div>
+                </li>
+                <li class="qandaentry" id="averill_1.0-ch18_s04_s02_qa02_qd01_q08_ans" audience="instructoronly">
+                    <div class="answer" audience="instructoronly" d="" html="http://www.w3.org/1999/xhtml" mml="http://www.w3.org/1998/Math/MathML" xlink="http://www.w3.org/1999/xlink" xml="http://www.w3.org/XML/1998/namespace">
+                    </div>
+                </li>
+            </ol>
+        </div>
+    </div>
+</div>
+
+  </div>
+  
+  <div id=navbar-bottom class="navbar">
+    <div class="navbar-part left">
+      
+        <a href="s22-03-the-second-law-of-thermodynami.html"><img src="shared/images/batch-left.png"></a> <a href="s22-03-the-second-law-of-thermodynami.html">Previous Section</a>
+      
+    </div>
+    <div class="navbar-part middle">
+      <a href="index.html"><img src="shared/images/batch-up.png"></a> <a href="index.html">Table of Contents</a>
+    </div>
+    <div class="navbar-part right">
+      
+        <a href="s22-05-free-energy.html">Next Section</a> <a href="s22-05-free-energy.html"><img src="shared/images/batch-right.png"></a>
+      
+    </div>
+  </div>
+
+  </div>
+  <script type="text/javascript" src="shared/book.js"></script>
+  
+  <script type="text/javascript" src="https://c328740.ssl.cf1.rackcdn.com/mathjax/latest/MathJax.js?config=MML_HTMLorMML"></script>
+  
+  
+</body>
+</html>
