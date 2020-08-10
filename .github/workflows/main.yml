@@ -21,4 +21,5 @@ jobs:
           stable_branch: master
           # Name of the development branch
           development_branch: gh-pages
+          push_token: ${{ secrets.GITHUB_TOKEN }}
 
